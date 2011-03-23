@@ -1,0 +1,15 @@
+one:
+  name: MyString
+  price: 1.5
+  description: MyString
+  bs: false
+  status: false
+  category: 1
+
+two:
+  name: MyString
+  price: 1.5
+  description: MyString
+  bs: false
+  status: false
+  category: 1

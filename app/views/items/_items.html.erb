@@ -1,0 +1,24 @@
+<table class="pretty">  
+   <tr>  
+     <th><%= sortable "category" %></th>  
+     <th><- click to sort -></th> 
+     <th><%= sortable "price" %></th>
+     <th><%= sortable "bs","B/S" %></th>  
+   </tr>  
+   <% for item in @items %>  
+   <tr>  
+     <td><%= categorizable item.category %></td>  
+     <td><%= item.name %></td>
+     <td class="price"><%= number_to_currency(item.price, :unit => "&pound;") %></td>  
+     <td><% if item.bs %>
+     	 Buy
+     	 <% else %>
+     	 Sell
+     	 <% end %>
+     </td>
+
+   
+   
+   </tr>  
+   <% end %>  
+</table> 
