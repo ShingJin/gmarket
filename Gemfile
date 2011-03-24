@@ -8,8 +8,9 @@ gem 'rails', '3.0.3'
 gem 'sqlite3-ruby', :require => 'sqlite3'
 gem 'will_paginate', '3.0.pre2'  
 gem 'jquery-rails'  
-gem 'devise', '1.1.rc0'
 gem "nifty-generators"
+gem 'omniauth'
+gem 'devise', '1.1.3'  
 
 # Use unicorn as the web server
 # gem 'unicorn'

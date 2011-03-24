@@ -3,11 +3,12 @@
 	     <%= hidden_field_tag :sort, params[:sort] %>      
       <p>
       	I want to
-      	<%=  select_tag :bs, raw("<option value='t'>Buy</option><option value='f'>Sell</option>")%>
+      	<%=  select_tag :bs, raw("<option value='f'>Buy</option><option value='t'>Sell</option>")%>
         <%= text_field_tag :search, params[:search] %>  
         <%= submit_tag "Go", :name => nil %>  
       </p>  
    <% end %>  
+<%= link_to "Show all", '/' %>		
 <div id="items">
 		<% if @items.count != 0 %>
 			<%= render 'items' %>

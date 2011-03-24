@@ -1,9 +1,11 @@
 Marketplace::Application.routes.draw do |map|
   map.resources :items, :member => {:new_sell =>:put}
-
-
+ 
+  match "/signout" => "sessions#destroy", :as => :signout  
+  match "/auth/:provider/callback" => "sessions#create"  
   match '/new_sell',:to=>"items#new_sell"
   match '/new_buy',:to=>"items#new_buy"
+   root :to => 'items#index'
 
 
 
