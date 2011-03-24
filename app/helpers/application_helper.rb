@@ -9,8 +9,9 @@ module ApplicationHelper
  
  def categorizable(column, title = nil)
       title ||= column
-	  link_to title, params.merge(:category => column)	
+	  link_to title, params.merge(:category_id => column)	
  end
  
+
  
 end

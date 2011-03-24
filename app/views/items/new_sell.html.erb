@@ -15,7 +15,7 @@
       <%= f.hidden_field :bs %>
   <p>
     <%= f.label :category %><br />
-    <%= f.text_field :category %>
+    <%= f.select :category_id, raw("<option value='1'>Textbook</option><option value='2'>Food</option>") %>
   </p>
   <p><%= f.submit %></p>
 <% end %>

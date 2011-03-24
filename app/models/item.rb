@@ -1,7 +1,10 @@
 class Item < ActiveRecord::Base
-  attr_accessible :name, :price, :description, :bs, :status, :category
-
-
+  attr_accessible :name, :price, :description, :bs, :status, :category_id
+  
+  
+  
+  belongs_to :category	
+  
   def self.search(search,bs)  
      if search  
        where('name LIKE ?', "%#{search}%").where(:bs=>bs)  
