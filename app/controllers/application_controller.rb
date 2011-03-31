@@ -1,6 +1,7 @@
 class ApplicationController < ActionController::Base
   protect_from_forgery
-  
+  require 'fb_graph'
+
   helper_method :current_user  
      
    private  

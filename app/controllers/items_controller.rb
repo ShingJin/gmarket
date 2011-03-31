@@ -4,11 +4,13 @@ class ItemsController < ApplicationController
 
 
   def index
-      @items = Item.category(params[:category]).search(params[:search],params[:bs]).order(sort_column + ' ' + sort_direction).paginate(:per_page => 5, :page => params[:page])  
+      @items = Item.category(params[:category]).search(params[:search],params[:bs]).order(sort_column + ' ' + sort_direction).paginate(:per_page =>20, :page => params[:page])  
   end
 
-  def show
+  def show	
     @item = Item.find(params[:id])
+  	@user = User.find(@item.user_id)
+	@pic_url="http://graph.facebook.com/"+@user.uid.to_s+"/picture"
   end
 
   def new
@@ -16,25 +18,45 @@ class ItemsController < ApplicationController
   end
 
   def new_sell
-  	@item = Item.new
-  	@item.bs = 0
-  	@item.status = 0
+  
+  	if current_user
+  		@item = Item.new
+  			if params[:search]
+  				@item.name=params[:search]
+  			end
+  		@item.bs = 0
+  		@item.status = 0
+  	else
+  		redirect_to '/'
+  	end
   end
   
   
   def new_buy
-    @item = Item.new
-	@item.bs = 1
- 	@item.status = 0
+  
+  	if current_user
+    	@item = Item.new
+			if params[:search]
+  				@item.name=params[:search]
+  			end
+		@item.bs = 1
+ 		@item.status = 0
+  	else
+  		redirect_to '/'
+  	end
   end
 
 
   def create
-    @item = Item.new(params[:item])
+    @item = current_user.items.new(params[:item])
     if @item.save
       redirect_to '/items', :notice => "Successfully created item."
     else
-      render :action => 'new'
+   		if @item.bs==false
+   			render :action => 'new_sell'
+   		else
+   			render :action => 'new_buy'
+   		end
     end
   end
 
@@ -57,12 +79,15 @@ class ItemsController < ApplicationController
     redirect_to items_url, :notice => "Successfully destroyed item."
   end
   
+  
+  
+  
   def sort_column  
-     Item.column_names.include?(params[:sort]) ? params[:sort] : "name" 
+     Item.column_names.include?(params[:sort]) ? params[:sort] : "created_at" 
    end  
      
    def sort_direction  
-     %w[asc desc].include?(params[:direction]) ?  params[:direction] : "asc" 
+     %w[asc desc].include?(params[:direction]) ?  params[:direction] : "desc" 
    end  
   
   

@@ -1,28 +1,86 @@
 
-<p>
-  <strong>Name:</strong>
-  <%= @item.name %>
-</p>
-<p>
-  <strong>Price:</strong>
-  <%= @item.price %>
-</p>
-<p>
-  <strong>Description:</strong>
-  <%= @item.description %>
-</p>
+<div id="block-text" class="block">
 
-<p>
-  <strong>Status:</strong>
-  <%= @item.status %>
-</p>
-<p>
-  <strong>Category:</strong>
-  <%= @item.category_id %>
-</p>
+	<div class="secondary-navigation">
+		<div id="avatar_frame"><img src=<%= @pic_url %>  width=30 height=30></div>
 
-<p>
+		<div id="show_title_left">
+	  	<h3> <%= @item.name %> </h3>	
+		</div>
+
+		<div id="show_title_right">
+		<% if @item.bs==true %>
+			<h3>Buyer : <%= User.find(@item.user_id).name %> </h3>
+		<% else %>
+			<h3>Seller : <%= User.find(@item.user_id).name %> </h3>
+		<% end %>
+		</div>
+	</div>
+
+
+</div>
+<div id="main_description">
+	<p><%= @item.description %><p>
+	<div id="contact">
+
+	<% if !@user.email.nil? %>
+		<p>Email:<%= @user.email %></p>
+	<% end %>
+	<% if !@user.phone.nil? %>
+		<p>Phone:<%= @user.phone %></p>
+	<% end %>
+
+</div>
+</div>
+
+<div id="item_details">
+  <div class="side-left2" style="color:#666666">
+  	<label>Price: </label>
+  </div>
+  <div class="side-right2" style="color:#333333">
+	<%= number_to_currency(@item.price, :unit => "$") %>
+  </div>
+  <br>
+
+  	  
+  <div class="side-left2" style="color:#666666">
+  	<label>Category: </label>
+  </div>
+  <div class="side-right2" style="color:#333333">
+	<%= Category.find(@item.category_id).name.titleize %>
+  </div>
+  <br>
+  <% if !@item.bs==true %>
+  <div class="side-left2" style="color:#666666">
+  	<label>Condition: </label>
+  </div>
+ <div class="side-right2" style="color:#333333">
+	<% if @item.condition == 0 %>
+		New
+	<% elsif @item.condition ==1 %>
+		Like New
+	<% else %>
+		Used
+	<% end %>
+  </div>
+  <% end %>
+
+
+</div>
+
+
+
+
+
+
+
+<!-- 
+
+
+ 
+
   <%= link_to "Edit", edit_item_path(@item) %> |
   <%= link_to "Destroy", @item, :confirm => 'Are you sure?', :method => :delete %> |
   <%= link_to "View All", items_path %>
-</p>
+
+-->

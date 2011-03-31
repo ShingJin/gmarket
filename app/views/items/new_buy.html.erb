@@ -1,21 +1,50 @@
 <%= form_for @item do |f| %>
-  <%= f.error_messages %>
-  <p>
-    <%= f.label :name %><br />
-    <%= f.text_field :name %>
+<div class="new-selling-form new-selling-form-top">
+<%= render "shared/error_messages", :target => @item %>  
+
+	<div class="row top">
+
+    <div class="side-left">I want to buy</div>
+    	<%= f.text_field :name %>
+    <div class="side-right">for $</div>
+    	<%= f.text_field :price %>
+	</div>
+
+ <div class="row">
+  <div class="side-left" style="color:#777777">
+  <%= f.label :category %>
+  </div>
+  <div class="side-right" style="margin-left:60px;">
+   <%= f.select :category_id, raw("<option value='1'>Textbook</option>
+   <option value='2'>General Items</option>
+   <option value='3'>Electronics</option>
+   <option value='4'>Services</option>
+   <option value='5'>Others</option>
+
+   
+   
+   ") %>
+  </div>
+    
+  <br>
+ </div>
+
+ <div class="row">
+  <div class="side-left" style="color:#777777">
+    <%= f.label :description %>
+  </div>
+
+  <div class="side-right" style="margin-left:40px;">
+    <%= f.text_area :description, :style=>"margin-left:20px;width:400px;height:300px; overflow:auto;font-size:20px;"	%>
+  </div>
+
+
+
+ </div>
+      
+   
   </p>
-  <p>
-    <%= f.label :price %><br />
-    <%= f.text_field :price %>
-  </p>
-  <p>
-    <%= f.label :description %><br />
-    <%= f.text_field :description %>
-  </p>
-    <%= f.hidden_field :bs %>
-  <p>
-    <%= f.label :category %><br />
-    <%= f.select :category_id, raw("<option value='1'>Textbook</option><option value='2'>Food</option>") %>
-  </p>
-  <p><%= f.submit %></p>
+  <%= f.hidden_field :bs %>
+  <%= f.hidden_field :status %>
+  <p><%= f.submit "Post it", :class=>"button white"%></p>
 <% end %>

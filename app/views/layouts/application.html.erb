@@ -2,20 +2,46 @@
 <html>
 <head>
   <title>Marketplace</title>
-  <%= stylesheet_link_tag :all %>
+	<%= render 'layouts/stylesheets' %>
+  <%= stylesheet_link_tag 'jquery.notifyBar' %>
   <%= javascript_include_tag :defaults %>
+<%= javascript_include_tag 'jquery.notifyBar' %>
+
   <%= csrf_meta_tag %>
-</head>
-<body>
- <div id="user_nav">  
+  
+ 	<div class="constraint"> 
+  <div id="user_nav">  
+  <%= link_to "Home",'/', :class=>"nav_button" %>
+     <% if current_user %>  
+  <%= link_to "Contact", edit_user_path(current_user), :class=>"nav_button"%>
+  <% end %>
    <% if current_user %>  
      Welcome, <%= current_user.name %>!  
      <%= link_to "Sign Out", signout_path %>  
    <% else %>  
      <%= link_to "Sign in with Facebook", "/auth/facebook" %>  
    <% end %>  
- </div>  
+   
+ </div>
+  	<div id="in_between">
+ 		  <div id="start_selling">
+ 	      <%= link_to "$Start selling", '/new_sell' %>
+ 	      </div>
+ 	</div>
+</head>
+<body>
+<div id="container">
+
+
+<%= notify_bar %>
+
+
 <%= yield %>
+</div>
 
 </body>
+
+	</div>
+
+
 </html>

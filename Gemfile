@@ -11,6 +11,8 @@ gem 'jquery-rails'
 gem "nifty-generators"
 gem 'omniauth'
 gem 'devise', '1.1.3'  
+gem 'fb_graph'
+
 
 # Use unicorn as the web server
 # gem 'unicorn'
