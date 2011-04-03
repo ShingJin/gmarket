@@ -19,7 +19,7 @@ class Item < ActiveRecord::Base
   
   def self.search(search,bs)  
      if search  
-       where('name LIKE ?', "%#{search}%").where(:bs=>bs)  
+       where('lower(name) LIKE ?', "%lower(#{search})%").where(:bs=>bs)  
      else  
        scoped  
      end  
