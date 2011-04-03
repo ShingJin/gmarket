@@ -19,8 +19,23 @@
 
 
 </div>
+
+<div id="carrier">
 <div id="main_description">
-	<p><%= @item.description %><p>
+	<p><%= @item.description %>
+	
+	<p>
+	<% if User.find(@item.user_id)==current_user %>
+		<div id="post_menu">
+		<%= link_to "Edit", edit_item_path(@item) %>
+		<%= link_to("Delete", { :action => "destroy", :id => @item },
+  :confirm => "Are you sure you want to delete this item?",
+  :method => :delete) %>
+
+		</div>
+	<% end %>
+
+	
 	<div id="contact">
 
 	<% if !@user.email.nil? %>
@@ -30,7 +45,7 @@
 		<p>Phone:<%= @user.phone %></p>
 	<% end %>
 
-</div>
+	</div>
 </div>
 
 <div id="item_details">
@@ -68,7 +83,7 @@
 
 </div>
 
-
+</div>
 
 
 

@@ -1,5 +1,5 @@
 Marketplace::Application.routes.draw do |map|
-  map.resources :items, :member => {:new_sell =>:put}
+  resources :items
   resources :users
   
   match "/signout" => "sessions#destroy", :as => :signout  

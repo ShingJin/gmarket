@@ -4,7 +4,7 @@ class ItemsController < ApplicationController
 
 
   def index
-      @items = Item.category(params[:category]).search(params[:search],params[:bs]).order(sort_column + ' ' + sort_direction).paginate(:per_page =>20, :page => params[:page])  
+      @items = Item.category(params[:category]).search(params[:search],params[:bs]).order(sort_column + ' ' + sort_direction).paginate(:per_page =>9, :page => params[:page])  
   end
 
   def show	
@@ -27,6 +27,7 @@ class ItemsController < ApplicationController
   		@item.bs = 0
   		@item.status = 0
   	else
+  		flash[:success] = "Please sign in first, you have a facebook account right? :)"
   		redirect_to '/'
   	end
   end
@@ -42,6 +43,7 @@ class ItemsController < ApplicationController
 		@item.bs = 1
  		@item.status = 0
   	else
+  		flash[:success] = "Please sign in first, you have a facebook account right? :)"
   		redirect_to '/'
   	end
   end
@@ -50,7 +52,8 @@ class ItemsController < ApplicationController
   def create
     @item = current_user.items.new(params[:item])
     if @item.save
-      redirect_to '/items', :notice => "Successfully created item."
+      flash[:success] = "Your item is posted"
+      redirect_to '/items', :success => "Your item is posted"
     else
    		if @item.bs==false
    			render :action => 'new_sell'
@@ -67,7 +70,7 @@ class ItemsController < ApplicationController
   def update
     @item = Item.find(params[:id])
     if @item.update_attributes(params[:item])
-      redirect_to '/items', :notice  => "Successfully updated item."
+      redirect_to '/items', :notice  => "Successfully updated your item."
     else
       render :action => 'edit'
     end
@@ -76,7 +79,7 @@ class ItemsController < ApplicationController
   def destroy
     @item = Item.find(params[:id])
     @item.destroy
-    redirect_to items_url, :notice => "Successfully destroyed item."
+    redirect_to items_url, :notice => "Successfully deleted your item."
   end
   
   

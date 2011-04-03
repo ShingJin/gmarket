@@ -8,9 +8,16 @@
 <%= javascript_include_tag 'jquery.notifyBar' %>
 
   <%= csrf_meta_tag %>
-  
- 	<div class="constraint"> 
-  <div id="user_nav">  
+	         
+ 	 
+
+
+    
+</head>
+<body>
+<div id="header">
+	<div id="holder">
+  	<div id="user_nav">  
   <%= link_to "Home",'/', :class=>"nav_button" %>
      <% if current_user %>  
   <%= link_to "Contact", edit_user_path(current_user), :class=>"nav_button"%>
@@ -18,30 +25,51 @@
    <% if current_user %>  
      Welcome, <%= current_user.name %>!  
      <%= link_to "Sign Out", signout_path %>  
-   <% else %>  
-     <%= link_to "Sign in with Facebook", "/auth/facebook" %>  
+   <% else %>
+
+     <%= link_to "Sign in with Facebook", "/auth/facebook",:style=>"margin-left:10px;" %>  
    <% end %>  
-   
- </div>
-  	<div id="in_between">
- 		  <div id="start_selling">
- 	      <%= link_to "$Start selling", '/new_sell' %>
- 	      </div>
+   	  </div>
  	</div>
-</head>
-<body>
+</div>  
+  
+
+ 	<div class="constraint"> 
+
+	<div id="in_between">
+ 	<div id="logo">
+		  <%= link_to image_tag("logo.png", :border=>0),'/' %> 	
+    </div>
+ 		  <div id="start_selling">
+ 	      <%= link_to "$Start Selling", '/new_sell' %>
+ 	      </div>
+ 
+ 	</div>
+
+
 <div id="container">
 
 
-<%= notify_bar %>
-
+    <% flash.each do |key, value| %>
+		     <%= CGI::unescapeHTML(content_tag(:div, value, :class => "#{key}")) %>        
+      		 <% end %> 
 
 <%= yield %>
+
+
 </div>
 
-</body>
+<div style="margin:auto;margin-top:20px;color:#999999;">
+	<p>A Dwayne Maxworth(XJ) Production 
+	<br>Gmarket &copy;2011</p>
+</div>
+
 
 	</div>
+
+
+
+</body>
 
 
 </html>

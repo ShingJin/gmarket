@@ -3,8 +3,14 @@ class SessionsController < ApplicationController
    auth = request.env["omniauth.auth"]  
    user = User.find_by_provider_and_uid(auth["provider"], auth["uid"]) || User.create_with_omniauth(auth)  
    session[:user_id] = user.id
-   flash[:notice]= "Welcome!"
-   redirect_to root_url
+   
+   if user.phone.nil?|user.email.nil?
+      flash[:notice]= "Welcome, please fill out this contact form that allows buyers to reach you"
+	  redirect_to edit_user_url
+   else
+   	  flash[:notice]= "Welcome!"
+   	  redirect_to root_url
+  	end
   end  
   
    def destroy  

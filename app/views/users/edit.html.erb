@@ -1,0 +1,32 @@
+<%= form_for @user do |f| %>
+<div class="new-selling-form new-selling-form-top">
+<%= render "shared/error_messages", :target => @user %>  
+     
+
+ 
+ <div class="row">
+  <div class="side-left" style="color:#777777;margin-top:10px;">
+  <%= f.label "My Email" %>
+  </div>
+  <div class="side-right" style="margin-left:220px;">
+   <%= f.text_field :email %>
+  </div>
+ <br>
+ 
+ </div>
+
+ <div class="row">
+
+	<div class="side-left" style="color:#777777;margin-top:10px;">
+  <%= f.label "My Primary phone number" %>
+  </div>
+    <div class="side-right" style="margin-left:55px;">
+   <%= f.text_field :phone %>
+  </div>
+  <br>
+  
+   </div>
+
+
+  <p><%= f.submit "Update", :class=>"button white"%></p>
+<% end %>
