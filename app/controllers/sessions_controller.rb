@@ -5,10 +5,10 @@ class SessionsController < ApplicationController
    session[:user_id] = user.id
    
    if user.phone.nil?|user.email.nil?
-      flash[:notice]= "Welcome, please fill out this contact form that allows buyers to reach you"
-	  redirect_to edit_user_url
+      flash[:success]= "Welcome, please fill out this contact form so that buyers can reach you"
+	  redirect_to edit_user_path(current_user)
    else
-   	  flash[:notice]= "Welcome!"
+   	  flash[:success]= "Welcome!"
    	  redirect_to root_url
   	end
   end  

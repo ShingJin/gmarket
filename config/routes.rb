@@ -1,4 +1,6 @@
 Marketplace::Application.routes.draw do |map|
+
+
   resources :items
   resources :users
   
