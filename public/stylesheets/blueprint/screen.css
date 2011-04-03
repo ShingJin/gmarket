@@ -576,6 +576,7 @@ margin-bottom:20px;
 
 #show_title_left{
 	float:left;
+	width:400px;
 }
 
 #show_title_left h3{
@@ -599,6 +600,7 @@ margin-bottom:20px;
 #main_description{
 	float:left;
 	margin-top:10px;	
+	width:400px;
 }
 
 #main_description p{
