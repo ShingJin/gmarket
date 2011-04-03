@@ -3,7 +3,7 @@ class Item < ActiveRecord::Base
   
   
   
-  validates :name,  :presence   => true, :length     => { :maximum => 50 }
+  validates :name,  :presence   => true, :length     => { :maximum => 70 }
   validates_numericality_of :price, :message=>"is not a number"
   validates_inclusion_of :price, :in => 0..99999
   validates :description,  :presence   => true, :length     => { :maximum => 400 }
