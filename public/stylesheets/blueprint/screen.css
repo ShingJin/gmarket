@@ -576,7 +576,7 @@ margin-bottom:20px;
 
 #show_title_left{
 	float:left;
-	width:50%;
+	width:70%;
 }
 
 #show_title_left h3{
@@ -590,8 +590,8 @@ margin-bottom:20px;
 
 
 #show_title_right{
-	float:right;
-	width:50%;
+
+	width:30%;
 }
 
 #show_title_right p{
