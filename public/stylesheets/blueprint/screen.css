@@ -571,7 +571,7 @@ margin-bottom:20px;
     background: none repeat scroll 0 0 white;
     border-bottom: 1px solid #222222;
     color: #222222;
-    height:30px;
+    overflow:hidden;	
 }
 
 #show_title_left{
