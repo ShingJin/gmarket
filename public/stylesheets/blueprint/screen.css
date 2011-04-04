@@ -590,8 +590,9 @@ margin-bottom:20px;
 
 
 #show_title_right{
+	bottom:0;
+	position:relative;
 	float:right;
-	float:bottom;
 	width:30%;
 }
 
