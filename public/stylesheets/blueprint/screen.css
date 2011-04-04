@@ -490,6 +490,19 @@ margin-bottom:20px;
 	margin-right:5px;
  }
  
+ .new-selling-form #item_secondprice{
+    border: 1px solid #BAC1D2;
+    float: left;
+    font: 20px Arial,Helvetica,sans-serif;
+    padding: 3px 5px 4px;
+    width: 60px;
+    height: 25px;
+    margin-left:5px;
+	margin-right:5px;
+ }
+ 
+ 
+ 
 .new-selling-form #user_email{
     border: 1px solid #BAC1D2;
     font: 20px Arial,Helvetica,sans-serif;
