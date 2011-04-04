@@ -526,7 +526,7 @@ a#header_real { background-image:url(/images/header.png); width:900px; height:47
 #boxes_area { width:698px; margin:auto; margin-top:12px; }
 .padfix { margin:0; padding:0; }
 .word_box { width:206px; height:41px; background-image:url(/images/textbox_hover.png); background-repeat:no-repeat; padding-left:10px; padding-right:10px; outline:0 !important; border:0 !important; font-family:"Helvetica Neue", Arial, Helvetica, sans-serif; font-size:11pt; background-color:transparent !important; }
-.word_box:focus { background-image:url(/images/textbox_hover.png);-moz-box-shadow: 0 0 5px 5px #F2FFE1;
+.word_box:focus { background-image:url(/images/textbox_hover.png);-moz-box-shadow: 0 0 5px 5px #2E7CE8;
     border: 1px solid #82D23D; }
 .select_box {height:31px;font-size:13pt;color:#333333;}
 .main_table {width:600px;margin:auto;}
