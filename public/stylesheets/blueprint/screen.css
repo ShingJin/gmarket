@@ -769,7 +769,7 @@ textarea#note {
 /* buttons */
 
 
-#item_submit{
+#item_submit,#user_submit{
 	float:right;
 	margin-right:40px;
 	margin-top:20px;
