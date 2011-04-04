@@ -11,6 +11,7 @@ class ItemsController < ApplicationController
     @item = Item.find(params[:id])
   	@user = User.find(@item.user_id)
 	@pic_url="http://graph.facebook.com/"+@user.uid.to_s+"/picture"
+	@current_url="http://gmarket.heroku.com/items/"+@item.id.to_s
   end
 
   def new
