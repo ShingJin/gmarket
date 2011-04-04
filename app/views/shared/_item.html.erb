@@ -35,7 +35,7 @@
    </div>
    <div id="des_right">
    (by <%= User.find(item.user_id).name %> <%= time_ago_in_words(item.created_at) %>
-     	Ago) + <fb:comments-count href=<%= 'http://gmarket.heroku.com/items/'+item.id.to_s %></fb:comments-count> comments 
+     	Ago) + <fb:comments-count href=<%= 'http://gmarket.heroku.com/items/'+item.id.to_s %>></fb:comments-count> comments 
     </div>
      </div>
      
