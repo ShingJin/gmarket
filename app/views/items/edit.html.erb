@@ -75,13 +75,18 @@
 <div class="new-selling-form new-selling-form-top">
 <%= render "shared/error_messages", :target => @item %>  
 
+
 	<div class="row top">
 
     <div class="side-left">I want to buy</div>
     	<%= f.text_field :name %>
-    <div class="side-right">for $</div>
+	</div>
+	
+	<div class="row top">
+
+    <div class="side-left">for $</div>
     	<%= f.text_field :price %>
-    		to
+    <div class="side-left" style="margin-left:0px;">to $(Optional)</div>
     	<%= f.text_field :secondprice %>
 	</div>
 
