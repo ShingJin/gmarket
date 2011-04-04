@@ -591,12 +591,12 @@ margin-bottom:20px;
 
 #show_title_right{
 	float:right;
+	float:bottom;
 	width:30%;
-	height:100%;
 }
 
 #show_title_right h3{
-	float:bottom;
+	padding: 0px 0px 0px 5px;
 }
 	
 #main_description{
