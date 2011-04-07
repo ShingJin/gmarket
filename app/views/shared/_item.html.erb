@@ -32,7 +32,6 @@
      <div id="item_description">
    <div id="des_left">
    <%= truncate(item.description, :length=>100) %>  
-   <fb:comments-count href=<%= "http://www.thegmarket.com/items/"+item.id %> ></fb:comments-count>
    </div>
    <div id="des_right">
    (by <%= User.find(item.user_id).name %> <%= time_ago_in_words(item.created_at) %>
