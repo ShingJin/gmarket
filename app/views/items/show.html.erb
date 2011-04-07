@@ -56,7 +56,7 @@
 
 <div id="item_details">
   <div class="side-left2" style="color:#666666">
-  	<label>Price: </label>
+  	<label>Price:</label>
   </div>
   <div class="side-right2" style="color:#333333">
 	<%= number_to_currency(@item.price, :unit => "$") %>
@@ -65,15 +65,15 @@
 
   	  
   <div class="side-left2" style="color:#666666">
-  	<label>Category: </label>
+  	<label>Category:</label>
   </div>
-  <div class="side-right2" style="color:#333333">
+  <div class="side-right2" style="color:#333333,">
 	<%= Category.find(@item.category_id).name.titleize %>
   </div>
   <br>
   <% if !@item.bs==true %>
   <div class="side-left2" style="color:#666666">
-  	<label>Condition: </label>
+  	<label>Condition:</label>
   </div>
  <div class="side-right2" style="color:#333333">
 	<% if @item.condition == 0 %>
