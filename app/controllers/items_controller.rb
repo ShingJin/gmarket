@@ -28,7 +28,7 @@ class ItemsController < ApplicationController
   		@item.bs = 0
   		@item.status = 0
   	else
-  		flash[:success] = "Please sign in first, you have a facebook account right? :)"
+  		flash[:success] = "Please sign in first :)"
   		redirect_to '/'
   	end
   end
