@@ -21,6 +21,23 @@ module ApplicationHelper
 
   javascript_tag("$('#items').pageless(#{opts.to_json});")
 end
+
+
+  def format_date(type, date)
+    case type
+      when :short_no_year 
+        date.strftime("%b %d")
+      when :short
+        date.strftime("%b %d, %y")
+      when :long 
+        date.strftime("%B %d, %Y")
+      when :long_day_of_week
+        date.strftime("%a %B %d, %Y")
+      when :default
+        date.strftime("%m.%d.%Y")
+    end
+  end
+
  
 
  
