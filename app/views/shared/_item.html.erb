@@ -34,7 +34,7 @@
    <%= truncate(item.description, :length=>100) %>  
    </div>
    <div id="des_right">
-   (by <%= User.find(item.user_id).name %> <%= time_ago_in_words(item.created_at) %>
+   (<%= time_ago_in_words(item.created_at) %>
      	Ago)
     </div>
      </div>
