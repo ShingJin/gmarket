@@ -27,15 +27,16 @@
      
      <div id="item_title">
      <%= link_to item.name, item %>
+   <div id="des_right" style="float:right;margin-right:10px;">
+   <%= format_date(:short_no_year, item.created_at) %>
+    </div>
      </div>
      
      <div id="item_description">
    <div id="des_left">
    <%= truncate(item.description, :length=>100) %>  
    </div>
-   <div id="des_right" style="float:right;margin-right:10px;">
-   <%= format_date(:short_no_year, item.created_at) %>
-    </div>
+
      </div>
      
      
