@@ -1,5 +1,5 @@
 class Item < ActiveRecord::Base
-  attr_accessible :name, :price, :description, :bs, :status, :category_id, :secondprice, :photo
+  attr_accessible :name, :price, :photo, :description, :bs, :status, :category_id, :secondprice
   
   
   
@@ -7,7 +7,7 @@ class Item < ActiveRecord::Base
   validates_numericality_of :price, :message=>"is not a number"
   validates_inclusion_of :price, :in => 0..99999
   validates :description, :length     => { :maximum => 400 }
-
+  validates_attachment_presence :photo                    
 
   
   
