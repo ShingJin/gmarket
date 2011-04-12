@@ -6,4 +6,12 @@ class CategoriesController < ApplicationController
  	  @categories=Category.all
   end
 
+  
+  def sort_column  
+     Item.column_names.include?(params[:sort]) ? params[:sort] : "created_at" 
+   end  
+     
+   def sort_direction  
+     %w[asc desc].include?(params[:direction]) ?  params[:direction] : "desc" 
+   end  
 end
