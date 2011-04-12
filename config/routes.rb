@@ -1,10 +1,13 @@
 Marketplace::Application.routes.draw do |map|
 
 
+  get "categories/show"
+
   get "autocomplete_searches/Index"
 
   resources :items
   resources :users
+  resources :categories
   resources :autocomplete_searches, :only => [:index], :as => 'autocomplete'
   
   match "/signout" => "sessions#destroy", :as => :signout  
