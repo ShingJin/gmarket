@@ -673,14 +673,15 @@ margin-bottom:20px;
 
 .all_tag{
 	float:left;
+	margin-right:30px;
 }
 
 .all_tag a{
-	color:#000000;
+	color:#ffffff;
 }
 
 .all_tag a:hover{
-	color:#000000;
+	color:#ffffff;
 }
 
 
