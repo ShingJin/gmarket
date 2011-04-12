@@ -21,6 +21,7 @@ class Item < ActiveRecord::Base
       	:thumb=> "100x100#",
       	:small  => "300x300>" },
       	:storage => :s3,
+     	:bucket => 'development_sanci',
      	:s3_credentials => "#{RAILS_ROOT}/config/s3.yml",
      	:path => "/:style/:filename"
         	
