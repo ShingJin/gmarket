@@ -673,6 +673,13 @@ margin-bottom:20px;
 
 .all_tag{
 	float:left;
+}
+
+.all_tag a{
+	color:#000000;
+}
+
+.all_tag a:hover{
 	color:#000000;
 }
 
