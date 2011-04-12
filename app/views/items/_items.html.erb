@@ -1,5 +1,22 @@
 <div id="tags" style="height:30px;">
+<% @categories.each do |category| %>
 
+
+     <% if category.id==1 %>
+     <div class="category_tag all_tag">
+     <% elsif category.id==2 %>
+     <div class="category_tag all_tag" style="background-color:#F09D0B">
+	 <% elsif category.id==3 %>
+     <div class="category_tag all_tag" style="background-color:skyblue">
+	 <% elsif category.id==4 %>
+     <div class="category_tag all_tag" style="background-color:#8FC700">
+	 <% else %>
+     <div class="category_tag all_tag" style="background-color:#508600">
+     <% end %>
+	<%= link_to "All "+category.name.titleize,category %>
+	</div>
+
+<% end %>
 </div>
 
 
