@@ -671,7 +671,11 @@ margin-bottom:20px;
 }
 
 
-
+.all_tag{
+	float:left;
+	color:#000000;
+	margin-right:30px;
+}
 
 
 #send_button_wrap {
