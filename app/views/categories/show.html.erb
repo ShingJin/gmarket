@@ -1,0 +1,12 @@
+<table class="main_table">  
+   <tr style="border-bottom: 1px dotted #999999;">  
+     <th style="text-align:center"><%= sortable "category_id" %></th>  
+     <th><%= sortable "name" %></th> 
+     <th><%= sortable "price" %></th>
+     <th><%= sortable "bs","B/S" %></th>
+     <th><%= sortable "created_at","Date" %></th>
+   </tr>  
+   <%= render :partial=>"shared/item", :object=>@items %>
+</table> 
+
+
