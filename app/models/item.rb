@@ -16,7 +16,7 @@ class Item < ActiveRecord::Base
   
 
    has_attached_file :picture,
-	    :default_url => "/images/missing.png"
+	    :default_url => "/images/missing.png",
     	:styles => {
       	:thumb=> "100x100#",
       	:small  => "300x300>" },
