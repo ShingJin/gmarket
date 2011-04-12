@@ -14,8 +14,7 @@ gem 'devise', '1.1.3'
 gem 'fb_graph'
 gem 'hpricot'
 gem 'aws-s3'
-gem "paperclip", "~> 2.3"
-
+gem "paperclip"
 
 # Use unicorn as the web server
 # gem 'unicorn'
