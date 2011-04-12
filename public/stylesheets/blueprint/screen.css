@@ -674,14 +674,17 @@ margin-bottom:20px;
 .all_tag{
 	float:left;
 	margin-right:30px;
+	margin-left:5px;
 }
 
 .all_tag a{
 	color:#ffffff;
+	text-decoration:none;
 }
 
 .all_tag a:hover{
 	color:#ffffff;
+	text-decoration:none;
 }
 
 
