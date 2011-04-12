@@ -1,4 +1,7 @@
-<%= link_to "All Textbooks",show_category_path(0) %>
+@categories.each do |category|
+	<%= link_to "All",show_category_path(category) %>
+end
+
 <table class="main_table">  
    <tr style="border-bottom: 1px dotted #999999;">  
      <th style="text-align:center"><%= sortable "category_id" %></th>  
