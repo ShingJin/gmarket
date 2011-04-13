@@ -3,7 +3,7 @@ class Notifier < ActionMailer::Base
   
   def welcome(recipient)
     @account = recipient
-    mail(:to => recipient.email_address_with_name,
+    mail(:to => recipient.email,
          :bcc => ["bcc@example.com", "Order Watcher <watcher@example.com>"])
   end
 
