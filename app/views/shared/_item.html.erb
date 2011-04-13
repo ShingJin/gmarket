@@ -27,6 +27,11 @@
      
      <div id="item_title">
      <%= link_to item.name, item %>
+     <div id="has_pic">
+       <% if !item.photo.nil? %>
+          Pic
+       <% end %>
+     </div>
      </div>
      
      <div id="item_description">
