@@ -1,0 +1,108 @@
+
+<div id="block-text" class="block">
+
+	<div class="secondary-navigation">
+		<div id="avatar_frame"><img src=<%= @pic_url %>  width=30 height=30></div>
+
+		<div id="show_title_left">
+	  	<h3> <%= @item.name %> </h3>	
+		</div>
+
+		<div id="show_title_right">
+		<% if @item.bs==true %>
+			<h3>Buyer : <%= User.find(@item.user_id).name %> </h3>
+		<% else %>
+			<h3>Seller : <%= User.find(@item.user_id).name %> </h3>
+		<% end %>
+		</div>
+	</div>
+
+
+</div>
+
+<div id="carrier">
+<div id="main_description">
+	<p><%= @item.description %>
+	
+	<p>
+	<%= image_tag @item.picture.url(:small) %>
+	<% if User.find(@item.user_id)==current_user %>
+		<div id="post_menu">
+		<%= link_to "Edit", edit_item_path(@item) %>
+		<%= link_to("Delete", { :action => "destroy", :id => @item },
+  :confirm => "Are you sure you want to delete this item?",
+  :method => :delete) %>
+
+		</div>
+	<% end %>
+	
+	
+
+
+	
+	<div id="contact">
+
+	<% if !@user.email.nil? %>
+		<p>Email:<%= @user.email %></p>
+	<% end %>
+	<% if !(@user.phone.length<2) %>
+		<p>Phone:<%= @user.phone %></p>
+	<% end %>
+
+	</div>
+	
+	
+</div>
+
+<div id="item_details">
+  <div class="side-left2" style="color:#666666">
+  	<label>Price:</label>
+  </div>
+  <div class="side-right2" style="color:#333333">
+	<%= number_to_currency(@item.price, :unit => "$") %>
+  </div>
+  <br>
+
+  	  
+  <div class="side-left2" style="color:#666666">
+  	<label>Category:</label>
+  </div>
+  <div class="side-right2" style="color:#333333">
+	<%= Category.find(@item.category_id).name.titleize %>
+  </div>
+  <br>
+  <% if !@item.bs==true %>
+  <div class="side-left2" style="color:#666666">
+  	<label>Condition:</label>
+  </div>
+ <div class="side-right2" style="color:#333333">
+	<% if @item.condition == 0 %>
+		New
+	<% elsif @item.condition ==1 %>
+		Like New
+	<% else %>
+		Used
+	<% end %>
+  </div>
+  <% end %>
+
+
+</div>
+
+</div>
+
+
+	<div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#appId=154290874631361&amp;xfbml=1"></script><fb:comments href=<%= @current_url %> num_posts="2" width="600"></fb:comments>
+
+
+
+<!-- 
+
+
+ 
+
+  <%= link_to "Edit", edit_item_path(@item) %> |
+  <%= link_to "Destroy", @item, :confirm => 'Are you sure?', :method => :delete %> |
+  <%= link_to "View All", items_path %>
+
+-->
