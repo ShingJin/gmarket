@@ -45,7 +45,7 @@
 	<% if !@user.email.nil? %>
 		<p>Email:<%= @user.email %></p>
 	<% end %>
-	<% if !@user.phone.nil? %>
+	<% if !(@user.phone.length<2) %>
 		<p>Phone:<%= @user.phone %></p>
 	<% end %>
 
