@@ -14,13 +14,7 @@ class ItemsController < ApplicationController
 	@pic_url="http://graph.facebook.com/"+@user.uid.to_s+"/picture"
 	@current_url="http://www.thegmarket.me/items/"+@item.id.to_s
 	
-	if current_user.admin == true
-	   @admin=true
-	else
-	   @admin=false
-	end
-	   
-
+	
   end
 
   def new
