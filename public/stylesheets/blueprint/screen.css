@@ -687,6 +687,12 @@ margin-bottom:20px;
 	text-decoration:none;
 }
 
+span.p {
+    color: orange;
+    font-size: smaller;
+}
+
+
 
 #send_button_wrap {
 	width:132px;

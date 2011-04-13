@@ -25,13 +25,12 @@
      
      <td width="40%">
        
-     <% if !(item.picture_file_name==nil) %>
-     <% name=item.name+"(Pic)" %>
-     <% else %>
-     <% name=item.name %>
-     <% end %>
+   
      <div id="item_title">
-     <%= link_to name, item %>
+     	<%= link_to item.name, item %>
+ 	 <% if !(item.picture_file_name==nil) %>
+		<span class="p"> pic</span>
+     <% end %>
      </div>
      
      <div id="item_description">
