@@ -37,6 +37,13 @@ end
         date.strftime("%m.%d.%Y")
     end
   end
+  
+  def render_title
+  return @title if defined?(@title)
+  	"Grinnell College Marketplace"
+  end
+
+
 
  
 
