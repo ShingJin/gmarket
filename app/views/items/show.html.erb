@@ -34,7 +34,16 @@
   :method => :delete) %>
 
 		</div>
-	<% end %>
+       <% end %>
+      
+       <% if !(session[:user_id]==nil) %>
+            <% if current_user.admin==true %>
+	         <%= link_to "Edit", edit_item_path(@item) %>
+            <% end %>
+       <% end %>
+
+
+	
 	
 	
 
