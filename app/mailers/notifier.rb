@@ -4,7 +4,7 @@ class Notifier < ActionMailer::Base
   def welcome(recipient)
     @account = recipient
     mail(:to => recipient,
-         :bcc => ["bcc@example.com", "Order Watcher <watcher@example.com>"])
+         :subject => "#{symbol} is now the symbol with the highest stock factor!")
   end
 
   
