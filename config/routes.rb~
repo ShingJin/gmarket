@@ -5,8 +5,7 @@ Marketplace::Application.routes.draw do |map|
 
   get "autocomplete_searches/Index"
 
-
-  resources :notifier
+  resources :	
   resources :items
   resources :users
   resources :categories
