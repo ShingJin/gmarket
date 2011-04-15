@@ -1,9 +1,11 @@
 class Notifier < ActionMailer::Base
-  default :from => "238357@gmail.com"
+  default :from => "test@gmail.com"
   
-  def welcome
+  def notify
     mail(:to => "jinxin@grinnell.edu",
-         :subject => "is now the symbol with the highest stock factor!")
+         :subject => "Someone commmented on your Item")
+  	
+  	
   end
 
   
