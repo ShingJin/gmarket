@@ -19,9 +19,7 @@ class ItemsController < ApplicationController
   end
 
 
-  def send
-  	Notifier.notify(current_user).deliver
-  end
+
 
   def new
     @item = Item.new
