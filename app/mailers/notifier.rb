@@ -1,5 +1,5 @@
 class Notifier < ActionMailer::Base
-  default :from => "test@gmail.com"
+  default :from => "238357@gmail.com"
   
   def notify
     mail(:to => "jinxin@grinnell.edu",
