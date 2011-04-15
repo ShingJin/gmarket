@@ -5,7 +5,7 @@ Marketplace::Application.routes.draw do |map|
 
   get "autocomplete_searches/Index"
 
-  match '/send' =>'notifier#send'
+
 
   resources :items
   resources :users

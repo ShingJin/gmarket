@@ -1,7 +1,7 @@
 class NotifierController < ApplicationController
 	
 	def send
-		Notifier.welcome
+		Notifier.welcome.deliver
 	end
 
 end
