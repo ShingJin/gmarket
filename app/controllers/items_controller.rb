@@ -14,7 +14,7 @@ class ItemsController < ApplicationController
   	@user = User.find(@item.user_id)
 	@pic_url="http://graph.facebook.com/"+@user.uid.to_s+"/picture"
 	@current_url="http://www.thegmarket.me/items/"+@item.id.to_s
-  	Notifier.notify(User.find(@item.user_id))
+  	Notifier.notify(@user)
 
   end
 
