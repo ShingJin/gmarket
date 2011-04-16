@@ -17,6 +17,7 @@ class ItemsController < ApplicationController
   end
 
   def notify
+    @item = Item.find(params[:id])
   	Notifier.notify(User.find(@item.user_id))
   end
 
