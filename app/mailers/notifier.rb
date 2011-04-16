@@ -4,7 +4,7 @@ class Notifier < ActionMailer::Base
   def notify(user)
     @user = user
     @url="http://www.thegmarket.me"
-    mail(:to => "jinxin@grinnell.edu",
+    mail(:to => "238357@gmail.com",
          :subject => "Someone commmented on your Item") do |format|
       	  format.html { render 'notify_email' }
     end
