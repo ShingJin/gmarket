@@ -9,13 +9,15 @@ class ItemsController < ApplicationController
  end
 
   def show	
-  
     @item = Item.find(params[:id])
   	@title="Grinnell College Marketplace - "+@item.name.titleize
   	@user = User.find(@item.user_id)
 	@pic_url="http://graph.facebook.com/"+@user.uid.to_s+"/picture"
 	@current_url="http://www.thegmarket.me/items/"+@item.id.to_s
+  end
 
+  def notify
+  	Notifier.notify(User.find(@item.user_id))
   end
 
 
