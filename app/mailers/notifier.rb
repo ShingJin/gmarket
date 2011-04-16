@@ -3,9 +3,8 @@ class Notifier < ActionMailer::Base
   
   def notify(item)
     @user = User.find(item.user_id)
-    @email=@user.email
     @url="http://www.thegmarket.me/items/"+item.id.to_s
-    mail(:to => @email
+    mail(:to => "jinxin@grinnell.edu",
          :subject => "Someone commmented on your Item") do |format|
       	  format.html { render 'notify_email' }
     end
