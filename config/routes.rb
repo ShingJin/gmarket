@@ -7,10 +7,11 @@ Marketplace::Application.routes.draw do |map|
 
 
 	
-  resources :items
+  map.resources :items, :member => {:notify =>:get}
   resources :users
   resources :categories
   resources :autocomplete_searches, :only => [:index], :as => 'autocomplete'
+  
   
   
   match "/signout" => "sessions#destroy", :as => :signout  
