@@ -105,13 +105,16 @@
 	<script>
 	
 	FB.Event.subscribe('comment.create', function(response) {
-  		
+		var1=document.URL;
+		var2="/notify";
+		var3=var1.concat(var2);
 		$.ajax({
-               url:<%= "http://www.thegmarket.me/items/"+@item.id.to_s+"/notify" %>,
+            url:var3,
     		type: 'GET',
     		success: function(res) {
-        alert(res);
-    }
+			 return false;
+    		}
+    	});
 
 
 	});
