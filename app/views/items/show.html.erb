@@ -105,7 +105,14 @@
 	<script>
 	
 	FB.Event.subscribe('comment.create', function(response) {
-  		//alert("hello");
+  		
+		$.ajax({
+               url:<%= "http://www.thegmarket.me/items/"+@item.id.to_s+"/notify" %>,
+               dataType: 'html',
+               type: "GET",
+               success: function(responsedata){
+               console.log(responsedata);	
+		}});
 	});
 	</script>
 
