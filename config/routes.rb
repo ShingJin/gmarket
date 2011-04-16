@@ -7,7 +7,7 @@ Marketplace::Application.routes.draw do |map|
 
 
 	
-  map.resources :items, :member => {:notify =>:put}
+  map.resources :items, :member => {:notify =>:get}
   resources :users
   resources :categories
   resources :autocomplete_searches, :only => [:index], :as => 'autocomplete'
