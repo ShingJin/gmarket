@@ -15,10 +15,14 @@ class ItemsController < ApplicationController
   	@user = User.find(@item.user_id)
 	@pic_url="http://graph.facebook.com/"+@user.uid.to_s+"/picture"
 	@current_url="http://www.thegmarket.me/items/"+@item.id.to_s
-  	Notifier.notify(@user)
 
   end
 
+  def notify
+    @item = Item.find(params[:id])
+  	Notifier.notify(@item).deliver
+  	redirect_to @item
+  end
 
 
 
