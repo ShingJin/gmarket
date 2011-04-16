@@ -19,7 +19,7 @@ class ItemsController < ApplicationController
   def notify
     @item = Item.find(params[:id])
   	Notifier.notify(User.find(@item.user_id))
-  	redirect_to '/'
+  	redirect_to items_url
   end
 
 
