@@ -106,12 +106,7 @@
 	
 	FB.Event.subscribe('comment.create', function(response) {
   		
-		$.ajax({
-               url:<%= "http://www.thegmarket.me/items/"+@item.id.to_s+"/notify" %>,
-               type: "GET",
-               success: function(responsedata){
-			   alert(responsedata);
-		}});
+
 	});
 	
 	</script>
