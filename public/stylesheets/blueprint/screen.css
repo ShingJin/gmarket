@@ -136,6 +136,7 @@ form.inline p {margin-bottom:0;}
     		  width:90px;
     		  height:20px;
 			  -moz-border-radius: 3px 3px 3px 3px;
+              -webkit-border-radius: 3px 3px 3px 3px;
 			  background: none repeat scroll 0 0 #008DC7;
 			  text-align:center;}
 			  
@@ -379,6 +380,7 @@ margin-bottom:20px;
 
 #start_selling{
     -moz-border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
     background: none repeat scroll 0 0 #508600;
     margin-top:30px;
     color: #F8F0E6;
@@ -422,6 +424,7 @@ margin-bottom:20px;
     padding: 7px;
     border:1px solid #BAC1D2;
     -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
 }
 
 .new-selling-form .top  {
@@ -572,6 +575,7 @@ width:600px;
 height:65px;
 background-color:#D8F5FF;
 -moz-border-radius: 15px;
+-webkit-border-radius: 15px;
 border-radius: 15px;
 margin-bottom:20px;
 }
