@@ -100,7 +100,15 @@
 
 </div>
 
-
+    
+    <% if @item.bs=false %>
+	<p>Leave a comment (Seller will immediately be notified)</p>
+	<% else %>
+	<p>Leave a comment (Buyer will immediately be notified)</p>
+	<% end %>
+	
+	
+	
 	<div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#appId=154290874631361&amp;xfbml=1"></script><fb:comments href=<%= @current_url %> num_posts="2" width="600"></fb:comments>
 	<script>
 	
