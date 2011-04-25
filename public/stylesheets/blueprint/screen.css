@@ -626,7 +626,9 @@ margin-bottom:20px;
 }
 
 #show_title_right p{
-	float:right;
+	font-family:"Helvetica Neue", Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	float:left;
 }
 	
 #main_description{
