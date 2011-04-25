@@ -625,8 +625,8 @@ margin-bottom:20px;
 	float:left;
 }
 
-#show_title_right h3{
-
+#show_title_right p{
+	float:right;
 }
 	
 #main_description{
