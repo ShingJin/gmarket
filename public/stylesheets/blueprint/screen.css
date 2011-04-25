@@ -622,6 +622,7 @@ margin-bottom:20px;
 
 
 #show_title_right{
+	height:100%;
 	width:40%;
 	float:left;
 }
