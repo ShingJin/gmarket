@@ -5,14 +5,14 @@
 		<div id="avatar_frame"><img src=<%= @pic_url %>  width=50 height=50></div>
 
 		<div id="show_title_left">
-	  	<p> <%= @item.name %> </p>	
+	  	<h3> <%= @item.name %> </h3>	
 		</div>
 
 		<div id="show_title_right">
 		<% if @item.bs==true %>
-			<h3>Buyer : <%= User.find(@item.user_id).name %> </h3>
+			<p>Buyer : <%= User.find(@item.user_id).name %> </p>
 		<% else %>
-			<h3>Seller : <%= User.find(@item.user_id).name %> </h3>
+			<p>Seller : <%= User.find(@item.user_id).name %> </p>
 		<% end %>
 		</div>
 	</div>
