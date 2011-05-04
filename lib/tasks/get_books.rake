@@ -3,13 +3,18 @@ namespace :db do
   desc "change"
 
     
+    task :destroy_books => :environment do
+    
+    for b in Book.all
+    	puts b.id
+    	b.destroy
+    end
+
+    end
 
 
     task :add_books => :environment do
-    
-    for b in Book.all
-        b.destroy  
-    end  
+      
          Book.scrape
     end
 
