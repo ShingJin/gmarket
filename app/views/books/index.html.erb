@@ -1,0 +1,29 @@
+
+
+
+   <%= form_tag books_path, :method => 'get', :style=>"padding-top:20px" do %>  
+
+ <div>
+    
+    
+      	<%=  select_tag :department,  options_for_select(["AMS", "ANT", "ARB", "ART", "BCM", "BIO", "CHI", "CHM", "CLS", "CSC", "ECN", "EDU", "ENG", "ENV", "FRN", "GDS", "GRE", "GRM", "GWS", "HIS", "HUM", "JPN", "LAS", "LAT", "LIN", "MAT", "MUS", "NRS", "PHE", "PHI", "PHY", "POL", "PST", "PSY", "REL", "RUS", "SCI", "SOC", "SPN", "SST", "TEC", "THE"], params[:department]), :class=>"quick"%>
+        <%= text_field_tag :course,  params[:course], :class=>"quick"%>  
+        <%= text_field_tag :section,  params[:section], :class=>"quick" %>  
+        <%= submit_tag "Search",  :name => nil,:class=>"quick" %>  
+      </div>
+      
+      
+      
+<% end %>
+
+
+<% if @books.count==0 %>
+	<p class="notification">No books found (make sure you include #section)</p>
+<% else %> 
+	<%= render 'books' %>
+<% end %>
+
+
+
+
+

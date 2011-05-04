@@ -1,0 +1,59 @@
+ 
+   <%= form_tag books_path, :method => 'get' do %>  
+
+ 
+ <div>
+    
+    
+      	<%=  select_tag :department, raw("<option value='AMS'>AMS</option>
+<option value='ANT'>ANT</option>
+<option value='ARB'>ARB</option>
+<option value='ART'>ART</option>
+<option value='BCM'>BCM</option>
+<option value='BIO'>BIO</option>
+<option value='CHI'>CHI</option>
+<option value='CHM'>CHM</option>
+<option value='CLS'>CLS</option>
+<option value='CSC'>CSC</option>
+<option value='ECN'>ECN</option>
+<option value='EDU'>EDU</option>
+<option value='ENG'>ENG</option>
+<option value='ENV'>ENV</option>
+<option value='FRN'>FRN</option>
+<option value='GDS'>GDS</option>
+<option value='GRE'>GRE</option>
+<option value='GRM'>GRM</option>
+<option value='GWS'>GWS</option
+><option value='HIS'>HIS</option>
+<option value='HUM'>HUM</option>
+<option value='JPN'>JPN</option>
+<option value='LAS'>LAS</option>
+<option value='LAT'>LAT</option>
+<option value='LIN'>LIN</option>
+<option value='MAT'>MAT</option>
+<option value='MUS'>MUS</option>
+<option value='NRS'>NRS</option>
+<option value='PHE'>PHE</option>
+<option value='PHI'>PHI</option>
+<option value='PHY'>PHY</option>
+<option value='POL'>POL</option>
+<option value='PST'>PST</option>
+<option value='PSY'>PSY</option>
+<option value='REL'>REL</option>
+<option value='RUS'>RUS</option>
+<option value='SCI'>SCI</option>
+<option value='SOC'>SOC</option>
+<option value='SPN'>SPN</option>
+<option value='SST'>SST</option>
+<option value='TEC'>TEC</option>
+<option value='THE'>THE</option>"), :class=>"select_box"%>
+        <%= text_field_tag :course, params[:course], :class=>"word_box" %>  
+        <%= text_field_tag :section, params[:section], :class=>"word_box" %>  
+        <%= submit_tag "Search", :name => nil, :class=>"button white" %>  
+      </div>
+      
+      
+      
+   			<%= @books.count %>
+<% end %>
+<p></p>

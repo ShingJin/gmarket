@@ -1,0 +1,36 @@
+<% for book in @items %>  
+
+   
+   <tr style="border-bottom: 1px dotted #999999;">  
+	    
+	     <td width="10%" class="bs">
+		   <%= check_box_tag "task_ids[]", book.id %>
+	     </td>
+	    
+	    
+	   	 <td width="40%">
+	     <div id="item_title">
+	       <%= book.title %>
+         </div>
+	     </td>
+	    
+	     <td width="20%" class="bs">
+	     <div id="item_price">
+	       $<%= book.price %>
+	     </div>
+	     </td>
+	     
+	     
+	     
+	     
+	     
+	  
+   </tr>
+
+
+
+
+
+
+
+<% end %>

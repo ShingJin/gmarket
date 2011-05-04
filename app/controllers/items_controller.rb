@@ -3,8 +3,32 @@ class ItemsController < ApplicationController
    helper_method :sort_column, :sort_direction
 
 
+  def update_all
+  	params[:items].each do |key,value|
+  	
+  		if params[:item_ids].nil?
+  				i=Item.find(key)
+				i.destroy
+		else
+  	
+  			if	!(params[:item_ids][key.to_s].nil?)
+  				i=Item.find(key)
+  				i.show=true
+				i.price=value["price"]
+				i.condition=value["condition"]
+				i.save
+			else
+				i=Item.find(key)
+				i.destroy
+			end
+		end
+  	end 
+  	
+  	redirect_to root_path
+  end
+  
   def index
-      @items = Item.category(params[:category]).search(params[:search],params[:bs]).order(sort_column + ' ' + sort_direction).paginate(:per_page =>30, :page => params[:page])  
+      @items = Item.where("show =?",true).where("category_id IS NOT NULL").category(params[:category]).search(params[:search],params[:bs]).order(sort_column + ' ' + sort_direction).paginate(:per_page =>30, :page => params[:page])  
  	  @categories=Category.all
 
  end

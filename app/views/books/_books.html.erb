@@ -1,0 +1,54 @@
+
+
+
+<% form_tag update_all_items_path, :method => :put do %>
+<table class="main_table">  
+  
+    <tr style="border-bottom: 1px dotted #999999;">  
+    <th></th>	
+     <th>Title</th> 
+     <th>ISBN</th>
+     <th>Google Price</th>
+     <th>Your Price</th>
+     <th>Condition</th>
+   </tr>  
+
+  
+  
+  <% for item in @items %>
+    <%= fields_for "items[#{item.id}]", item do |f| %>  
+    <tr style="border-bottom: 1px dotted #999999;">  
+    <td>
+      <%= check_box_tag "item_ids[#{item.id}]", item.id %>
+    </td>
+    <td>
+    	<%= item.name %>
+    </td>
+    <td>
+      <%= link_to item.isbn, "http://www.google.com/search?q=#{item.isbn}&tbs=shop%3A1&aq=f&oq=&aq=f" %>
+    </td>
+    <td>
+      <span>$</span><%= item.price %>
+    </td>
+ 	<td>
+     <span>$ </span><%= f.text_field :price, :class=>"quick", :style=>"width:25px;"%>
+   	</td>
+   	<td>
+   	   <%= f.select :condition, raw("<option value='0'>New</option><option value='1'>Like New</option><option value='2'>Used</option>") %>
+   	</td>
+   	
+
+    </tr>
+   
+    <% end %>
+    
+  <% end %>
+</table>
+	<div style="margin-top:20px"></div>
+	<% if !(@items.count==0) %>
+    	<%= submit_tag "Sell Marked Books!", :class=>"quick", :style=>"float:right" %>
+	<% end %>
+<% end %>
+
+
+

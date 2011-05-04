@@ -1,0 +1,1308 @@
+CSC - 161, section 01 (Rebelsky, S)
+C: A Reference Manual
+Standard C Library
+C Programming Language
+Art Of Unix Programming
+Managing Projects With Gnu
+ENV - 154, section 01 (Aspler, L.)
+Natural Hazards & Disasters
+GDS - 154, section 01 (Aspler, L.)
+Natural Hazards & Disasters
+HUM - 211, section 01 (Geller, T.)
+Film As Social Practice
+Film Studies
+Movies & Methods Vol Ii
+Cinema Studies
+Unthinking Eurocentrism
+Writing About Movies
+HUM - 211, section 02 (Geller, T.)
+Film As Social Practice
+Film Studies
+Movies & Methods Vol Ii
+Cinema Studies
+Unthinking Eurocentrism
+Writing About Movies
+BIO - 252, section 01 (Jacobson, K)
+Ecology
+BIO - 252, section 02 (Ruthig, G.)
+Ecology
+BIO - 252, section 03 (Queathem, L)
+Ecology
+CHM - 363, section 01 (Marzluff, E)
+Physical Chemistry (2Nd Prtg Or Later)
+PHE - 202, section 01 (Hollibaugh, T)
+Successful Coaching / Packaged Set
+PHE - 202, section 02 (Benning, H)
+Successful Coaching / Packaged Set
+POL - 101, section 02 (Werner, T.)
+Power & Choice - 12Th Edition
+SOC - 390, section 01 (McClelland, K)
+Theories Of Social Order
+ANT - 280, section 01 (Andelson, J)
+Anthropological Theory
+Visions Of Culture
+CHI - 498, section 01 (Feng, J)
+Masterworks Chinese Companion
+PHI - 111, section 02 (Schrift, A)
+Enquiry Concerning Human Understanding W/Letter, E
+Prolegomena To Any Future Metaphysics (Lla 27)
+Twilight Of The Idols & Anti-Christ (New Intro: Ta
+Anti-Semite & Jew W/New Preface
+Discourse On Method & Meditations (Lla 89)
+Republic & Other Works (Trans: Jowett)
+CHM - 129, section 01 (Marzluff, E)
+Chemistry
+CHM - 129, section 02 (Trimmer, E)
+Chemistry
+CHM - 129, section 03 (Ortiz, C.)
+Chemistry
+PST - 220, section 01 (Werner, T.)
+Practical Guide For Policy Analysis
+Intro To The Policy Process
+BIO - 150, section 03 (Jacobson, P)
+Biology - Do Not Use This Number
+Experimental Design For The Life Sciences
+BIO - 340, section 01 (Jacobson, P)
+Freshwater Ecology
+ECN - 280, section 01 (Brouhle, K.)
+Microeconomics
+ECN - 369, section 01 (Brouhle, K.)
+Economics Of Environment
+CHI - 222, section 01 (Fryslie)
+Pocket Oxford Chinese Dictionary   English-Chinese
+Integrated Chinese: Simpl & Trad Char Ed Txtbk Lev
+Integrated Chinese: Simpl & Trad Char Ed Wkbk Leve
+Integrated Chinese: Trad & Simp Char Ed Char Wkbk 
+GWS - 324, section 01 (Johnson)
+Critical Race Feminism: A Reader
+Just Stories
+Where Is Your Body?
+Philosophy Of Law
+And We Are Not Saved
+Dictionary Of Legal Terms
+Justice At War
+GWS - 495, section 01 (Johnson)
+With Her Machete In Her Hand
+Massacre Of The Dreamers
+Gloria Anzaldua Reader
+Decolonial Imaginary
+Methodology Of Oppressed
+Last Of The Menu Girls
+ANT - 104, section 01 (Bentley-Condit, V)
+Life In The Pueblo
+Human Evolution
+Forest Dwellers, Forest Protectors
+Essentials Of Cultural Anthropology
+CSC - 302, section 01 (Rebelsky, S)
+Seven Languages In Seven Weeks
+MAT - 246, section 01 (French, C)
+Elementary Number Theory
+MAT - 218, section 01 (French, C)
+Combinatorics & Graph Theory
+MAT - 215, section 02 (Mileti, J.)
+Linear Algebra & Its Applications 3Rd Update (W/Cd
+SOC - 111, section 02 (Hunter, C)
+Everything In Its Path
+Heroic Efforts
+Genders In Production
+Villa Victoria
+Ain't No Makin' It
+ANT - 225, section 01 (Bentley-Condit, V)
+Human Biological Variation
+Anthropological Genetics
+GRM - 303, section 01 (Michaels, J)
+Bahnwarter Thiel (Reclam)
+Der Ausflug Der Tolen Madchen
+Was Soll Aus Dem Jungen Bloss Werden
+Fruhlings Erwachen (Reclam)
+Im Westen Michts Newues
+Was Bleibt
+GRM - 227, section 01 (Michaels, J)
+Seed Of Sarah
+All But My Life New, Expd
+Survival In Auschwitz W/New Afterword
+Investigation
+Sunflower (Rev & Expd)
+Night - 2Nd Edition
+Jacob The Liar
+History Of The Holocaust
+HIS - 220, section 01 (Guenther, M.)
+Changes In The Land 20Th Anniv Ed
+Rivers Of Empire
+Down To Earth
+Flight Maps
+CHI - 102, section 01 (Feng, J)
+Concise English-Chinese Chinese-English Dictionary
+Integrated Chinese: Trad Char Ed Txtbk Level 1 Par
+Integrated Chinese: Trad Char Ed Wkbk Level 1 Part
+Integrated Chinese: Trad & Simp Char Ed Char Wkbk 
+MAT - 326, section 01 (Mileti, J.)
+Introduction To The Galois Correspondence
+ECN - 338, section 01 (Swart, B.)
+Games Of Strategy
+MAT - 115, section 03 (Swart, B.)
+Basic Practice Of Statistics (W/Cd)
+MAT - 115, section 01 (Upright, C.)
+Basic Practice Of Statistics (W/Cd)
+ECN - 111, section 05 (Swart, B.)
+Economics
+GRM - 233, section 01 (Reynolds, D)
+German National Cinema
+Film Theory & Criticism
+CHI - 332, section 01 (Fryslie)
+China Scene: Advanced Chinese Multimedia Course
+ECN - 233, section 01 (Mutti, J)
+International Economics
+PSY - 225, section 01 (Ralston, C.)
+Research In Psychology - 6Th Edition
+Publication Manual (2Nd Prtg Or Later)
+PSY - 395, section 01 (Ralston, C.)
+Theories Of Psychotherapy & Counseling
+Intentional Interviewing & Counseling (W/Cd)
+MAT - 124, section 01 (Wolf, R)
+Calculus: Single Variable
+MAT - 131, section 01 (Wolf, R)
+Calculus (Alternate Edition) (Paperback) (6Th Edit
+PSY - 260, section 01 (Gibson, J)
+Cognitive Psychology In & Out Of The Lab
+PHY - 314, section 01 (Mehta, N.)
+Intro To Thermal Physics
+ - , section  ()
+SOC - 291, section 01 (Hart-Brinson, P.)
+Craft Of Research
+Practice Of Social Research
+ANT - 291, section 01 (Hart-Brinson, P.)
+Craft Of Research
+Practice Of Social Research
+PSY - 113, section 01 (Gibson, J)
+Norton Psychology Reader
+Psychology: Concise Intro
+HUM - 290, section 01 (Geller, T.)
+Genre & Hollywood
+Film Genre Reader Iii
+No Future
+SOC - 248, section 01 (Hunter, C)
+Influence
+Production Of Reality
+CSC - 341, section 01 (Stone, J)
+Intro To Theory Of Computation
+ENG - 120, section 02 (Ma, N.)
+Pudd'nhead Wilson
+Frankenstein (Ed: Smith)
+Woman Warrior
+Critical Theory Today
+Poetry Handbook
+On The Road
+Bitter In The Mouth
+Gold Boy, Emerald Girl
+ENG - 120, section 03 (Ma, N.)
+Pudd'nhead Wilson
+Frankenstein (Ed: Smith)
+Woman Warrior
+Critical Theory Today
+Poetry Handbook
+On The Road
+Bitter In The Mouth
+Gold Boy, Emerald Girl
+SPN - 395, section 02 (Patrick, B.)
+El Cuarto De Atras (Destinolibro)
+Soldados De Salamina (Tusquets)
+Spanish Civil War
+El Vano Ayer
+HUM - 101, section 03 (Mercado, A.)
+Iliad (Trans: Lattimore)
+Greek Tragedies Vol 1
+History Of Peloponnesian War (Rev)(Ed: Finley)
+Symposium (Trans: Gill)
+Last Days Of Socrates (Rev)
+Greek Tragedies Vol 3
+Poetics (Trans: Heath)
+Odyssey Of Homer P.S. Ed (Trans: Lattimore)
+LAT - 323, section 01 (Mercado, A.)
+Aeneid Book Viii (Ed: Gransden)
+Virgil Eclogues
+Georgics: Volume 2, Bks Iii-Iv
+Cambridge Companion To Virgil
+CLS - 242, section 01 (Mercado, A.)
+Anthology Of Classical Myth
+Etruscan Myths
+Hittite Myths - 2Nd Edition
+Approaches To Greek Myth
+SPN - 265, section 01 (French, B)
+Mitzvah Girls
+Discourse Analysis
+Linguistic Anthropology: Reader
+Maya Ethnolinguistic Identity
+ANT - 235, section 01 (Gibel Mevorach, K)
+Whiteness Of A Different Color
+Color Of Class
+Sound Targets
+Hollywood Blockbusters
+SOC - 295, section 03 (Hart-Brinson, P.)
+Militants & Citizens
+Fixing Elections
+Hearing The Other Side
+Domination & The Arts Of Resistance
+Diminished Democracy
+Talking About Politics
+HUM - 101, section 01 (Phillips, E)
+Iliad (Trans: Lattimore)
+Greek Tragedies Vol 1
+History Of Peloponnesian War (Rev)(Ed: Finley)
+Symposium (Trans: Gill)
+Last Days Of Socrates (Rev)
+Odyssey (Trans: Lombardo)
+Greek Tragedies Vol 3
+Sappho's Lyre
+Poetics (Trans: Heath)
+Writing With Style
+PHI - 336, section 01 (Schrift, A)
+History Of Sexuality Vol 1: Intro
+Discipline & Punish
+Essential Foucault
+Security, Territory, And Population
+Society Must Be Defended
+Birth Of Biopolitics
+SPN - 217, section 01 (Benoist, V)
+Ritos De Iniciacion
+En La Ardiente Oscuridad
+Avanzando - 6Th Edition
+Avanzando Cuad De Act
+SPN - 217, section 02 (Aparicio, Y)
+Ritos De Iniciacion
+En La Ardiente Oscuridad
+Avanzando - 6Th Edition
+Avanzando Cuad De Act
+LAS - 111, section 01 (Benoist, V)
+Little School (2Nd)
+Companion To Latin American Studies
+Devil's Highway
+Women Of Colonial Latin America
+ENG - 325, section 01 (Ma, N.)
+Where The Body Meets Memory
+Woman Warrior
+Fault Lines Special 10Th Anniv Ed (Rev & Expd)
+Language Of Blood
+Among The White Moon Faces
+Fifth Chinese Daughter W/New Intro
+Catfish & Mandala
+Paper Bullets
+Talk Thai
+Burden Of Ashes
+MAT - 209, section 01 (Olsen, C.)
+Intro To Practice Of Statistics (W/Cd)
+MAT - 209, section 02 (Olsen, C.)
+Intro To Practice Of Statistics (W/Cd)
+MAT - 309, section 01 (Olsen, C.)
+Intro To Design & Analysis Of Experiments
+JPN - 102, section 01 (Asaoka, N.)
+Integrated Course In Elem Japanese I Wkbk
+Integrated Course In Elem Japanese I
+JPN - 332, section 01 (Asaoka, N.)
+Integrated Approach To Intermediate Japanese (W/2 
+Integrated Approach To Intermediate Japanese Workb
+WRT - 102, section 01 (Moisan, C)
+Current Issues & Enduring Questions
+WRT - 102, section 02 (Moisan, C)
+Current Issues & Enduring Questions
+BIO - 150, section 04 (Ruthig, G.)
+Ecology
+ART - 103, section 01 (Romberg, K.)
+Short Guide To Writing About Art
+Art History: A Very Short Introduction
+Gardner's Art Through Ages
+ART - 103, section 02 (Romberg, K.)
+Short Guide To Writing About Art
+Art History: A Very Short Introduction
+Gardner's Art Through Ages
+ART - 103, section 03 (Chasson, T)
+Short Guide To Writing About Art
+Art History: A Very Short Introduction
+Gardner's Art Through Ages
+SCI - 295, section 01 (Sharpe, L)
+Renewable Energy Policy
+Renewable Energy
+HIS - 100, section 02 (Drake, G)
+Pilgrims In Their Own Land
+Manual For Writers: Term Pap, Thesis, Etc
+History: A Very Short Intro
+Anti-Federalist Papers & Const Convent Debates
+Federalist Papers (Intro: Kesler)
+Democracy In America & Two Essays On America
+Albion's Seed
+Reformation Of Sixteenth Century Enlgd
+ART - 210, section 01 (Strauber, S)
+Voices Of Women Artists
+Expanding Discourse
+Old Mistresses
+Women, Art & Society
+Women Artists In The 20Th And 21St Century
+ART - 295, section 01 (Strauber, S)
+Reading The Pre-Raphaelites
+Art Of The Pre-Raphaelites
+What Jane Austen Ate & Charles Dickens Knew
+Pre-Raphaelites
+CSC - 207, section 01 (Weinman, J.)
+Data Structures & Problem Solving Using Java
+CSC - 151, section 01 (Weinman, J.)
+No Text Required
+POL - 101, section 01 (Hamlin, R.)
+Power & Choice - 12Th Edition
+POL - 295, section 01 (Hamlin, R.)
+No Text Required
+SOC - 295, section 02 (Hart-Brinson, P.)
+Gay Tv & Straight America
+Deciding What's News 25Th Anniv Ed
+Media Unlimited W/New Afterword
+Screening The Los Angeles "Riots"
+Cosmopolitan Communications
+Networked Publics
+RUS - 222, section 01 (Vishevsky, A)
+Lady With The Dog
+ANT - 290, section 01 (Whittaker, J)
+Life In The Pueblo
+Early Mesoamerican Village
+Archaeology
+GWS - 111, section 01 (Johnson)
+House On Mango Street
+Women's Voices, Feminist Visions
+History Of U.S. Feminisms
+Penguin Atlas Of Women In The World Rev & Updtd
+ANT - 104, section 03 (French, B)
+Birthing The Nation
+Assault On Paradise
+Chosen Species
+Man The Hunted Expd Ed
+Taking Sides: Anthropology
+In Small Things Forgotten Rev & Expd
+PHI - 111, section 03 (Nyden)
+Grounding For Metaphysics Of Morals (3Rd)(Trans: E
+Republic & Other Works (Trans: Jowett)
+Enquiry Concerning Prin Of Morals (Ed: Schneewind)
+Meditations On First Philosophy (Trans: Cress)
+PHI - 233, section 01 (Nyden)
+Enquiry Concerning Human Understanding W/Letter, E
+Discourse On Metaphysics & Other Essays
+Prolegomena To Any Future Metaphysics (Rev: Elling
+Selected Philosophical Writings (Trans: Cottingham
+Essay Concerning Human Understanding
+Spinoza Reader
+Principles Of The Most Ancient & Modern Philosophy
+Leviathan
+FRN - 222, section 01 (Ireland, S)
+Collage: Revision De Grammaire
+Collage: Revision De Grammaire Cahier D'exer
+Antigone (La Table Ronde)
+Au Revoir, Les Enfants
+La Douleur
+ENG - 120, section 01 (Kapila, S)
+Small Place
+Haroun & The Sea Of Stories
+Joseph Conrad's Heart Of Darkness
+She (Ed: Stauffer)
+Gulliver's Travels (Ed: Fox)
+Great Plains
+ENG - 225, section 01 (Kapila, S)
+Things Fall Apart
+Tempest (Ed: Vaughan)
+Lucy
+East, West
+Omeros
+Remains Of The Day
+Tempest (Rev)(Trans: Miller)
+Wide Sargasso Sea
+HUM - 101, section 02 (Arner, T.)
+History Of Peloponnesian War (Rev)(Ed: Finley)
+Symposium (Trans: Gill)
+Iliad (Trans: Fagles)
+Odyssey (Trans: Fagles)
+Poetics (Trans: Heath)
+Phaedrus (Tran: Rowe)
+ECN - 111, section 01 (Seiz, J)
+Economics
+PHI - 101, section 01 (Neisser)
+Critical Thinking
+PHI - 295, section 01 (Neisser)
+Defining Right & Wrong In Brain Science
+Neurophilosophy At Work
+Self Comes To Mind
+ART - 111, section 01 (Kluber,  Matt)
+Launching The Imagination
+ART - 111, section 04 (Kluber,  Matt)
+Launching The Imagination
+ART - 236, section 01 (Kluber,  Matt)
+Printmaking
+ENG - 120, section 04 (Savarese, R)
+Lying
+Planet Of The Blind
+Critical Theory Today
+Poetry
+Fiction
+As I Lay Dying
+ENG - 231, section 01 (Savarese, R)
+Awakening
+Rivethead
+Maggie: Girl Of The Streets & Selected Stories
+Lying
+Maus I: My Father Bleeds History
+In Dubious Battle
+As I Lay Dying
+White Noise
+Maus Ii: And Here My Troubles Began
+FRN - 301, section 01 (Moisan, P)
+Phonetique
+Contrastes
+La Place (Folio)
+FRN - 221, section 01 (Moisan, P)
+Collage: Revision De Grammaire
+Collage: Revision De Grammaire Cahier D'exer
+Autour De La Litterature (W/Cd)
+GRM - 102, section 01 (Reynolds, D)
+Neue Horizonte (Bundle)
+GRM - 102, section 02 (Barber, S)
+Neue Horizonte (Bundle)
+GRM - 222, section 01 (Barber, S)
+Erzahlungen (Ed: Hoffmann)
+Draussen Vor Der Tur (Rowohlt)
+PSY - 113, section 02 (Seawell, A.)
+Science Of Psychology
+LIN - 114, section 01 (French, B)
+Language: Its Structure & Use
+Pidgins & Creoles: An Introduction
+SST - 295, section 02 (Caulkins, D)
+Career Match
+Career Distinction
+Drive : The Surprising Truth About What Motivates 
+HIS - 214, section 01 (Purcell, S)
+Mothers Of Invention
+Civil War & Reconstruction
+Civil War Short Stories Of Ambrose Bierce
+Gettysburg Nobody Knows
+Incidents In The Life Of A Slave Girl Unabridged
+Concise Historical Atlas Of The U.S. Civil War
+Confederates In The Attic
+Ordeal By Fire : The Civil War And Reconstruction 
+GRM - 343, section 01 (Byrd, V.)
+Kinder Und Hausmarchen
+Deutsche Kunstmarchen Von Wieland Bis Hofmannsthal
+Der Taetowierte Hund
+Krabat
+GRM - 222, section 02 (Byrd, V.)
+Die Verwandlung
+Tannod
+Eine Liebe Aus Nichts
+GRM - 495, section 01 (Byrd, V.)
+Die Judenbuche (Reclam)
+Der Sandmann-Das Ode Haus (Reclam)
+Atemschaukel
+ART - 227, section 01 (Chasson, T)
+Siena, Florence & Padua
+Art In Renaissance Italy
+Art Of The Renaissance In Rome 1400-1600
+ART - 214, section 01 (Chasson, T)
+Gothic Cathedral
+Early Medieval Architecture
+Your Money Or Your Life
+Seeing Medieval Art
+Image On Edge
+FRN - 102, section 01 (Magermans, A.)
+French In Action
+French In Action Wkbk Part 2
+French In Action Wkbk Part 1
+FRN - 102, section 02 (Gross, D)
+French In Action
+French In Action Wkbk Part 2
+French In Action Wkbk Part 1
+FRN - 305, section 01 (Magermans, A.)
+Kiffe Kiffe Demain (Livre De Poche)
+RUS - 102, section 01 (Herold, K)
+Nachalo / Book 2 / (W/Cassette)  (Title Looks Like
+Nachalo - Book 2 - Wkbk/Lab Man (Title Looks Like 
+RUS - 102, section 02 (Armstrong, T)
+Nachalo / Book 2 / (W/Cassette)  (Title Looks Like
+Nachalo - Book 2 - Wkbk/Lab Man (Title Looks Like 
+EDU - 221, section 01 (Hutchison, P.)
+Making The Grade
+Culture Of Education
+Doing School
+How People Learn Expd Ed
+NRS - 250, section 01 (Tracy, A.)
+Neuroscience (W/Cd)
+ART - 111, section 02 (Kaufman, A.)
+Launching The Imagination
+Critique Handbook
+ART - 250, section 01 (Cummins, M)
+History Of Roman Art Enhanced Ed
+Romans
+CLS - 250, section 01 (Cummins, M)
+History Of Roman Art Enhanced Ed
+Romans
+ART - 238, section 01 (Kaufman, A.)
+Complete Oil Painter
+PHE - 195, section 02 (Hamilton, A.)
+Sports In Society
+PHY - 337, section 01 (Cadmus, B)
+Introduction To Wave Phenomena
+PHY - 340, section 01 (Cadmus, B)
+Intro To Modern Astrophysics
+REL - 295, section 01 (Rietz, H)
+Terror In The Mind Of God 3Rd Completely Rev
+Authentic Fakes
+BIO - 240, section 01 (Brown, J)
+Animal Behavior
+BIO - 373, section 01 (Brown, J)
+Evolutionary Analysis
+PHI - 215, section 01 (Neisser)
+Plague
+Notes From Underground
+Existentialism: Basic Writings
+PHI - 258, section 01 (Fennell, J)
+Pragmatism: Classic Writings
+Last Word
+Pragmatism
+PHI - 256, section 01 (Fennell, J)
+Wittgenstein On Rules & Private Language
+Language Truth & Logic
+Philosophical Investigations
+REL - 214, section 01 (Rietz, H)
+New Testament Background (Rev)
+Paul Among Jews & Gentiles
+Sowing The Gospel
+New Oxford Annot Bible New Rsv W/Apocrypha College
+HIS - 295, section 06 (Maynard, K.)
+Nation's Image
+Swan King
+Shostakovich & Stalin
+RUS - 353, section 01 (Armstrong, T)
+Crime & Punishment (Ed: Gibian)
+Notes From Underground
+Double
+Demons
+Brothers Karamazov
+Poor Folk
+FRN - 222, section 02 (Gross, D)
+Collage: Revision De Grammaire
+Collage: Revision De Grammaire Cahier D'exer
+Antigone (La Table Ronde)
+Au Revoir, Les Enfants
+Le Silence De La Mer
+ENG - 360, section 01 (Kapila, S)
+Imaginary Maps
+Once Were Warriors
+Meatless Days
+Shadow Lines
+Joys Of Motherhood
+Midnight's Children 25Th Anniv Ed
+God Of Small Things
+Funny Boy
+ENG - 204, section 01 (Arner, T.)
+Richard Iii
+Style - Lessons In Clarity And Grace - (10Th Ed)
+ENG - 223, section 01 (Shore, D.)
+Norton Anth Engl Lit Vol A (Middle Ages)
+Norton Anth Engl Lit Vol B (16Th Century/Early 17T
+ENG - 121, section 01 (Shore, D.)
+Shakespeare After All
+Norton Shakespeare Essential Plays/The Sonnets
+ENG - 310, section 01 (Shore, D.)
+Tempest
+English Renaissance Drama
+Merchant Of Venice (Ed: Mowat)
+Hamlet (Ed: Mowat)(Rack Size)
+King Lear (Ed: Mowat)
+BIO - 364, section 01 (Lindgren, C)
+Animal Physiology
+MAT - 215, section 01 (Chamberland, M)
+Linear Algebra & Its Applications 3Rd Update (W/Cd
+MAT - 444, section 01 (Chamberland, M)
+Intro To Maple
+BIO - 220, section 01 (Robertson, D)
+Dna & Biotechnology (3Rd)
+ANT - 295, section 01 (Roper, M)
+Applied Anthropology
+Applied Anthropology
+MAT - 316, section 02 (Blanchard, J.)
+Understanding Analysis
+SPN - 315, section 01 (Aparicio, Y)
+Voces De Hispanoamerica
+La Mujer Habitada
+La Hojarasca
+ART - 111, section 03 (Chen, J.)
+Launching The Imagination
+Critique Handbook
+POL - 101, section 04 (Grey, B)
+Culture War?
+Power & Choice - 12Th Edition
+POL - 357, section 01 (Grey, B)
+Democratization
+Democracy & Democratization
+Debates On Democratization
+Democratization In Africa
+Is Democracy Exportable?
+SOC - 300, section 01 (Erickson)
+Successful Internship
+POL - 319, section 01 (Hamlin, R.)
+Democracy & Distrust
+Arguing About The Law
+WRT - 195, section 01 (Carl, J.)
+Concise Public Speaking Handbook
+MUS - 112L, section 01 (Westphalen, M.)
+Alfred's Group Piano For Adults Book 1 (W/Cd)
+MUS - 112L, section 02 (Westphalen, M.)
+Alfred's Group Piano For Adults Book 1 (W/Cd)
+ECN - 240, section 01 (Montgomery, M)
+Poverty Of Reason
+Environmental & Natural Res Econ
+ECN - 218, section 01 (Powell, I)
+Economic Emergence Of Women
+Economics Of Women, Men & Work
+ECN - 312, section 01 (Powell, I)
+Learning Sas In The Computer Lab
+Using Econometrics
+ECN - 327, section 01 (Munyon, P)
+Financial Management
+ECN - 382, section 01 (Munyon, P)
+Rhetoric Of Economics
+AMS - 225, section 01 (Scott, K)
+Hog Ties
+Virgin Land
+Machine In The Garden 35Th Anniv Edit (2Nd)
+Futures Of American Studies
+SOC - 285, section 01 (Scott, K)
+Contemporary Sociological Theory
+Social Theory
+FRN - 350, section 01 (Harrison, D)
+La Versification Applique Aux Texts
+Dictionnaire Des Rimes (Broche)
+French Phonetics
+FRN - 312, section 01 (Harrison, D)
+Gargantua
+Les Lettres Persanes
+Le Tartuffe (Ed: Rullier-Theuret)(Larousse)
+L'ingenu ---- (Larousse)
+Phedre (Larousse)
+FRN - 342, section 01 (Ireland, S)
+Une Fille Sans Histoire
+L'excisee
+Au Commencement Etait La Mer
+Sherazade
+PSY - 495, section 01 (Rempel-Clower, N)
+Structure Of Scientific Revolution
+Human
+Happiness
+PSY - 495, section 02 (Ellis, A)
+Structure Of Scientific Revolution
+Human
+Happiness
+PSY - 495, section 03 (Seawell, A.)
+Structure Of Scientific Revolution
+Human
+Happiness
+PSY - 233, section 01 (Ellis, A)
+How Children Develop
+MAT - 115, section 04 (Jonkman, J.)
+Basic Practice Of Statistics (W/Cd)
+BIO - 365, section 01 (Bowers, L.)
+Brock Biology Of Microorganisms
+CHM - 210, section 01 (Lyons, L)
+Exploring Chemical Analysis
+CHM - 210, section 02 (Minelli, M)
+Exploring Chemical Analysis
+HIS - 222, section 01 (Brown, V)
+Women & American Experience
+Making Marriage Modern
+Sex In The Heartland
+Trouble Between Us
+BCM - 262, section 01 (Levandoski, M)
+Fundamentals Of Biochemistry: Life At The Molecula
+POL - 239, section 01 (Trish, B)
+Presidents, The Presidency & The Political Environ
+Presidential Difference
+Presidency & Political System
+MUS - 112, section 01 (Cha, J.)
+Harmonic Practice In Tonal Music (W/Cd)
+MUS - 212, section 01 (Carlisle)
+From Sight To Sound
+Advanced Tonal Dictation (W/Cd Only)
+MUS - 212, section 02 (Carlisle)
+From Sight To Sound
+Advanced Tonal Dictation (W/Cd Only)
+PHI - 111, section 01 (Dobe, J.)
+Meditations On First Philosophy (Rev)(Trans: Cotti
+Gay Science
+Republic & Other Works (Trans: Jowett)
+Nicomachean Ethics
+An Enquiry Concerning Human Understanding
+Prolegomena To Any Future Metaphysics That Will Be
+ECN - 282, section 01 (Chan, M.)
+Macroeconomics
+ECN - 111, section 02 (Chan, M.)
+Economics
+ECN - 111, section 03 (Chan, M.)
+Economics
+MAT - 314, section 01 (Shuman)
+Discrete Wavelet Transformations
+MUS - 204, section 01 (Phillips, D.)
+Jazz (College Ed)(W/4 Cd's)
+MAT - 115, section 02 (Kamp, K)
+Workshop Statistics - Discovery W / Cd
+ENG - 295, section 02 (Kenney, R.)
+Rattle Bag
+Abc Of Reading
+POL - 354, section 01 (Willis, Eliza)
+Development As Freedom
+Elusive Quest For Growth
+Development & Underdevelopment
+ART - 400, section 01 (Strauber, S)
+Painting Of Modern Life
+Bodies Of Modernity
+Apartment Stories
+Impressionist Interiors
+Day In The Country
+HIS - 234, section 01 (Wei, J.)
+Italian Renaissance Reader
+Return Of Martin Guerre
+Cheese & The Worms
+Power And Imagination
+Last Witch Of Langenburg
+Waning Of The Middle Ages
+MUS - 213, section 01 (Cha, J.)
+Complete Piano Sonatas, Vol. I
+Complete Piano Sonatas Vol 2
+Harmonic Practice In Tonal Music
+Analysis Of Musical Form
+Beethoven's Piano Sonatas: A Short Companion (With
+JPN - 279, section 01 (Schimmel, M.)
+Kokoro
+Fires On The Plain
+Naomi
+Be A Woman
+Wind-Up Bird Chronicle
+Temple Of The Golden Pavilion
+No Longer Human
+All She Was Worth
+MUS - 262, section 01 (Brown, Jen)
+Music In Western World
+Norton Anthology Of Western Music Vol 3
+Norton Anthology Of Western Music Vol 2
+Norton Recorded Anth Of Western Music Vol Three Cd
+Norton Recorded Anth Of Western Music Vol Two Cd's
+History Of Western Music
+ANT - 395, section 01 (Tapias, M)
+Partner To The Poor
+Body At Risk
+Heart Is Unknown Country
+Life Exposed
+Say You're One Of Them
+HIS - 262, section 01 (Prevost)
+Africa Since 1940
+God's Bits Of Wood
+King Leopold's Ghost (W/New Afterword)
+African History
+World & A Very Small Place In Africa
+Mau Mau's Daughter
+HIS - 236, section 01 (Prevost)
+Road To Wigan Pier
+King Solomon's Mines
+Twentieth - Century Britain
+Defining A Nation
+Sources Of Indian Tradition Vol 2
+Origins Of Modern English Society
+British Empire
+MUS - 116, section 01 (Vetter, R)
+Music As Social Life
+Music Of The Other
+Capturing Sound
+POL - 251, section 01 (Willis, Eliza)
+Choice
+World Trade Organization
+International Political Economy
+International Political Econ
+Debates In International Political Economy
+PSY - 243, section 01 (Lopatto, D)
+Behavior Analysis & Learning
+What Shamu Taught Me About Life, Love & Marriage
+Nudge
+Paradox Of Choice
+HIS - 295, section 01 (Elfenbein, C.)
+Napoleon In Egypt Expd Ed
+Rule Of Experts
+Being Modern In The Middle East
+Modern Middle East
+Conflicted Antiquities
+ENG - 331, section 01 (Henry, A.)
+Feminist Accused Of Sexual Harassment
+Zami: New Spelling Of My Name
+Fun Home
+Unconventional Family
+Pretty Good For A Girl
+Wounds Of Passion
+Beyond The Whiteness Of Whiteness
+Among The White Moon Faces
+Testosterone Files
+Black Male Outsider
+GWS - 331, section 01 (Henry, A.)
+Feminist Accused Of Sexual Harassment
+Zami: New Spelling Of My Name
+Fun Home
+Unconventional Family
+Pretty Good For A Girl
+Wounds Of Passion
+Beyond The Whiteness Of Whiteness
+Among The White Moon Faces
+Testosterone Files
+Black Male Outsider
+GWS - 211, section 01 (Henry, A.)
+Love The Sin
+Queer Theory
+Finding Out
+Desired Past
+Transgender History
+HIS - 242, section 01 (Cohn, E.)
+Structure Of Soviet History
+Everyday Stalinism
+Russian Revolution New Ed
+Cold Peace
+Many Lives Of Khrushchev's Thaw
+HIS - 100, section 01 (Cohn, E.)
+Survival In Auschwitz W/New Afterword
+Ordinary Men W/New Afterword
+Everyday Stalinism
+History: A Very Short Intro
+Nazi State & German Society
+Revolutionary Russia
+EDU - 341, section 01 (Ketter, J)
+Adolescent Literacy
+Teaching Adolescent Writers
+Adolescents' Online Literacies
+Authentic Assessments For The English Classroom
+EDU - 340, section 01 (Ketter, J)
+Understanding By Design Expd 2Nd
+Subjects Matter
+Content-Area Writing
+Re/Constructing "The Adolescent"
+HUM - 195, section 01 (Elfenbein, C.)
+Ornament Of The World
+Crusades
+Occidentalism
+Contending Visions Of The Middle East
+SST - 195, section 01 (Elfenbein, C.)
+Ornament Of The World
+Crusades
+Occidentalism
+Contending Visions Of The Middle East
+HIS - 295, section 02 (Elfenbein, C.)
+Politics Of Piety
+Women & Gender In Islam
+Politics, Gender & The Islamic Past
+In The House Of The Law
+Liberation Of Women & The New Woman
+Veil & The Male Elite
+REL - 295, section 02 (Elfenbein, C.)
+Politics Of Piety
+Women & Gender In Islam
+Politics, Gender & The Islamic Past
+In The House Of The Law
+Liberation Of Women & The New Woman
+Veil & The Male Elite
+THE - 225, section 01 (Womack, S)
+Speaking Of Dance
+Dance Composition
+Choreographer's Handbook
+SOC - 111, section 03 (Ferguson, S)
+Everything In Its Path
+Pursuit Of Attention (2Nd)
+Ain't No Makin' It
+Mapping The Social Landscape
+SOC - 111, section 04 (Ferguson, S)
+Everything In Its Path
+Pursuit Of Attention (2Nd)
+Ain't No Makin' It
+Mapping The Social Landscape
+SOC - 320, section 01 (Ferguson, S)
+All Our Kin
+Gender & Families
+Families In Poverty
+Shifting The Center
+ENG - 327, section 01 (Simpson, E)
+Mary & Maria/Matilda
+Italian
+Shelley's Poetry & Prose (Ed: Reiman)
+Castle Of Otranto
+Frankenstein
+Private Memoirs & Confessions Of A Justified Sinne
+Lyrical Ballads 1798 & 1800
+Longman Anthology Of Gothic Verse
+SOC - 111, section 01 (Erickson)
+Everything In Its Path
+Ain't No Makin' It
+Mapping The Social Landscape
+Hungry Cowboy
+SOC - 260, section 01 (Erickson)
+Sexualities
+Harmful To Minors
+Black Sexual Politics
+Race, Ethnicity & Sexuality
+HIS - 321, section 01 (Lacson, P.)
+Becoming America
+Spanish Frontier In North America Brief Ed
+Indians, Settlers & Slaves In Frontier Exchange Ec
+Unredeemed Captive
+Midwife's Tale
+HIS - 227, section 01 (Lacson, P.)
+All God's Dangers
+Coming Of Age In Mississippi
+Creating Black Americans
+Narrative Of The Life Of Frederick Douglass, Ameri
+At The Dark End Of The Street
+ENG - 227, section 01 (Andrews, S)
+Classic American Autobiographies
+Coquette
+Last Of The Mohicans
+Arthur Mervyn; Or, Memoirs Of The Year 1793
+Hobomok
+Portable Hawthorne (Intro: Spengemann)
+ENG - 390, section 01 (Andrews, S)
+Hamlet (Bedford)
+Critical Theory Since Plato
+On Metaphor
+POL - 250, section 01 (Moyer, W)
+Essence Of Decision
+Perception & Misperception In International Politi
+United States & The Origins Of The Cold War (New E
+Preponderance Of Power
+Assassins' Gate
+Presidential Decisions For War
+POL - 295, section 02 (Moyer, W)
+Inventing Human Rights
+Universal Human Rights
+REL - 228, section 01 (Dobe, T)
+Guide
+Ramayana (Intro: Mishra)
+Filming The Gods
+Hinduism: A Very Short Intro
+Everyday Life In South Asia
+ - , section  ()
+REL - 394, section 01 (Dobe, T)
+Between Heaven & Earth
+Guru English
+Imperial Encounters
+Yoga Body
+Invention Of World Religions
+Prophets In Their Own Country
+GDS - 111, section 01 (Roper, M)
+No Text Required
+ANT - 104, section 02 (Roper, M)
+Invisible Culture
+Into The Heart
+Human Evolution
+Core Concepts In Cultural Anthropology
+Anthropology 09/10 (Ed: Angeloni)
+ENG - 206, section 01 (Barlow, G)
+Making Of A Poem
+Taboo
+From Sweetness
+American Rendering
+AMS - 130, section 01 (Barlow, G)
+American Studies Anthology
+Art Of Styling Sentences
+Hope Dies Last
+Moral Politics
+This Republic Of Suffering
+Crucible (Intro: Bigsby)
+Mine Eyes Have Seen The Glory
+HUM - 295, section 01 (Herold, K)
+Catcher In The Rye
+Seventeenth Summer
+I Know Why The Caged Bird Sings
+Outsiders
+I Know What You Did Last Summer
+Chocolate War 30Th Anniv Ed
+Pigman
+Are You There God? It's Me, Margaret
+Forever...
+Palace Walk
+Shizuko's Daughter
+Bride Price
+Hand Full Of Stars
+Green Days By The River
+You & You & You
+Center Of The World
+THE - 211, section 01 (Delmenico, L)
+Performance Studies
+Women's Intercultural Performance
+Theatre Histories
+Fair Ladies At A Game Of Poem Cards
+Death & The King's Horseman
+Other Shore
+CSC - 151, section 02 (Davis, J.)
+No Text Required
+TEC - 154, section 01 (Davis, J.)
+Culture & Technology
+How Invention Begins
+To Engineer Is Human
+Nature Of Technology
+PHY - 220, section 01 (Cunningham, C)
+Art Of Electronics
+REL - 195, section 01 (Gilday, E)
+Confucius
+Liquid Life
+Chinese Religion
+Shamans, Housewives & Other Restless Spirits
+REL - 222, section 01 (Gilday, E)
+Chinese Religion
+Religions Of China In Practice
+Taoism: Growth Of A Religion
+Chinese Religion
+ECN - 376, section 01 (Seiz, J)
+Poverty & Discrimination
+ART - 295, section 02 (Romberg, K.)
+Theory Of The Avant-Garde
+Russian Experiment In Art 1863-1922 Rev & Enlgd
+Russian Revolution New Ed
+Imagine No Possessions
+Literature & Revolution
+HIS - 100, section 03 (Sanders, S.)
+History: A Very Short Intro
+When Poetry Ruled The Streets
+Unfinished Journey
+HIS - 295, section 07 (Johnson, M.)
+Deng Xiaoping & The Making Of Modern China
+America's Response To China
+China's Communist Party
+Accepting Authoritarianism
+China
+Three Faces Of Chinese Power
+China's Struggle For Status
+River Runs Black
+Against The Law
+HIS - 371, section 01 (Johnson, M.)
+Creation Of The Media
+Readings In Propaganda & Persuasion
+Propaganda Technique In World War I
+Propaganda
+Totalitarian Party
+Thought War
+Global Tv
+HIS - 295, section 03 (Johnson, M.)
+Opium War Through Chinese Eyes
+In The Ruins Of Empire
+East Asia From 1600
+Under The Black Umbrella
+Ho Chi Minh: A Life
+Blowback
+Four Little Dragons
+HIS - 201, section 01 (Silva, P)
+Victors & Vanquished
+Short Account Of Destruction Of Indies
+Colonial Lives
+Lieutenant Nun
+To Love, Honor & Obey In Colonial Mexico
+Seven Myths Of The Spanish Conquest
+POL - 310, section 01 (Trish, B)
+Empirical Political Analysis
+ENG - 295, section 01 (Savarese, R)
+Creating Nonfiction
+Touchstone Anthology Of Contemporary Creative Nonf
+Seneca Review Special Issue: The Lyric Body
+SOC - 295, section 04 (Upright, C.)
+Corn & Capitalism
+Food Politics
+Food In Global History
+Let Them Eat Junk
+Food
+Food Wars
+Politics Of Food Supply
+THE - 202, section 01 (Mease, E)
+History Of The Theatre
+Endgame
+Man & Superman (W/New Intro)
+Arcadia
+No Exit & Three Other Plays
+Mother Courage & Her Children (Trans: Bentley)
+Anton Chekhov's Plays
+Theatre & Its Double
+Naked Masks
+Four Plays
+Marat/Sade: Play By Peter Weiss
+Homecoming
+Blacks: Clown Show
+Theatre Of The Absurd
+Theatre Of Revolt
+Top Girls W/Commentary & Notes
+Four Major Plays
+HUM - 102, section 01 (Mease, E)
+Republic The Laws
+Annals Of Imperial Rome
+Stoic Philosophy Of Seneca
+Aeneid (Trans: Fitzgerald)
+Early Christian Writings (Rev)
+Metamorphoses
+Complete Odes And Epodes
+New Oxford Annot Bible New Rsv W/Apocrypha (Plain)
+Way Things Are (Trans: Humphries)
+Sixteen Satires New Edition (Trans: Green)
+Confessions Of St Augustine W/New Intro (Trans: Wa
+City Of God
+Consolation Of Philosophy (Lla 86)
+On Obligations
+HUM - 140, section 01 (Mease, E)
+Book Of The Courtier
+Christian Liberty
+Portable Renaissance Reader
+Tempest (Ed: Holland)
+Song Of Roland
+Inferno (Trans: Hollander)
+Prince
+EDU - 342, section 01 (Akiyama, Y.)
+Techniques & Principles In Language Teaching
+English Learners Academic Literacy & Thinking
+Academic Language For English Lang Learners & Stru
+Teacher's Handbook
+Context & Culture In Language Teaching
+ECN - 262, section 01 (Graham, B.)
+Statistics For Management & Econ (W/Cd)
+ECN - 111, section 04 (Graham, B.)
+Economics
+PHY - 234, section 01 (Wickramasekara, S.)
+Classical Dynamics Of Particles & Systems St Sol M
+Classical Dynamics Of Particles & Systems
+PHY - 131, section 02 (Wickramasekara, S.)
+No Text Required
+EDU - 346, section 01 (Akiyama, Y.)
+Esl/Efl Teaching
+Techniques & Principles In Language Teaching
+English Learners Academic Literacy & Thinking
+Academic Language For English Lang Learners & Stru
+Foundations Of Dual Language Instr
+THE - 115, section 01 (Thomas, J.)
+Theatrical Design & Production
+THE - 240, section 01 (Thomas, J.)
+Dramatic Imagination
+Backwards & Forwards
+LAT - 222, section 01 (Cummins, M)
+Student's Latin Grammar North American Third Ed
+Caesar's Gallic War Bk I
+HIS - 329, section 01 (Silva, P)
+Beneath The United States
+U. S. Presidents & Latin American Interventions
+Craft Of Research
+No Higher Law
+Empire's Workshop
+ARB - 222, section 01 (Youssef, M.)
+Al-Kitaab Fii Ta Callum Al-Carabiyya With Dvds, Pa
+MUS - 321, section 01 (Phillips, D.)
+Ii-V7-I Progression: A New Approach To Jazz Improv
+Major & Minor: Learn To Improvise In Every Key (Pl
+SOC - 295, section 01 (Bywater, K.)
+Playing With Fire
+Endangered Daughters
+Bananeras
+Development With A Body
+Desire For Development
+MAT - 133, section 01 (Blanchard, J.)
+Calculus (Alternate Edition) (Paperback) (6Th Edit
+MAT - 133, section 02 (Blanchard, J.)
+Calculus (Alternate Edition) (Paperback) (6Th Edit
+MAT - 133, section 03 (Romano)
+Calculus (Alternate Edition) (Paperback) (6Th Edit
+ANT - 265, section 01 (French, B)
+Mitzvah Girls
+Discourse Analysis
+Linguistic Anthropology: Reader
+Maya Ethnolinguistic Identity
+GRE - 222, section 01 (Hughes, D)
+Athenaze Book Ii
+Athenaze Student Workbook For Book Ii
+RUS - 332, section 01 (Armstrong, T)
+Heart Of A Dog
+EDU - 295, section 01 (Hutchison, P.)
+Radical Equations
+Reading & Writing The World With Mathematics
+What's Math Got To Do With It?
+ENG - 385, section 01 (Jackson, J.)
+Bastard Out Of Carolina
+To The Lighthouse (Annotated W/Intro By Hussey)
+Making Shapely Fiction
+Madame Bovary (Trans: Mauldon)
+Random House Guide To Good Writing
+PSY - 336, section 01 (Rempel-Clower, N)
+No Text Required
+MAT - 336, section 01 (Jonkman, J.)
+Intro To Mathematical Stats & Its Appl
+SPN - 285, section 01 (Valentin, M)
+El Gesticulador
+Ritos De Iniciacion
+Escuadra Hacia La Muerte La Mordaza
+SPN - 285, section 02 (Nasser, M.)
+El Gesticulador
+Ritos De Iniciacion
+Escuadra Hacia La Muerte La Mordaza
+SPN - 285, section 03 (Perez, M.)
+El Gesticulador
+Ritos De Iniciacion
+Escuadra Hacia La Muerte La Mordaza
+MAT - 220, section 01 (Shuman)
+No Text Required
+ENG - 120, section 05 (Benjamin, S.)
+Understanding Comics
+Beloved W/New Foreword
+Nat Turner
+Topdog/Underdog
+CHM - 423, section 01 (Minelli, M)
+Inorganic Chemistry
+BIO - 150, section 01 (Queathem, L)
+No Text Required
+CSC - 105, section 01 (Weinman, J.)
+No Text Required
+ANT - 395, section 02 (Kamp, K)
+No Text Required
+CLS - 495, section 01 (Hughes, D)
+No Text Required
+CHM - 364, section 01 (Hernandez-Soto)
+No Text Required
+ANT - 267, section 01 (Woods, A.)
+Aztecs
+Incas
+EDU - 101, section 01 (Michaels, D.)
+Philosophical Documents In Education
+Education & Social Change
+Beyond Silenced Voices
+Death & Life Of The Great American School System
+EDU - 217, section 01 (Michaels, D.)
+Global Politics Of Educational Borrowing & Lending
+Education In A Globalized World
+Stones Into Schools
+EDU - 343, section 01 (Michaels, D.)
+Historical Thinking & Other Unnatural Acts
+This Fleeting World
+CSC - 262, section 01 (Davis, J.)
+Ux Book : Ensuring A Quality User Experience
+THE - 311, section 01 (Delmenico, L)
+East, West
+Colonial & Postcolonial Fiction
+MAT - 316, section 01 (Romano)
+No Text Required
+MAT - 316, section 03 (Romano)
+No Text Required
+POL - 257, section 01 (Sala, G.)
+Nations & Nationalism Since 1780 (2Nd)
+THE - 117, section 01 (Quintero, C.)
+An Actor Prepares
+Oleanna
+REL - 226, section 01 (Dobe, T)
+Journey Of One Buddhist Nun
+Guide
+Ramayana (Intro: Mishra)
+Life Of Hinduism
+Songs Of The Saints Of India ( 3Rd Edition)
+Yoga Body
+GRM - 372, section 01 ()
+Sommerhaus, Spater (Fischer)
+Saga
+Triumphgemuse
+Simple Storys
+Die Nacht, In Der Die Mauer Fiel
+Die Komische Frau
+SST - 295, section 01 (Nixon, H.)
+Model Rules Of Professional Conduct 2010 Ed

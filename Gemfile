@@ -16,6 +16,8 @@ gem 'hpricot'
 gem 'aws-s3'
 gem "paperclip"
 gem "aws-ses", "~> 0.3.2", :require => 'aws/ses'
+gem 'formtastic'
+
 
 # Use unicorn as the web server
 # gem 'unicorn'

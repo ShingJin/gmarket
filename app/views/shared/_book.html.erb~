@@ -1,0 +1,18 @@
+<% for book in @books %>  
+
+
+   <tr style="border-bottom: 1px dotted #999999;">  
+
+	     <div id="item_title">
+			<%= book.title %>
+             </div>
+	  
+   </tr>
+
+
+
+
+
+
+
+<% end %>
