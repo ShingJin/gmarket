@@ -25,7 +25,7 @@ class BooksController < ApplicationController
 
 			
 			for b in @books
-				u=User.find(1).items.build
+				u=current_user.items.build
 				u.name=b.title
 				u.price=b.price
 				u.isbn=b.isbn
