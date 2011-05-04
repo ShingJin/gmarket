@@ -11,7 +11,12 @@
       	<%=  select_tag :department,  options_for_select(["AMS", "ANT", "ARB", "ART", "BCM", "BIO", "CHI", "CHM", "CLS", "CSC", "ECN", "EDU", "ENG", "ENV", "FRN", "GDS", "GRE", "GRM", "GWS", "HIS", "HUM", "JPN", "LAS", "LAT", "LIN", "MAT", "MUS", "NRS", "PHE", "PHI", "PHY", "POL", "PST", "PSY", "REL", "RUS", "SCI", "SOC", "SPN", "SST", "TEC", "THE"], params[:department]), :class=>"quickfront"%>
         <%= text_field_tag :course,  params[:course], :class=>"quickfront", :style=>"width:30px;"%>  
         <%= text_field_tag :section,  params[:section], :class=>"quickfront", :style=>"width:30px;"%>  
+	<% if current_user %>
         <%= submit_tag "Search",  :name => nil,:class=>"quickfront",:style=>"background:#F0F0F0" %>  
+	<% else %>
+	<br>
+	<%= link_to "Sign in to sell", "/auth/facebook",:class=>"quickfront" %>
+	<% end %>
       </div>
       
       
