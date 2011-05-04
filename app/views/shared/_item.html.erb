@@ -43,9 +43,9 @@
      
      </td>
      <% if item.secondprice.nil? %>
-     <td width="20%" class="price"><%= number_to_currency(item.price, :unit => "$") %></td>  
+     <td width="15%" class="price"><%= number_to_currency(item.price, :unit => "$") %></td>  
      <% else %>
-     <td width="20%" class="price"><%= number_to_currency(item.price, :unit => "$") %> ~ <%= number_to_currency(item.secondprice, :unit => "$") %></td>  
+     <td width="15%" class="price"><%= number_to_currency(item.price, :unit => "$") %> ~ <%= number_to_currency(item.secondprice, :unit => "$") %></td>  
 	<% end %>
      
      <td width="10%" class="bs"><% if item.bs %>
@@ -54,7 +54,7 @@
      	 <div style="color:#508600">Sell</div>
      	 <% end %>
      </td>
-     <td width="10%" class="bs">
+     <td width="15%" class="bs">
    		<%= format_date(:short_no_year, item.created_at) %>
     </td>
 
