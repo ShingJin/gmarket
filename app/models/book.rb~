@@ -38,7 +38,7 @@ class Book < ActiveRecord::Base
 
 	def self.scrape
 		@address="http://bookstore.grinnell.edu/textbooks_xml.asp?control=section&section="
-		@digits=2039..2261
+		@digits=1949..2261
 
 	
 			@digits.each do |d|

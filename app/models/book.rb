@@ -11,6 +11,7 @@ class Book < ActiveRecord::Base
 
 
 
+
   def self.department(department)
   	if department
   	   where(:department=>department)
