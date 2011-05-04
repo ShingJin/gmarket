@@ -12,4 +12,18 @@ namespace :db do
     end  
          Book.scrape
     end
+
+  desc "show"
+
+    task :add_show => :environment do
+    	 
+	for i in Item.all
+	    i.show=true
+	    i.save
+	end
+
+    end
+  
+
+
 end

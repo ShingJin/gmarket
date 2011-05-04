@@ -5,7 +5,7 @@ namespace :db do
     
 
 
-    task :change_money => :environment do
+    task :add_books => :environment do
     
     for b in Book.all
         b.destroy  
