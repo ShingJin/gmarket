@@ -549,7 +549,7 @@ margin-bottom:20px;
 }
 
 
-.constraint { width:650px; margin:auto;}
+.constraint { width:650px; float:left;margin-left:190px;}
 a#header_real { background-image:url(/images/header.png); width:900px; height:47px; display:block; }
 #ask_pane { margin-top:20px; margin-bottom:20px; }
 .describe_text { margin:auto; display:block;}
