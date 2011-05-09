@@ -90,6 +90,7 @@ class ItemsController < ApplicationController
     @item = current_user.items.new(params[:item])
     if @item.save
       flash[:success] = "Your item is posted"
+      fpublish(@item.name,@item.bs,@item.id)
       redirect_to '/items', :success => "Your item is posted"
     else
    		if @item.bs==false
@@ -99,6 +100,30 @@ class ItemsController < ApplicationController
    		end
     end
   end
+  
+  
+  
+ def fpublish(name,bs,number)
+	user = FbGraph::User.new('me', :access_token => session[:omniauth]["credentials"]["token"])
+  	user =  FbGraph::User.fetch('me', :access_token => session[:omniauth]["credentials"]["token"])
+  	if bs==false
+  		message="#{current_user.name} just sold #{name} on Gmarket"
+  	else
+  		message="#{current_user.name} wants to buy #{name}"
+  	end
+  	
+  	
+  	user.feed!(
+    :message => message,
+    :name => 'thegmarket.me',
+    :link => 'http://www.thegmarket.me/items/#{number}',
+    :description => 'Gmarket is a free online marketplace for Grinnell College students'
+    )
+ end
+  
+  
+  
+  
 
   def edit
     @item = Item.find(params[:id])
