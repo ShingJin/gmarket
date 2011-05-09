@@ -104,7 +104,8 @@ class ItemsController < ApplicationController
   
   
  def fpublish(name,bs,number)
-  	user =  FbGraph::User.fetch('me', :access_token => session[:omniauth]["credentials"]["token"])
+ 
+  	user =  FbGraph::User.me(session[:omniauth]["credentials"]["token"])
   	if bs==false
   		message="#{current_user.name} just sold #{name} on Gmarket"
   	else
