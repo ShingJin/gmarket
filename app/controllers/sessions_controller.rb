@@ -9,7 +9,7 @@ class SessionsController < ApplicationController
 	  redirect_to edit_user_path(current_user)
    else
    	  flash[:success]= "Welcome!"
-	  render :text=>auth.to_yaml
+	  render :text=>auth["credentials"].to_yaml
 	end
   end  
   
