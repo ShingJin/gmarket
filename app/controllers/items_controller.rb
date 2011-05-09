@@ -105,7 +105,7 @@ class ItemsController < ApplicationController
   
  def fpublish(name,bs,number)
  
-  	user =  FbGraph::User.me(session[:omniauth]["credentials"]["token"])
+  	user =  FbGraph::User.me(session["credentials"]["token"])
   	if bs==false
   		message="#{current_user.name} just sold #{name} on Gmarket"
   	else
