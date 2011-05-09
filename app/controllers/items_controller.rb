@@ -90,8 +90,14 @@ class ItemsController < ApplicationController
     @item = current_user.items.new(params[:item])
     if @item.save
       flash[:success] = "Your item is posted"
-      fpublish(@item.name,@item.bs,@item.id)
-      redirect_to '/items', :success => "Your item is posted"
+      begin
+      	fpublish(@item.name,@item.bs,@item.id)
+        redirect_to '/items', :success => "Your item is posted"
+
+      rescue
+       redirect_to '/items', :success => "Your item is posted"
+
+      end
     else
    		if @item.bs==false
    			render :action => 'new_sell'
