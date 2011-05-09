@@ -3,25 +3,52 @@ class ItemsController < ApplicationController
    helper_method :sort_column, :sort_direction
 
 
+  def update_all
+  	params[:items].each do |key,value|
+  	
+  		if params[:item_ids].nil?
+  				i=Item.find(key)
+				i.destroy
+		else
+  	
+  			if	!(params[:item_ids][key.to_s].nil?)
+  				i=Item.find(key)
+  				i.show=true
+				i.price=value["price"]
+				i.condition=value["condition"]
+				i.save
+			else
+				i=Item.find(key)
+				i.destroy
+			end
+		end
+  	end 
+  	
+  	redirect_to root_path
+  end
+  
   def index
-      @items = Item.category(params[:category]).search(params[:search],params[:bs]).order(sort_column + ' ' + sort_direction).paginate(:per_page =>20, :page => params[:page])  
+      @items = Item.where("show =?",true).where("category_id IS NOT NULL").category(params[:category]).search(params[:search],params[:bs]).order(sort_column + ' ' + sort_direction).paginate(:per_page =>30, :page => params[:page])  
  	  @categories=Category.all
+
  end
 
   def show	
     @item = Item.find(params[:id])
+  	@title="Grinnell College Marketplace - "+@item.name.titleize
   	@user = User.find(@item.user_id)
 	@pic_url="http://graph.facebook.com/"+@user.uid.to_s+"/picture"
 	@current_url="http://www.thegmarket.me/items/"+@item.id.to_s
-	
-	if current_user.admin == true
-	   @admin=true
-	else
-	   @admin=false
-	end
-	   
 
   end
+
+  def notify
+    @item = Item.find(params[:id])
+  	Notifier.notify(@item).deliver
+  	redirect_to @item
+  end
+
+
 
   def new
     @item = Item.new
@@ -63,7 +90,14 @@ class ItemsController < ApplicationController
     @item = current_user.items.new(params[:item])
     if @item.save
       flash[:success] = "Your item is posted"
-      redirect_to '/items', :success => "Your item is posted"
+      begin
+      	fpublish(@item.name,@item.bs,@item.id)
+        redirect_to '/items', :success => "Your item is posted"
+
+      rescue
+       redirect_to '/items', :success => "Your item is posted"
+
+      end
     else
    		if @item.bs==false
    			render :action => 'new_sell'
@@ -72,6 +106,31 @@ class ItemsController < ApplicationController
    		end
     end
   end
+  
+  
+  
+ def fpublish(name,bs,number)
+ 
+	user =  FbGraph::User.fetch('me', :access_token => session[:token])
+  	
+  	if bs==false
+  		message="#{current_user.name} just sold #{name} on Gmarket"
+  	else
+  		message="#{current_user.name} wants to buy #{name}"
+  	end
+  	
+  	
+  	user.feed!(
+    :message => message,
+    :name => 'thegmarket.me',
+    :link => 'http://www.thegmarket.me/items/'+number.to_s,
+    :description => 'Gmarket is a free online marketplace for Grinnell College students'
+    )
+ end
+  
+  
+  
+  
 
   def edit
     @item = Item.find(params[:id])
