@@ -392,6 +392,22 @@ margin-bottom:20px;
   color: white;
 }
 
+
+#start_buying{
+    -moz-border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    background: none repeat scroll 0 0 #27b3ea;
+    margin-top:30px;
+    color: #F8F0E6;	
+}
+
+#start_buying:hover{
+  background: #508600;
+  color: white;
+}
+
+
+
 #carrier{
  padding-bottom: 150px;
 }
