@@ -123,7 +123,7 @@ class ItemsController < ApplicationController
   	user.feed!(
     :message => message,
     :name => 'thegmarket.me',
-    :link => 'http://www.thegmarket.me/items/#{number}',
+    :link => 'http://www.thegmarket.me/items/'+number.to_i,
     :description => 'Gmarket is a free online marketplace for Grinnell College students'
     )
  end
