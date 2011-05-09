@@ -398,7 +398,8 @@ margin-bottom:20px;
     -webkit-border-radius: 4px 4px 4px 4px;
     background: none repeat scroll 0 0 #27b3ea;
     margin-top:30px;
-    color: #F8F0E6;	
+    color: #F8F0E6;
+	float:right;	
 }
 
 #start_buying:hover{
