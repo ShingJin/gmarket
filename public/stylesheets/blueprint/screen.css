@@ -399,7 +399,8 @@ margin-bottom:20px;
     background: none repeat scroll 0 0 #508600;
     margin-top:30px;
     color: #F8F0E6;
-	float:right;	
+	float:right;
+	margin-right:20px;
 }
 
 #start_buying:hover{
