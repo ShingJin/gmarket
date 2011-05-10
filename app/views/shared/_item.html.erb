@@ -58,7 +58,11 @@
    		<%= format_date(:short_no_year, item.created_at) %>
     </td>
 
-
+     <td class="price">
+       <% profile = Rugalytics.default_profile %>
+       <% report = profile.content_drilldown_report(:url => "/items/#{item.id}") %>
+       <%= view = report.items.first[2] %>
+     <td>
    
    
    </tr>  
