@@ -114,7 +114,7 @@ class ItemsController < ApplicationController
 	user =  FbGraph::User.fetch('me', :access_token => session[:token])
   	
   	if bs==false
-  		message="#{current_user.name} just sold #{name} on Gmarket"
+  		message="#{current_user.name} just listed the item '#{name}' on Gmarket"
   	else
   		message="#{current_user.name} wants to buy #{name}"
   	end
