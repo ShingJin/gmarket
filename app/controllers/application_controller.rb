@@ -2,8 +2,7 @@ class ApplicationController < ActionController::Base
   protect_from_forgery
   require 'fb_graph'
   require 'aws/ses'
-  require 'rubygems'
-  require 'rugalytics'
+
 
   helper_method :current_user  
      
