@@ -2,7 +2,7 @@
 <div id="block-text" class="block">
 
 	<div class="secondary-navigation">
-		<div id="avatar_frame"><img src=<%= @pic_url %>  width=30 height=30></div>
+		<div id="avatar_frame"><img src=<%= @pic_url %>  width=50 height=50></div>
 
 		<div id="show_title_left">
 	  	<h3> <%= @item.name %> </h3>	
@@ -10,9 +10,9 @@
 
 		<div id="show_title_right">
 		<% if @item.bs==true %>
-			<h3>Buyer : <%= User.find(@item.user_id).name %> </h3>
+			<p>Buyer : <%= User.find(@item.user_id).name %> </p>
 		<% else %>
-			<h3>Seller : <%= User.find(@item.user_id).name %> </h3>
+			<p>Seller : <%= User.find(@item.user_id).name %> </p>
 		<% end %>
 		</div>
 	</div>
@@ -34,7 +34,16 @@
   :method => :delete) %>
 
 		</div>
-	<% end %>
+       <% end %>
+      
+       <% if !(session[:user_id]==nil) %>
+            <% if current_user.admin==true %>
+	         <%= link_to "Edit", edit_item_path(@item) %>
+            <% end %>
+       <% end %>
+
+
+	
 	
 	
 
@@ -47,6 +56,12 @@
 	<% end %>
 	<% if !(@user.phone.length<2) %>
 		<p>Phone:<%= @user.phone %></p>
+	<% end %>
+	
+	    <% if @item.bs==false %>
+	<p style="font-size:95%">Interested? Leave a comment (Seller will be notified immediately)</p>
+	<% else %>
+	<p style="font-size:95%">Interested? Leave a comment (Buyer will be notified immediately )</p>
 	<% end %>
 
 	</div>
@@ -91,9 +106,30 @@
 
 </div>
 
+    
 
+	
+	
+	
 	<div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#appId=154290874631361&amp;xfbml=1"></script><fb:comments href=<%= @current_url %> num_posts="2" width="600"></fb:comments>
+	<script>
+	
+	FB.Event.subscribe('comment.create', function(response) {
+		var1=document.URL;
+		var2="/notify";
+		var3=var1.concat(var2);
+		$.ajax({
+            url:var3,
+    		type: 'GET',
+    		success: function(res) {
+			 return false;
+    		}
+    	});
 
+
+	});
+	
+	</script>
 
 
 <!-- 

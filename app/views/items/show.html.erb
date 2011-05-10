@@ -25,7 +25,11 @@
 	<p><%= @item.description %>
 	
 	<p>
+
+	<% if @item.bs==false %>
 	<%= image_tag @item.picture.url(:small) %>
+	<% end %>
+
 	<% if User.find(@item.user_id)==current_user %>
 		<div id="post_menu">
 		<%= link_to "Edit", edit_item_path(@item) %>
