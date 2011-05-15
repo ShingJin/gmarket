@@ -24,6 +24,10 @@
 <div id="main_description">
 	<p>
 	
+	<% if @item.category_id==1 %>
+		ISBN:<%= link_to item.isbn, "http://www.google.com/search?q=#{item.isbn}&tbs=shop%3A1&aq=f&oq=&aq=f" %>
+	<% end %>
+	
 	<%= @item.description %>
 	
 	<p>
