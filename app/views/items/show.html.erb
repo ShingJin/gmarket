@@ -84,7 +84,12 @@
   	<label>Price:</label>
   </div>
   <div class="side-right2" style="color:#333333">
+  <% if @item.bs==false %>
 	<%= number_to_currency(@item.price, :unit => "$") %>
+  <% else %>
+  	<%= number_to_currency(@item.secondprice, :unit => "$") %>
+  <% end %>
+  
   </div>
   <br>
 
