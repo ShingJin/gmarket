@@ -11,7 +11,7 @@ namespace :db do
       b=Book.where("isbn =?", i.isbn)
       b=b.first
       title=b.department+" "+b.course+": "+b.title
-      i.name==title
+      i.name=title
       i.save
       end
     end

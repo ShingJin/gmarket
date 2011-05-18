@@ -7,10 +7,12 @@ namespace :db do
 
 
      for i in Item.all
-     if !i.isbn.nil?
+     if !(i.isbn.nil?)
       b=Book.where("isbn =?", i.isbn)
       b=b.first
-      title=b.department+" "+b.course+": "+b.name
+      title=b.department+" "+b.course+": "+b.title
+      i.name==title
+      i.save
       end
     end
 
