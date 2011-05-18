@@ -80,7 +80,7 @@ class ItemsController < ApplicationController
 		@item.bs = 1
  		@item.status = 0
   	else
-  		flash[:success] = "Please sign in first, you have a facebook account right? :)"
+  		flash[:success] = "Please sign in first :)"
   		redirect_to '/'
   	end
   end
@@ -114,7 +114,7 @@ class ItemsController < ApplicationController
 	user =  FbGraph::User.fetch('me', :access_token => session[:token])
   	
   	if bs==false
-  		message="#{current_user.name} just sold #{name} on Gmarket"
+  		message="#{current_user.name} just listed the item '#{name}' on Gmarket"
   	else
   		message="#{current_user.name} wants to buy #{name}"
   	end

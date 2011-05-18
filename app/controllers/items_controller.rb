@@ -28,7 +28,7 @@ class ItemsController < ApplicationController
   end
   
   def index
-      @items = Item.where("show =?",true).where("category_id IS NOT NULL").category(params[:category]).search(params[:search],params[:bs]).order(sort_column + ' ' + sort_direction).paginate(:per_page =>30, :page => params[:page])  
+      @items = Item.where("show =?",true).where("category_id IS NOT NULL").category(params[:category]).search(params[:search],params[:bs]).order(sort_column + ' ' + sort_direction).paginate(:per_page =>50, :page => params[:page])  
  	  @categories=Category.all
 
  end
