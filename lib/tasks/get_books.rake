@@ -2,6 +2,25 @@ namespace :db do
 
   desc "change"
 
+
+    task :change_titles => :environment do
+
+
+     for i in Item.all
+     if !(i.isbn.nil?)
+      b=Book.where("isbn =?", i.isbn)
+      b=b.first
+      title=b.department+" "+b.course+": "+b.title
+      i.name==title
+      i.save
+      end
+    end
+
+
+
+    end
+
+
     
     task :destroy_books => :environment do
     
