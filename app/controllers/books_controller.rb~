@@ -28,6 +28,7 @@ class BooksController < ApplicationController
 				u=current_user.items.build
 				u.name=b.title
 				u.price=b.price
+				u.bs=false
 				u.isbn=b.isbn
 				u.category_id=1
 				u.show=false

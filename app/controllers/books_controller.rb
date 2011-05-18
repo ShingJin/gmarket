@@ -26,7 +26,7 @@ class BooksController < ApplicationController
 			
 			for b in @books
 				u=current_user.items.build
-				u.name=b.title
+				u.name=b.department+" "+b.course+": "+b.title
 				u.price=b.price
 				u.bs=false
 				u.isbn=b.isbn
