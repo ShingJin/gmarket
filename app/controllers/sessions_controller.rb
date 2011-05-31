@@ -9,7 +9,7 @@ class SessionsController < ApplicationController
 	  redirect_to edit_user_path(current_user)
    else
    	  flash[:success]= "Welcome!"
-	  redirect_to '/items/index'
+	  redirect_to '/items'
 	end
   end  
   
