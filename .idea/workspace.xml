@@ -2,61 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="655a00dc-e27f-479a-a95b-0de82e35aa68" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.generators" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/marketplace.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/background_gradient.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/bg-box.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/counter_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/facebook.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/flickr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/logo (1).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/mailform_background.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/next.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/page_background.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/prev.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/social.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/submit-btn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/twitter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/yahoo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/youtube.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/welcome.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/pages/constructing.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/jcarousellite1.0.1_min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/jquery.countdown.js" />
-      <change type="DELETED" beforePath="C:\Users\dwayne\Dropbox\marketplace\db\migrate\20110430175932_create_books.rb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/plugins/jquery.pageless/example/public/dispatch.fcgi" afterPath="$PROJECT_DIR$/vendor/plugins/jquery.pageless/example/public/dispatch.fcgi" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/plugins/jquery.pageless/example/script/about" afterPath="$PROJECT_DIR$/vendor/plugins/jquery.pageless/example/script/about" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/plugins/jquery.pageless/example/script/console" afterPath="$PROJECT_DIR$/vendor/plugins/jquery.pageless/example/script/console" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/plugins/jquery.pageless/example/script/dbconsole" afterPath="$PROJECT_DIR$/vendor/plugins/jquery.pageless/example/script/dbconsole" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/plugins/jquery.pageless/example/script/destroy" afterPath="$PROJECT_DIR$/vendor/plugins/jquery.pageless/example/script/destroy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/plugins/jquery.pageless/example/script/generate" afterPath="$PROJECT_DIR$/vendor/plugins/jquery.pageless/example/script/generate" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/plugins/jquery.pageless/example/script/performance/benchmarker" afterPath="$PROJECT_DIR$/vendor/plugins/jquery.pageless/example/script/performance/benchmarker" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/plugins/jquery.pageless/example/script/performance/profiler" afterPath="$PROJECT_DIR$/vendor/plugins/jquery.pageless/example/script/performance/profiler" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/plugins/jquery.pageless/example/script/performance/request" afterPath="$PROJECT_DIR$/vendor/plugins/jquery.pageless/example/script/performance/request" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/plugins/jquery.pageless/example/script/plugin" afterPath="$PROJECT_DIR$/vendor/plugins/jquery.pageless/example/script/plugin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/plugins/jquery.pageless/example/script/process/inspector" afterPath="$PROJECT_DIR$/vendor/plugins/jquery.pageless/example/script/process/inspector" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/plugins/jquery.pageless/example/script/process/reaper" afterPath="$PROJECT_DIR$/vendor/plugins/jquery.pageless/example/script/process/reaper" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/plugins/jquery.pageless/example/script/process/spawner" afterPath="$PROJECT_DIR$/vendor/plugins/jquery.pageless/example/script/process/spawner" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/plugins/jquery.pageless/example/script/runner" afterPath="$PROJECT_DIR$/vendor/plugins/jquery.pageless/example/script/runner" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/plugins/jquery.pageless/example/script/server" afterPath="$PROJECT_DIR$/vendor/plugins/jquery.pageless/example/script/server" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/plugins/jquery.pageless/example/vendor/gems/will_paginate-2.2.2/test/console" afterPath="$PROJECT_DIR$/vendor/plugins/jquery.pageless/example/vendor/gems/will_paginate-2.2.2/test/console" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/pages_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/pages_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_stylesheets.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_stylesheets.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/blueprint/screen.css" afterPath="$PROJECT_DIR$/public/stylesheets/blueprint/screen.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/script/rails" afterPath="$PROJECT_DIR$/script/rails" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/plugins/jquery.pageless/example/public/dispatch.cgi" afterPath="$PROJECT_DIR$/vendor/plugins/jquery.pageless/example/public/dispatch.cgi" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/plugins/jquery.pageless/example/public/dispatch.rb" afterPath="$PROJECT_DIR$/vendor/plugins/jquery.pageless/example/public/dispatch.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/items_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/items_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/sessions_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/sessions_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pages/constructing.html.erb" afterPath="$PROJECT_DIR$/app/views/pages/constructing.html.erb" />
     </list>
     <ignored path="marketplace.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -80,10 +29,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="routes.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="34" selection-start="646" selection-end="646" vertical-scroll-proportion="0.5569801">
+            <state line="23" column="34" selection-start="646" selection-end="646" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -98,19 +47,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="constructing.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/pages/constructing.html.erb">
+      <file leaf-file-name="notifier_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/notifier_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="145" selection-start="2516" selection-end="2516" vertical-scroll-proportion="-14.384615">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_stylesheets.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/_stylesheets.html.erb">
+      <file leaf-file-name="constructing.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/pages/constructing.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="365" selection-end="365" vertical-scroll-proportion="0.0">
+            <state line="45" column="78" selection-start="1151" selection-end="1151" vertical-scroll-proportion="-15.038462">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="items_controller.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/items_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="83" column="31" selection-start="1715" selection-end="1715" vertical-scroll-proportion="0.78955007">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="users_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="30" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sessions_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/sessions_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="29" selection-start="543" selection-end="543" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -137,37 +113,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="21" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery.countdown.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/javascripts/jquery.countdown.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="22" selection-start="3198" selection-end="3198" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="welcome.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/welcome.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="35" column="0" selection-start="1012" selection-end="1012" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jcarousellite1.0.1_min.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/javascripts/jcarousellite1.0.1_min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="1144" selection-start="1144" selection-end="1144" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -195,8 +144,11 @@
         <option value="$PROJECT_DIR$/app/views/layouts/_stylesheets.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/style.css" />
         <option value="$PROJECT_DIR$/app/views/layouts/welcome.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/pages/constructing.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/views/pages/constructing.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/sessions_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/items_controller.rb" />
       </list>
     </option>
   </component>
@@ -677,7 +629,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32931727" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -731,34 +683,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/items/index.js.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/items/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/items/_items.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/items/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="59" selection-start="427" selection-end="427" vertical-scroll-proportion="0.62528735">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/screen.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.7553041">
@@ -818,13 +742,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/pages_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="4" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/welcome.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="0" selection-start="1012" selection-end="1012" vertical-scroll-proportion="0.0">
@@ -832,16 +749,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pages/constructing.html.erb">
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="145" selection-start="2516" selection-end="2516" vertical-scroll-proportion="-14.384615">
+        <state line="23" column="34" selection-start="646" selection-end="646" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/pages/constructing.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="34" selection-start="646" selection-end="646" vertical-scroll-proportion="0.5569801">
+        <state line="45" column="78" selection-start="1151" selection-end="1151" vertical-scroll-proportion="-15.038462">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/sessions_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="29" selection-start="543" selection-end="543" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="30" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/pages_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="4" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/notifier_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/items_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="83" column="31" selection-start="1715" selection-end="1715" vertical-scroll-proportion="0.78955007">
           <folding />
         </state>
       </provider>

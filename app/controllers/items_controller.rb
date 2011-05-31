@@ -65,7 +65,7 @@ class ItemsController < ApplicationController
   		@item.status = 0
   	else
   		flash[:success] = "Please sign in first :)"
-  		redirect_to '/'
+  		redirect_to '/items/index'
   	end
   end
   
@@ -81,7 +81,7 @@ class ItemsController < ApplicationController
  		@item.status = 0
   	else
   		flash[:success] = "Please sign in first :)"
-  		redirect_to '/'
+  		redirect_to '/items/index'
   	end
   end
 

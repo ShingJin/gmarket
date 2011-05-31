@@ -10,8 +10,7 @@ class UsersController < ApplicationController
     @user = User.find(params[:id])
     if @user.update_attributes(params[:user])
       flash[:success] = "Your Profile is updated."
-      redirect_to root_path
-    else
+      redirect_to 'items/index'
 	  redirect_to edit_user_path(current_user)
     end
   end
