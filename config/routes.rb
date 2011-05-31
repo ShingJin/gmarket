@@ -1,6 +1,7 @@
 Marketplace::Application.routes.draw do |map|
 
 
+  get "pages/constructing"
   get "pages/search"
   get "categories/show"
   get "autocomplete_searches/Index"
@@ -19,7 +20,8 @@ Marketplace::Application.routes.draw do |map|
   match "/auth/:provider/callback" => "sessions#create"  
   match '/new_sell',:to=>"items#new_sell"
   match '/new_buy',:to=>"items#new_buy"
-   root :to => 'items#index'
+
+   root :to => 'pages#constructing'
 
 
 

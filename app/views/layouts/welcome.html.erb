@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= render_title %></title>
+	<%= render 'layouts/stylesheets' %>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.pack.js"></script>
+  <script type="text/javascript" src="/javascripts/jquery.countdown.js"></script>
+  <script type="text/javascript" src="/javascripts/jcarousellite1.0.1_min.js"></script>
+
+  <!-- jquery countdown-->
+  <script type="text/javascript">
+  $(function () {
+  var austDay = new Date();
+      austDay = new Date(2011, 9 - 1, 0);
+      $('#defaultCountdownc').countdown({until: austDay, layout: '{dn} {dl}, {hn} {hl}, {mn} {ml}, and {sn} {sl}'});
+      $('#yearc').text(austDay.getFullYear());
+      });
+  </script>
+
+
+  <!-- jquery slider -->
+  <script type="text/javascript">
+
+  $(function() {
+      $("#slidertextc").jCarouselLite({
+          btnNext: ".nextc",
+          btnPrev: ".prevc"
+      });
+  });
+
+  </script>
+
+  <style>
+   body{
+    background:#aaaaaa url(/images/background_gradient.png) repeat-x scroll 0 0;
+   }
+  </style>
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+
+</html>

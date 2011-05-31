@@ -1,0 +1,246 @@
+
+
+.containerc {
+width: 885px;
+margin: 0 auto;
+ }
+
+
+#mainc {
+    background: url(/images/page_background.png) no-repeat scroll 0 0;
+	margin:0 auto;
+	padding:0;
+	height:430px;
+}
+
+/*------header styles-----*/
+#headerc
+{
+	margin:auto;
+	margin-top:40px;
+	height:50px;
+	}
+#logoc
+{
+	position:relative;
+	float:left;
+	padding-left:42px;
+
+	}
+#contact_detailsc
+{
+	float:right;
+	color:#333333;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:13px;
+	font-style:normal;
+	line-height:22px;
+	padding-right:42px;
+	text-align:right;
+	}
+
+#contact_detailsc a
+{
+	color:#333333;
+	font-size:13px;
+	text-decoration:none;
+	letter-spacing:0.5px;
+
+}
+
+/*------content styles-----*/
+#contentc
+{
+	padding:10px 44px;
+}
+.textc
+{
+	text-align:center;
+	margin-top:40px;
+	padding-bottom:40px;
+	border-bottom:1px solid #000000;
+}
+.textc h2
+{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:30px;
+	color:#e5e5e5;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:lighter;
+	letter-spacing:2px;
+	}
+.counterc
+{
+	background:url(images/counter_bg.png) no-repeat scroll center 57px;
+	width:797px;
+	height:150px;
+	border-top:1px solid #666666;
+	border-bottom:1px solid #000000;
+	text-align:center;
+	position:relative;
+
+
+}
+.counterc h3
+{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:14px;
+	color:#e5e5e5;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:lighter;
+	letter-spacing:1px;
+	margin-top:20px;
+
+}
+.detailsc
+{
+	border-top:1px solid #666666;
+	height:120px;
+}
+
+#sliderwrapc {
+
+
+float: left ;
+text-align: center;
+width: 600px;
+overflow: hidden ;
+position: relative ;
+height:110px;
+margin-left:10px;
+}
+#slidertextc h3
+{
+	font-size:14px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-style:normal;
+	font-weight:lighter;
+	color:#e5e5e5;
+	letter-spacing:1px;
+	margin-bottom:15px;
+	}
+#slidertextc p
+{
+	font-size:12px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-style:normal;
+	font-weight:normal;
+	color:#CCCCCC;
+	padding:0 25px;
+		}
+a.prevc
+{
+	float:left;
+	margin-top:50px;
+	margin-left:50px;
+	}
+a.nextc
+{
+	float:right;
+	margin-top:50px;
+	margin-right:50px;
+	}
+#slidertextc {
+margin-top: 15px;
+float: left ;
+width: 600px;
+overflow: hidden ;
+position: relative ;
+
+ }
+
+#slidertextc li {
+overflow: hidden ;
+position: relative ;
+width: 600px;
+margin-bottom: 10px;
+}
+
+#slidertextc ul{
+
+width: 600px; }
+.socialc
+{
+	width:500px;
+	height:64px;
+	display:block;
+	margin-left:143px;
+	margin-top:15px;
+	}
+.socialc a
+{
+	display:block;
+	width:64px;
+	height:64px;
+	float:left;
+	margin-right:20px;
+	}
+#slidertextc ul li a.twitter
+{
+	background:url(images/twitter.png) no-repeat scroll 0 0;
+
+	}
+#slidertextc ul li a.flickr
+{
+	background:url(images/flickr.png) no-repeat scroll 0 0;
+
+	}
+#slidertextc ul li a.facebook
+{
+	background:url(images/facebook.png) no-repeat scroll 0 0;
+
+	}
+#slidertextc ul li a.youtube
+{
+	background:url(images/youtube.png) no-repeat scroll 0 0;
+
+	}
+
+#subscribeformc
+{
+	margin-top:20px;
+}
+#subscribeformc #email
+	{
+
+border:none;
+padding:7px 0 0 15px;
+background:none;
+width:160px;
+margin-right:50px;
+
+}
+#email_inputc{
+background:transparent url(images/mailform_background.png) no-repeat scroll  center 0;
+height:40px;
+
+
+
+}
+#submit_buttonc
+	{
+text-decoration:none;
+background:none;
+border:none;
+padding-left:15px;
+cursor:pointer;
+}
+
+
+/* jQuery Countdown styles*/
+
+#defaultCountdownc { width: 757px; height: 60px; }
+
+
+.hasCountdownc {
+	text-align:center;
+	margin-left:20px;
+	margin-right:20px;
+	color:#E5E5E5;
+	margin-top:45px;
+	font-size:26px;
+	font-weight:normal;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	}
