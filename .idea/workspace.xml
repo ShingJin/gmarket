@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="655a00dc-e27f-479a-a95b-0de82e35aa68" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/items_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/items_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/sessions_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/sessions_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" />
     </list>
     <ignored path="marketplace.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -85,7 +83,7 @@
       <file leaf-file-name="sessions_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/sessions_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="23" selection-start="537" selection-end="537" vertical-scroll-proportion="0.26638177">
+            <state line="17" column="25" selection-start="629" selection-end="629" vertical-scroll-proportion="0.4116809">
               <folding />
             </state>
           </provider>
@@ -792,7 +790,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/sessions_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="23" selection-start="537" selection-end="537" vertical-scroll-proportion="0.26638177">
+        <state line="17" column="25" selection-start="629" selection-end="629" vertical-scroll-proportion="0.4116809">
           <folding />
         </state>
       </provider>
