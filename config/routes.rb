@@ -1,13 +1,17 @@
 Marketplace::Application.routes.draw do |map|
 
 
+  resources :comments
+
+  get "professors/show"
+
   get "pages/constructing"
   get "pages/search"
   get "categories/show"
   get "autocomplete_searches/Index"
 
 
-	
+	resources :professors
   map.resources :items, :collection=>{:update_all=>:put}
   map.resources :items, :member=>{:notify=>:get}
   resources :users

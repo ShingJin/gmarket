@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110504002452) do
+ActiveRecord::Schema.define(:version => 20110702233830) do
 
   create_table "books", :force => true do |t|
     t.string   "department"
@@ -27,6 +27,13 @@ ActiveRecord::Schema.define(:version => 20110504002452) do
     t.string    "name"
     t.timestamp "created_at"
     t.timestamp "updated_at"
+  end
+
+  create_table "comments", :force => true do |t|
+    t.string   "comment"
+    t.integer  "professor_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "items", :force => true do |t|
@@ -50,6 +57,13 @@ ActiveRecord::Schema.define(:version => 20110504002452) do
     t.timestamp "picture_updated_at"
     t.boolean   "show",                 :default => true
     t.string    "isbn"
+  end
+
+  create_table "professors", :force => true do |t|
+    t.string   "name"
+    t.string   "description"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "users", :force => true do |t|
