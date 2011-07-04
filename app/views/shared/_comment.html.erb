@@ -1,0 +1,10 @@
+<div id="comment-box">
+    "<%= comment.comment %>"
+    <br>
+    <div id="buttons">
+    <%= link_to 'Delete', comment, :confirm => 'Are you sure?', :method => :delete %>
+   </div>
+   <!-- <td><%= link_to 'Edit', edit_comment_path(comment) %></td>
+    <td><%= link_to 'Destroy', comment, :confirm => 'Are you sure?', :method => :delete %></td>
+   -->
+</div>

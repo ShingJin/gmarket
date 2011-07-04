@@ -1,0 +1,41 @@
+<Item>
+  <ASIN>0979905281</ASIN>
+  <DetailPageURL>http://www.amazon.com/Survival-Auschwitz-Primo-Levi/dp/0979905281%3FSubscriptionId%3DAKIAICDXU5SXRWQA5RQA%26tag%3Dws%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0979905281</DetailPageURL>
+  <ItemLinks>
+    <ItemLink>
+      <Description>Technical Details</Description>
+      <URL>http://www.amazon.com/Survival-Auschwitz-Primo-Levi/dp/tech-data/0979905281%3FSubscriptionId%3DAKIAICDXU5SXRWQA5RQA%26tag%3Dws%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0979905281</URL>
+    </ItemLink>
+    <ItemLink>
+      <Description>Add To Baby Registry</Description>
+      <URL>http://www.amazon.com/gp/registry/baby/add-item.html%3Fasin.0%3D0979905281%26SubscriptionId%3DAKIAICDXU5SXRWQA5RQA%26tag%3Dws%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0979905281</URL>
+    </ItemLink>
+    <ItemLink>
+      <Description>Add To Wedding Registry</Description>
+      <URL>http://www.amazon.com/gp/registry/wedding/add-item.html%3Fasin.0%3D0979905281%26SubscriptionId%3DAKIAICDXU5SXRWQA5RQA%26tag%3Dws%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0979905281</URL>
+    </ItemLink>
+    <ItemLink>
+      <Description>Add To Wishlist</Description>
+      <URL>http://www.amazon.com/gp/registry/wishlist/add-item.html%3Fasin.0%3D0979905281%26SubscriptionId%3DAKIAICDXU5SXRWQA5RQA%26tag%3Dws%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0979905281</URL>
+    </ItemLink>
+    <ItemLink>
+      <Description>Tell A Friend</Description>
+      <URL>http://www.amazon.com/gp/pdp/taf/0979905281%3FSubscriptionId%3DAKIAICDXU5SXRWQA5RQA%26tag%3Dws%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0979905281</URL>
+    </ItemLink>
+    <ItemLink>
+      <Description>All Customer Reviews</Description>
+      <URL>http://www.amazon.com/review/product/0979905281%3FSubscriptionId%3DAKIAICDXU5SXRWQA5RQA%26tag%3Dws%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0979905281</URL>
+    </ItemLink>
+    <ItemLink>
+      <Description>All Offers</Description>
+      <URL>http://www.amazon.com/gp/offer-listing/0979905281%3FSubscriptionId%3DAKIAICDXU5SXRWQA5RQA%26tag%3Dws%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D0979905281</URL>
+    </ItemLink>
+  </ItemLinks>
+  <ItemAttributes>
+    <Author>Primo Levi</Author>
+    <Manufacturer>Classic House Books</Manufacturer>
+    <ProductGroup>Book</ProductGroup>
+    <Title>Survival In Auschwitz</Title>
+  </ItemAttributes>
+</Item>
+nil
