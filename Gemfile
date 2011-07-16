@@ -18,6 +18,8 @@ gem "paperclip"
 gem "aws-ses", "~> 0.3.2", :require => 'aws/ses'
 gem 'formtastic'
 gem "best_in_place"
+gem "acts-as-taggable-on"
+
 
 
 

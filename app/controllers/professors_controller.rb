@@ -16,7 +16,27 @@ class ProfessorsController < ApplicationController
     @comment = Comment.new
     @comments = Comment.all
     @professor = Professor.find(params[:id])
+    @tags=@professor.tag_list
+    @courses=@professor.course_list
   end
+ 
+  def create_tag 
+     @professor = Professor.find(params[:id])
+     
+     if (params[:tag].length > 20)
+       redirect_to(@professor, :notice => 'Tag is too long')      
+     else
+     
+     
+     @professor.tag_list << params[:tag]
+     @professor.save
+     
+     
+     redirect_to(@professor, :notice => 'Tag Added')   
+    end
+  
+  end
+
 
   # GET /professors/new
   # GET /professors/new.xml

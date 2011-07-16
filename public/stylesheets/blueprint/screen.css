@@ -378,27 +378,27 @@ border-bottom-left-radius: 2px;
 }
 
 
-ul li:nth-child(4n+1)
+ul.tags li:nth-child(4n+1)
 {
 	
 	background:#F0BE78;	
 	
 }
 
-ul li:nth-child(4n+2)
+ul.tags li:nth-child(4n+2)
 {
 	
 	background:#BCE67B;	
 	
 }
 
-ul li:nth-child(4n+3)
+ul.tags li:nth-child(4n+3)
 {
 	
 	background:#F08F78;	
 	
 }
-ul li:nth-child(4n+4)
+ul.tags li:nth-child(4n+4)
 {
 	
 	background:#7ADDE1;	
@@ -925,7 +925,23 @@ textarea#note {
 	margin-right:40px;
 	margin-top:20px;
 }
-	
+
+span.icon{
+	display: inline-block; 
+	width: 14px; 
+	height: 12px; 
+	margin: 4px 0px 1px 4px; 
+	position: relative; 
+	background-image: url('/images/css3buttons_icons.png'); 
+	background-repeat: no-repeat;
+}
+
+
+a.tag-button span.icon.cross { background-position: 0 -204px }
+a.tag-button:hover span.icon.cross{ background-position: 0 -219px }
+
+
+
 
 .button {
 	display: inline-block;
@@ -1443,7 +1459,8 @@ a:focus {
 
 #left-navigation ul
 {
- list-style-type: none;
+	width:inherit;
+	 list-style-type: none;
 padding: 0;
 margin-left: 0;   
 }
@@ -1455,10 +1472,7 @@ margin-left: 0;
     list-style:none;
     width:inherit;
     height:auto;
-    
-
 }
-
 
 #left-navigation li a, #left-navigation li a:visited 
 {
@@ -1474,7 +1488,6 @@ margin-left: 0;
 }
 
 
-
 #left-navigation li a:hover {
     background: #499bea; /* Old browsers */
 background: -moz-linear-gradient(top, #499bea 0%, #207ce5 100%); /* FF3.6+ */
@@ -1487,6 +1500,30 @@ background: linear-gradient(top, #499bea 0%,#207ce5 100%); /* W3C */
     color:White;
 
 }
+
+#secondary-ul li
+{
+	background: #ffffff;
+height:23px;
+color:#000000;
+}
+
+#secondary-ul li a
+{
+	padding-top:2px;
+	font-size:13px;	
+	height:20px;	
+}
+
+#secondary-ul li a:hover
+{
+	height:20px;
+	background: #E8E8E8;
+}
+
+
+
+
 
 #picture-holder
 {
@@ -1507,8 +1544,9 @@ background: linear-gradient(top, #499bea 0%,#207ce5 100%); /* W3C */
 
 #bio
 {
+	font-size:13px;
 	font-weight: normal;
-	width: 450px;
+	width: 370px;
 
 }
 
@@ -1580,6 +1618,13 @@ margin-bottom: 12px;
 
 
 }
+
+#new-tag
+{
+	
+}
+
+
 
 .best_in_place textarea
 {

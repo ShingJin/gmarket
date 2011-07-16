@@ -11,7 +11,7 @@ Marketplace::Application.routes.draw do |map|
   get "autocomplete_searches/Index"
 
 
-	resources :professors
+	map.resources :professors, :member=>{:create_tag=>:put}
   map.resources :items, :collection=>{:update_all=>:put}
   map.resources :items, :member=>{:notify=>:get}
   resources :users
