@@ -106,7 +106,6 @@ end
     if @item.save
       flash[:success] = "Your item is posted"
       begin
-      	fpublish(@item.name,@item.bs,@item.id)
         redirect_to '/items', :success => "Your item is posted"
 
       rescue
