@@ -25,7 +25,7 @@ Marketplace::Application.routes.draw do |map|
   match "/signout" => "sessions#destroy", :as => :signout  
   match "/auth/:provider/callback" => "sessions#create"  
 
-   root :to => 'pages#constructing'
+   root :to => '/items'
 
 
 
