@@ -748,3 +748,15 @@ java.lang.StringIndexOutOfBoundsException: String index out of range: 1787
 
 !ENTRY org.eclipse.core.filesystem 4 566 2011-08-16 16:11:51.092
 !MESSAGE No file system is defined for scheme: margin-left
+!SESSION 2011-08-19 09:54:34.924 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_24
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.core.resources 2 10035 2011-08-19 09:54:39.878
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2011-08-19 09:55:23.220
+!MESSAGE No repository found at http://www.aptana.com/products/air/.
