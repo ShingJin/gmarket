@@ -1,0 +1,1 @@
+$("#widget_subcategory").html('<%= options_for_select(@subcategories.map {|sc| [sc.name, sc.id]}).gsub(/\n/, '') %>');

@@ -10,17 +10,17 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110714024749) do
+ActiveRecord::Schema.define(:version => 20110724164102) do
 
   create_table "books", :force => true do |t|
-    t.string   "department"
-    t.string   "course"
-    t.integer  "section"
-    t.string   "title"
-    t.string   "isbn"
-    t.integer  "price"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.string    "department"
+    t.string    "course"
+    t.integer   "section"
+    t.string    "title"
+    t.string    "isbn"
+    t.integer   "price"
+    t.timestamp "created_at"
+    t.timestamp "updated_at"
   end
 
   create_table "categories", :force => true do |t|
@@ -58,6 +58,10 @@ ActiveRecord::Schema.define(:version => 20110714024749) do
     t.boolean   "show",                 :default => true
     t.string    "isbn"
     t.boolean   "recommend",            :default => false
+    t.integer   "subcategory_id"
+    t.string    "picture_path"
+    t.string    "link"
+    t.string    "asin"
   end
 
   create_table "professors", :force => true do |t|
@@ -66,6 +70,13 @@ ActiveRecord::Schema.define(:version => 20110714024749) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "point"
+  end
+
+  create_table "subcategories", :force => true do |t|
+    t.string   "name"
+    t.integer  "category_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "taggings", :force => true do |t|

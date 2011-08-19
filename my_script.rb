@@ -12,18 +12,48 @@ class Makemoney
 
 
   def self.getLink(asin)
-    #visit the affliate page
-     @result=""
+    
+    
+    
+     i=Item.find(488)
+       
+         
+    
      @address="http://rcm.amazon.com/e/cm?t=wikihowtodo-20&o=1&p=8&l=as1&asins=#{asin}&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=000000&bg1=FFFFFF&f=ifr"
-     doc = open(@address){ |f|
+      doc = open(@address){ |f|
 	 				Hpricot (f)
 	 		}
       (doc/"#title/a").each do |url|
-         @result=url.to_s.scan(/href="(.*)\"\ t/).flatten()
+         i.link=url.to_s.scan(/href="(.*)\"\ t/).flatten()
       end
-      return @result
+      
+      (doc/"#title/a").each do |url|
+         i.name=url.inner_html
+      end 
+      
+      (doc/"span.price").each do |url|
+         i.price=url.to_s.scan(/;">(.*?)</).flatten()
+      end
+      
+          
+      (doc/"span.price").each do |url|
+         i.secondprice=url.to_s.scan(/e">(.*?)</).flatten()
+       end
+      
+      (doc/"#content/p").each do |url|
+         i.description=url.to_s.scan(/<p>(.*?)</).flatten()
+       end
+       
+       (doc/"#image/a/img").each do |url|
+         i.picture_path=url.to_s.scan(/"(.*?)"/).flatten()
+       end 
+       
+       i.recommended = true
+       
+       i.save
+      
+      
     end
-
 
 
     #parse the response

@@ -11,6 +11,16 @@ module ApplicationHelper
       title ||= Category.find(column).name.titleize
  end
  
+  def subcategory(title,category,subcategory)
+    link_to title, "/categories/show?id="+category.to_s+"&subcategory="+subcategory.to_s
+  end
+ 
+  def category(title,category)
+    link_to title, "/categories/show?id="+category.to_s
+  end
+ 
+ 
+ 
  def pageless(total_pages, url=nil, container=nil)
   opts = {
     :totalPages => total_pages,

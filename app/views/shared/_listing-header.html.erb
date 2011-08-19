@@ -1,0 +1,185 @@
+<style type="text/css">
+#listings-header {
+float: left;
+clear: left;
+width:700px;
+height: 40px;
+padding: 0;
+background-color: #F5F5F1;
+margin: 0 0 24px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+}
+
+.clear {
+min-height: 1%;
+}
+
+ul.sort-options {
+float: left;
+line-height: 40px;
+margin-left: 15px;
+}
+
+ul.sort-options li {
+display: inline-block;
+color: black;
+float: left;
+}
+
+
+
+ul.sort-options li.label {
+color: gray;
+font-weight: bold;
+border: 0;
+padding: 0;
+margin-right: 5px;
+}
+
+
+
+ul.sort-options li a.selected {
+color: black;
+}
+
+ul.sort-options li a {
+font-weight: normal;
+padding: 0 10px;
+border-right: 1px solid #D4D4D1;
+}
+
+
+
+.infiniteCarousel {
+  width: 670px;
+  position: relative;
+  display: block;
+  height:10em;
+}
+
+.infiniteCarousel .wrapper {
+  width: 650px; /* .infiniteCarousel width - (.wrapper margin-left + .wrapper margin-right) */
+  overflow: auto;
+  min-height: 10em;
+  position: absolute;
+  top: 0;
+}
+
+.infiniteCarousel ul a img {
+border: 1px solid #ECECEC;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.infiniteCarousel .wrapper ul {
+  width: 9999px;
+  list-style-image:none;
+  list-style-position:outside;
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  position: absolute;
+  top: 0;
+}
+
+.infiniteCarousel ul li {
+  display:block;
+  float:left;
+  padding: 10px;
+  height: 110px;
+  width: 110px;
+  
+}
+
+.infiniteCarousel ul li a img {
+  display:block;
+}
+
+.infiniteCarousel .arrow {
+  position: absolute;
+  top: 110px;
+  cursor: pointer;
+  margin-right: 16px;
+  
+}
+
+
+.infiniteCarousel .forward {
+  background-position: 0 0;
+  right:0;
+}
+
+.infiniteCarousel .back {
+  background-position: 0 -72px;
+  left:10px;
+}
+
+.infiniteCarousel .forward:hover {
+  background-position: 0 -36px;
+}
+
+.infiniteCarousel .back:hover {
+  background-position: 0 -108px;
+}
+
+
+
+
+
+
+
+</style>
+
+
+
+
+
+<!--
+	  <tr style="border-bottom: 1px dotted #999999;">  
+     <th style="text-align:center"><%= sortable "category_id" %></th>  
+     <th><%= sortable "name" %></th> 
+     <th><%= sortable "price" %></th>
+     <th><%= sortable "bs","B/S" %></th>
+     <th><%= sortable "created_at","Date" %></th>
+   </tr> 
+	
+-->
+
+<!--
+<div class="infiniteCarousel">
+      <div class="wrapper">
+        <ul>
+          <li><a href="http://www.flickr.com/photos/remysharp/3047035327/" title="Tall Glow"><img src="http://farm4.static.flickr.com/3011/3047035327_ca12fb2397_s.jpg" height="100" width="100" alt="Tall Glow" /></a></li>
+          <li><a href="http://www.flickr.com/photos/remysharp/3047872076/" title="Wet Cab"><img src="http://farm4.static.flickr.com/3184/3047872076_61a511a04b_s.jpg" height="100" width="100" alt="Wet Cab" /></a></li>
+          <li><a href="http://www.flickr.com/photos/remysharp/3047871878/" title="Rockefella"><img src="http://farm4.static.flickr.com/3048/3047871878_84bfacbd35_s.jpg" height="100" width="100" alt="Rockefella" /></a></li>
+          <li><a href="http://www.flickr.com/photos/remysharp/3047034929/" title="Chrysler Reflect"><img src="http://farm4.static.flickr.com/3220/3047034929_97eaf50ea3_s.jpg" height="100" width="100" alt="Chrysler Reflect" /></a></li>
+          <li><a href="http://www.flickr.com/photos/remysharp/3047871624/" title="Chrysler Up"><img src="http://farm4.static.flickr.com/3164/3047871624_2cacca4684_s.jpg" height="100" width="100" alt="Chrysler Up" /></a></li>
+          <li><a href="http://www.flickr.com/photos/remysharp/3047034661/" title="Time Square Awe"><img src="http://farm4.static.flickr.com/3212/3047034661_f96548965e_s.jpg" height="100" width="100" alt="Time Square Awe" /></a></li>
+          <li><a href="http://www.flickr.com/photos/remysharp/3047034531/" title="Wonky Buildings"><img src="http://farm4.static.flickr.com/3022/3047034531_9c74359401_s.jpg" height="100" width="100" alt="Wonky Buildings" /></a></li>
+          <li><a href="http://www.flickr.com/photos/remysharp/3047034451/" title="Leaves of Fall"><img src="http://farm4.static.flickr.com/3199/3047034451_121c93386f_s.jpg" height="100" width="100" alt="Leaves of Fall" /></a></li>
+        </ul>        
+      </div>
+    </div>
+</div>
+
+
+<div style="margin-bottom:20px"></div>
+-->
+
+<div id="listings-header" class="clear">    
+           
+   
+            <ul class="sort-options">
+                <li class="label">
+                    
+                        Sort by:
+                    
+                </li>
+                         <li>
+                        <%= sortable "created_at","Date" %></li>
+                                    <li class="last">
+                        <%= sortable "price" %></li>
+                                  
+                            </ul>
+</div>

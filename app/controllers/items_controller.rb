@@ -54,40 +54,55 @@ class ItemsController < ApplicationController
     @item = Item.new
   end
 
+def subcategories_by_category
+  if params[:id].present?
+    @subcategories = Category.find(params[:id]).subcategories
+  else
+    @subcategories = []
+  end
+ 
+  respond_to do |format|
+    format.html
+    format.js
+  end
+
+end
+
   def new_sell
-  
-  	if current_user
+      @categories=Category.all
+      @subcategories=Subcategory.all
+  	#if current_user
   		@item = Item.new
   			if params[:search]
   				@item.name=params[:search]
   			end
   		@item.bs = 0
   		@item.status = 0
-  	else
-  		flash[:success] = "Please sign in first :)"
-  		redirect_to '/items'
-  	end
+  	#else
+  	#	flash[:success] = "Please sign in first :)"
+  	#	redirect_to '/items'
+  	#end
   end
-  
-  
   def new_buy
-  
-  	if current_user
+        @categories=Category.all
+      @subcategories=Subcategory.all
+  	#if current_user
     	@item = Item.new
 			if params[:search]
   				@item.name=params[:search]
   			end
 		@item.bs = 1
  		@item.status = 0
-  	else
-  		flash[:success] = "Please sign in first :)"
-  		redirect_to '/items'
-  	end
+  	#else
+  	#	flash[:success] = "Please sign in first :)"
+  	#	redirect_to '/items'
+  	#end
   end
 
 
   def create
-    @item = current_user.items.new(params[:item])
+    #@item = current_user.items.new(params[:item])
+    @item = User.find(1).items.new(params[:item])
     if @item.save
       flash[:success] = "Your item is posted"
       begin

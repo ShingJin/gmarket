@@ -5,16 +5,19 @@
 		<div id="avatar_frame"><img src=<%= @pic_url %>  width=50 height=50></div>
 
 		<div id="show_title_left">
-	  	<h3> <%= @item.name %> </h3>	
-		</div>
-
-		<div id="show_title_right">
-		<% if @item.bs==true %>
+	  	<h3> <%= @item.name %> 
+	  		<% if @item.bs==true %>
+	  	<div id="bsname">
 			<p>Buyer : <%= User.find(@item.user_id).name %> </p>
 		<% else %>
 			<p>Seller : <%= User.find(@item.user_id).name %> </p>
 		<% end %>
 		</div>
+	  	</h3>	
+	
+		</div>
+
+	
 	</div>
 
 
@@ -22,20 +25,12 @@
 
 <div id="carrier">
 <div id="main_description">
-	<p>
 	
-	<% if !@item.isbn.nil? %>
-		ISBN:<%= link_to @item.isbn, "http://www.google.com/search?q=#{@item.isbn}&tbs=shop%3A1&aq=f&oq=&aq=f" %>
-	<% end %>
-	
-	<%= @item.description %>
-	
-	<p>
-
+	<div id="item_image">
 	<% if @item.bs==false %>
-	<%= image_tag @item.picture.url(:small) %>
+	<%= image_tag @item.picture.url(:small), :height=>230, :width=>200%>
 	<% end %>
-
+    </div>
 	<% if User.find(@item.user_id)==current_user %>
 		<div id="post_menu">
 		<%= link_to "Edit", edit_item_path(@item) %>
@@ -57,7 +52,15 @@
 	
 	
 
-
+<p>
+	
+	<% if !@item.isbn.nil? %>
+		ISBN:<%= link_to @item.isbn, "http://www.google.com/search?q=#{@item.isbn}&tbs=shop%3A1&aq=f&oq=&aq=f" %>
+	<% end %>
+	
+	<%= @item.description %>
+	
+	<p>
 	
 	<div id="contact">
 
@@ -80,10 +83,13 @@
 </div>
 
 <div id="item_details">
+<div class="row">
   <div class="side-left2" style="color:#666666">
   	<label>Price:</label>
   </div>
-  <div class="side-right2" style="color:#333333">
+ </div>
+ <div class="row">
+  <div class="side-left2" style="color:#333333;font-size:48px;line-height: 47px;">
   <% if @item.bs==false %>
 	<%= number_to_currency(@item.price, :unit => "$") %>
   <% else %>
@@ -91,21 +97,43 @@
   <% end %>
   
   </div>
-  <br>
+ </div>
 
-  	  
+ <div class="row">
   <div class="side-left2" style="color:#666666">
   	<label>Category:</label>
   </div>
-  <div class="side-right2" style="color:#333333">
+</div>
+ <div class="row">
+  <div class="side-left2" style="color:#333333;font-size:48px;line-height: 47px;">
 	<%= Category.find(@item.category_id).name.titleize %>
   </div>
-  <br>
-  <% if !@item.bs==true %>
+  </div>
+  <% if !(@item.subcategory_id.nil?) %>
+  <div class="row">
+  <div class="side-left2" style="color:#666666">
+  	<label>Subcategory:</label>
+  </div>
+</div>
+ <div class="row">
+  <div class="side-left2" style="color:#333333;font-size:48px;line-height: 47px;">
+	<%= Subcategory.find(@item.subcategory_id).name.titleize %>
+  </div>
+  </div>
+  <% end %>
+  
+  
+  
+  
+  
+  <div class="row">
+    <% if !@item.bs==true %>
   <div class="side-left2" style="color:#666666">
   	<label>Condition:</label>
   </div>
- <div class="side-right2" style="color:#333333">
+ </div>
+   <div class="row">
+ <div class="side-left2" style="color:#333333;font-size:48px;line-height: 47px;">
 	<% if @item.condition == 0 %>
 		New
 	<% elsif @item.condition ==1 %>
@@ -115,9 +143,9 @@
 	<% end %>
   </div>
   <% end %>
-
-
 </div>
+
+
 
 </div>
 
@@ -125,8 +153,9 @@
 
 	
 	
-	
-	<div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#appId=154290874631361&amp;xfbml=1"></script><fb:comments href=<%= @current_url %> num_posts="2" width="600"></fb:comments>
+	<div>
+	<div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#appId=154290874631361&amp;xfbml=1"></script><fb:comments href=<%= @current_url %> num_posts="2" width="580"></fb:comments>
+	</div>
 	<script>
 	
 	FB.Event.subscribe('comment.create', function(response) {

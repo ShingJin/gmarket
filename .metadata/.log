@@ -1,0 +1,750 @@
+!SESSION 2011-07-16 13:46:47.656 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_24
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY com.aptana.db 4 0 2011-07-16 13:47:37.149
+!MESSAGE Unable to connect to database
+!STACK 0
+java.sql.SQLException: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.seeNextException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection40.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver40.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at org.apache.derby.jdbc.AutoloadedDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.usage.AptanaDB.getConnection(AptanaDB.java:151)
+	at com.aptana.usage.AptanaDB.tableExists(AptanaDB.java:193)
+	at com.aptana.usage.EventLogger.getInstance(EventLogger.java:42)
+	at com.aptana.usage.PingStartup.updateAnonymousId(PingStartup.java:96)
+	at com.aptana.usage.PingStartup.access$0(PingStartup.java:87)
+	at com.aptana.usage.PingStartup$1.run(PingStartup.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.sql.SQLException: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	... 19 more
+Caused by: java.sql.SQLException: Another instance of Derby may have already booted the database C:\Users\dwayne\AppData\Local\Aptana Studio 3\configuration\aptanaDB.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	... 16 more
+Caused by: ERROR XSDB6: Another instance of Derby may have already booted the database C:\Users\dwayne\AppData\Local\Aptana Studio 3\configuration\aptanaDB.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.privGetJBMSLockOnDB(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.getJBMSLockOnDB(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.raw.RawStore.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.access.RAMAccessManager.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase.bootStore(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.bootService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startProviderService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.findProviderAndStartService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startPersistentService(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.startPersistentService(Unknown Source)
+	... 16 more
+
+!ENTRY com.aptana.db 4 0 2011-07-16 13:47:37.161
+!MESSAGE Unable to connect to database
+!STACK 0
+java.sql.SQLException: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.seeNextException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection40.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver40.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at org.apache.derby.jdbc.AutoloadedDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.usage.AptanaDB.getConnection(AptanaDB.java:151)
+	at com.aptana.usage.AptanaDB.execute(AptanaDB.java:74)
+	at com.aptana.usage.AptanaDB.execute(AptanaDB.java:69)
+	at com.aptana.usage.EventLogger.getInstance(EventLogger.java:49)
+	at com.aptana.usage.PingStartup.updateAnonymousId(PingStartup.java:96)
+	at com.aptana.usage.PingStartup.access$0(PingStartup.java:87)
+	at com.aptana.usage.PingStartup$1.run(PingStartup.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.sql.SQLException: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	... 20 more
+Caused by: java.sql.SQLException: Another instance of Derby may have already booted the database C:\Users\dwayne\AppData\Local\Aptana Studio 3\configuration\aptanaDB.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	... 17 more
+Caused by: ERROR XSDB6: Another instance of Derby may have already booted the database C:\Users\dwayne\AppData\Local\Aptana Studio 3\configuration\aptanaDB.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.privGetJBMSLockOnDB(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.getJBMSLockOnDB(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.raw.RawStore.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.access.RAMAccessManager.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase.bootStore(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.bootService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startProviderService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.findProviderAndStartService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startPersistentService(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.startPersistentService(Unknown Source)
+	... 17 more
+
+!ENTRY com.aptana.db 4 0 2011-07-16 13:47:37.170
+!MESSAGE Unable to connect to database
+!STACK 0
+java.sql.SQLException: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.seeNextException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection40.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver40.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at org.apache.derby.jdbc.AutoloadedDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.usage.AptanaDB.getConnection(AptanaDB.java:151)
+	at com.aptana.usage.AptanaDB.execute(AptanaDB.java:74)
+	at com.aptana.usage.AptanaDB.execute(AptanaDB.java:69)
+	at com.aptana.usage.EventLogger.logEvent(EventLogger.java:69)
+	at com.aptana.usage.EventLogger.logEvent(EventLogger.java:57)
+	at com.aptana.usage.PingStartup.updateAnonymousId(PingStartup.java:96)
+	at com.aptana.usage.PingStartup.access$0(PingStartup.java:87)
+	at com.aptana.usage.PingStartup$1.run(PingStartup.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.sql.SQLException: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	... 21 more
+Caused by: java.sql.SQLException: Another instance of Derby may have already booted the database C:\Users\dwayne\AppData\Local\Aptana Studio 3\configuration\aptanaDB.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	... 18 more
+Caused by: ERROR XSDB6: Another instance of Derby may have already booted the database C:\Users\dwayne\AppData\Local\Aptana Studio 3\configuration\aptanaDB.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.privGetJBMSLockOnDB(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.getJBMSLockOnDB(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.raw.RawStore.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.access.RAMAccessManager.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase.bootStore(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.bootService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startProviderService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.findProviderAndStartService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startPersistentService(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.startPersistentService(Unknown Source)
+	... 18 more
+
+!ENTRY com.aptana.db 4 0 2011-07-16 13:47:38.426
+!MESSAGE Unable to connect to database
+!STACK 0
+java.sql.SQLException: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.seeNextException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection40.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver40.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at org.apache.derby.jdbc.AutoloadedDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.usage.AptanaDB.getConnection(AptanaDB.java:151)
+	at com.aptana.usage.AptanaDB.execute(AptanaDB.java:74)
+	at com.aptana.usage.AptanaDB.execute(AptanaDB.java:69)
+	at com.aptana.usage.EventLogger.logEvent(EventLogger.java:69)
+	at com.aptana.usage.EventLogger.logEvent(EventLogger.java:57)
+	at com.aptana.usage.PingStartup.updateAnonymousId(PingStartup.java:109)
+	at com.aptana.usage.PingStartup.access$0(PingStartup.java:87)
+	at com.aptana.usage.PingStartup$1.run(PingStartup.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.sql.SQLException: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	... 21 more
+Caused by: java.sql.SQLException: Another instance of Derby may have already booted the database C:\Users\dwayne\AppData\Local\Aptana Studio 3\configuration\aptanaDB.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	... 18 more
+Caused by: ERROR XSDB6: Another instance of Derby may have already booted the database C:\Users\dwayne\AppData\Local\Aptana Studio 3\configuration\aptanaDB.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.privGetJBMSLockOnDB(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.getJBMSLockOnDB(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.raw.RawStore.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.access.RAMAccessManager.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase.bootStore(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.bootService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startProviderService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.findProviderAndStartService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startPersistentService(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.startPersistentService(Unknown Source)
+	... 18 more
+
+!ENTRY com.aptana.db 4 0 2011-07-16 13:47:38.435
+!MESSAGE Unable to connect to database
+!STACK 0
+java.sql.SQLException: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.seeNextException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection40.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver40.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at org.apache.derby.jdbc.AutoloadedDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.usage.AptanaDB.getConnection(AptanaDB.java:151)
+	at com.aptana.usage.AptanaDB.execute(AptanaDB.java:74)
+	at com.aptana.usage.EventLogger.getEvents(EventLogger.java:103)
+	at com.aptana.usage.PingStartup.updateAnonymousId(PingStartup.java:112)
+	at com.aptana.usage.PingStartup.access$0(PingStartup.java:87)
+	at com.aptana.usage.PingStartup$1.run(PingStartup.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.sql.SQLException: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	... 19 more
+Caused by: java.sql.SQLException: Another instance of Derby may have already booted the database C:\Users\dwayne\AppData\Local\Aptana Studio 3\configuration\aptanaDB.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	... 16 more
+Caused by: ERROR XSDB6: Another instance of Derby may have already booted the database C:\Users\dwayne\AppData\Local\Aptana Studio 3\configuration\aptanaDB.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.privGetJBMSLockOnDB(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.getJBMSLockOnDB(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.raw.RawStore.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.access.RAMAccessManager.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase.bootStore(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.bootService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startProviderService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.findProviderAndStartService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startPersistentService(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.startPersistentService(Unknown Source)
+	... 16 more
+
+!ENTRY com.aptana.db 4 0 2011-07-16 13:47:38.600
+!MESSAGE Unable to connect to database
+!STACK 0
+java.sql.SQLException: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.seeNextException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection40.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver40.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at org.apache.derby.jdbc.AutoloadedDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.usage.AptanaDB.getConnection(AptanaDB.java:151)
+	at com.aptana.usage.AptanaDB.execute(AptanaDB.java:74)
+	at com.aptana.usage.AptanaDB.execute(AptanaDB.java:69)
+	at com.aptana.usage.EventLogger.clearEvents(EventLogger.java:75)
+	at com.aptana.usage.PingStartup.updateAnonymousId(PingStartup.java:132)
+	at com.aptana.usage.PingStartup.access$0(PingStartup.java:87)
+	at com.aptana.usage.PingStartup$1.run(PingStartup.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.sql.SQLException: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	... 20 more
+Caused by: java.sql.SQLException: Another instance of Derby may have already booted the database C:\Users\dwayne\AppData\Local\Aptana Studio 3\configuration\aptanaDB.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	... 17 more
+Caused by: ERROR XSDB6: Another instance of Derby may have already booted the database C:\Users\dwayne\AppData\Local\Aptana Studio 3\configuration\aptanaDB.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.privGetJBMSLockOnDB(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.getJBMSLockOnDB(Unknown Source)
+	at org.apache.derby.impl.store.raw.data.BaseDataFileFactory.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.raw.RawStore.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.store.access.RAMAccessManager.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startModule(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.bootServiceModule(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase.bootStore(Unknown Source)
+	at org.apache.derby.impl.db.BasicDatabase.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.boot(Unknown Source)
+	at org.apache.derby.impl.services.monitor.TopService.bootModule(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.bootService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startProviderService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.findProviderAndStartService(Unknown Source)
+	at org.apache.derby.impl.services.monitor.BaseMonitor.startPersistentService(Unknown Source)
+	at org.apache.derby.iapi.services.monitor.Monitor.startPersistentService(Unknown Source)
+	... 17 more
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2011-07-16 13:47:51.488
+!MESSAGE No repository found at http://www.aptana.com/products/air/.
+
+!ENTRY com.aptana.db 4 0 2011-07-16 13:49:04.923
+!MESSAGE An error occurred while shutting down the database
+!STACK 0
+java.sql.SQLException: Database 'aptanaDB' not found.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.handleDBNotFound(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection40.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver40.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at org.apache.derby.jdbc.AutoloadedDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.usage.AptanaDB.shutdown(AptanaDB.java:172)
+	at com.aptana.usage.UsagePlugin.stop(UsagePlugin.java:54)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:843)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:836)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:501)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:550)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1097)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:597)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:215)
+	at org.eclipse.osgi.framework.internal.core.InternalSystemBundle.suspend(InternalSystemBundle.java:266)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:690)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:588)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:415)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:198)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+Caused by: java.sql.SQLException: Database 'aptanaDB' not found.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	... 37 more
+!SESSION 2011-08-13 08:32:56.884 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_24
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2011-08-13 08:33:43.312
+!MESSAGE No repository found at http://www.aptana.com/products/air/.
+
+!ENTRY com.aptana.syncing.core 4 0 2011-08-13 10:25:30.295
+!MESSAGE Could not write file: C:\Users\dwayne\Dropbox\marketplace\.example.swp.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not write file: C:\Users\dwayne\Dropbox\marketplace\.example.swp.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:55)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:391)
+	at com.aptana.core.io.efs.SyncUtils.copy(SyncUtils.java:81)
+	at com.aptana.ide.syncing.core.old.Synchronizer.uploadAndDelete(Synchronizer.java:1336)
+	at com.aptana.ide.syncing.core.old.Synchronizer.upload(Synchronizer.java:1244)
+	at com.aptana.ide.syncing.ui.actions.UploadAction$1.run(UploadAction.java:127)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.io.FileNotFoundException: C:\Users\dwayne\Dropbox\marketplace\.example.swp (Access is denied)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:382)
+	... 5 more
+!SUBENTRY 1 org.eclipse.core.filesystem 4 272 2011-08-13 10:25:30.295
+!MESSAGE Could not write file: C:\Users\dwayne\Dropbox\marketplace\.example.swp.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\dwayne\Dropbox\marketplace\.example.swp (Access is denied)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:382)
+	at com.aptana.core.io.efs.SyncUtils.copy(SyncUtils.java:81)
+	at com.aptana.ide.syncing.core.old.Synchronizer.uploadAndDelete(Synchronizer.java:1336)
+	at com.aptana.ide.syncing.core.old.Synchronizer.upload(Synchronizer.java:1244)
+	at com.aptana.ide.syncing.ui.actions.UploadAction$1.run(UploadAction.java:127)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.aptana.parsing 4 0 2011-08-13 10:26:46.660
+!MESSAGE Invalid property type 'Link[]' for property 'links'
+
+!ENTRY com.aptana.parsing 4 0 2011-08-13 10:26:46.661
+!MESSAGE Invalid property type 'Anchor[]' for property 'anchors'
+
+!ENTRY com.aptana.parsing 4 0 2011-08-13 10:26:46.663
+!MESSAGE Invalid property type 'Form[]' for property 'forms'
+
+!ENTRY com.aptana.parsing 4 0 2011-08-13 10:26:46.664
+!MESSAGE Invalid property type 'Image[]' for property 'images'
+
+!ENTRY com.aptana.parsing 4 0 2011-08-13 10:26:46.667
+!MESSAGE Invalid property type 'Plugin[]' for property 'plugins'
+
+!ENTRY com.aptana.parsing 4 0 2011-08-13 10:26:46.676
+!MESSAGE Invalid property type 'HTMLElement[]' for property 'elements'
+
+!ENTRY com.aptana.parsing 4 0 2011-08-13 10:26:46.684
+!MESSAGE Invalid property type 'HTMLElement[]' for property 'all'
+
+!ENTRY com.aptana.parsing 4 0 2011-08-13 10:26:46.685
+!MESSAGE Invalid property type 'HTMLElement[]' for property 'children'
+
+!ENTRY com.aptana.parsing 4 0 2011-08-13 10:26:46.704
+!MESSAGE Invalid property type 'Layer[]' for property 'layers'
+
+!ENTRY com.aptana.parsing 4 0 2011-08-13 10:26:46.717
+!MESSAGE Invalid property type 'Plugin[]' for property 'plugins'
+
+!ENTRY com.aptana.parsing 4 0 2011-08-13 10:26:47.029
+!MESSAGE Invalid property type 'Frame[]' for property 'frames'
+
+!ENTRY com.aptana.parsing 4 0 2011-08-13 10:26:47.058
+!MESSAGE Invalid property type 'Anchor[]' for property 'anchors'
+
+!ENTRY com.aptana.parsing 4 0 2011-08-13 10:26:47.061
+!MESSAGE Invalid property type 'Form[]' for property 'forms'
+
+!ENTRY com.aptana.parsing 4 0 2011-08-13 10:26:47.211
+!MESSAGE Invalid parameter type 'String, Document' for parameter 'data'
+
+!ENTRY com.aptana.parsing 4 0 2011-08-13 10:26:47.212
+!MESSAGE Invalid parameter type 'String, Document' for parameter 'header'
+
+!ENTRY com.aptana.parsing 4 0 2011-08-13 10:26:47.213
+!MESSAGE Invalid parameter type 'String, Document' for parameter 'value'
+
+!ENTRY com.aptana.ui.io 4 0 2011-08-15 17:13:21.184
+!MESSAGE Failed to copy C:\Users\dwayne\Dropbox\marketplace\app\views\items\index.js.erb to C:\Users\dwayne\Dropbox\marketplace\app\views\items\index.js.erb\index.js.erb
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not write file: C:\Users\dwayne\Dropbox\marketplace\app\views\items\index.js.erb\index.js.erb.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:55)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:391)
+	at com.aptana.core.io.efs.SyncUtils.copy(SyncUtils.java:81)
+	at com.aptana.ide.ui.io.actions.CopyFilesOperation.copyFile(CopyFilesOperation.java:297)
+	at com.aptana.ide.ui.io.actions.CopyFilesOperation.copyFiles(CopyFilesOperation.java:137)
+	at com.aptana.ide.ui.io.actions.CopyFilesOperation$3.run(CopyFilesOperation.java:380)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.io.FileNotFoundException: C:\Users\dwayne\Dropbox\marketplace\app\views\items\index.js.erb\index.js.erb (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:382)
+	... 5 more
+!SUBENTRY 1 org.eclipse.core.filesystem 4 272 2011-08-15 17:13:21.184
+!MESSAGE Could not write file: C:\Users\dwayne\Dropbox\marketplace\app\views\items\index.js.erb\index.js.erb.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\dwayne\Dropbox\marketplace\app\views\items\index.js.erb\index.js.erb (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openOutputStream(LocalFile.java:382)
+	at com.aptana.core.io.efs.SyncUtils.copy(SyncUtils.java:81)
+	at com.aptana.ide.ui.io.actions.CopyFilesOperation.copyFile(CopyFilesOperation.java:297)
+	at com.aptana.ide.ui.io.actions.CopyFilesOperation.copyFiles(CopyFilesOperation.java:137)
+	at com.aptana.ide.ui.io.actions.CopyFilesOperation$3.run(CopyFilesOperation.java:380)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.aptana.ui.io 4 0 2011-08-15 17:13:44.992
+!MESSAGE Failed to copy C:\Users\dwayne\Dropbox\marketplace\app\views\items\index.js.erb to C:\Users\dwayne\Dropbox\marketplace\app\views\items\indesx.js.erb\index.js.erb
+!STACK 1
+org.eclipse.core.runtime.CoreException: File not found: C:\Users\dwayne\Dropbox\marketplace\app\views\items\index.js.erb.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:55)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:371)
+	at com.aptana.core.io.efs.SyncUtils.copy(SyncUtils.java:80)
+	at com.aptana.ide.ui.io.actions.CopyFilesOperation.copyFile(CopyFilesOperation.java:297)
+	at com.aptana.ide.ui.io.actions.CopyFilesOperation.copyFiles(CopyFilesOperation.java:137)
+	at com.aptana.ide.ui.io.actions.CopyFilesOperation$3.run(CopyFilesOperation.java:380)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.io.FileNotFoundException: C:\Users\dwayne\Dropbox\marketplace\app\views\items\index.js.erb (The system cannot find the file specified)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:362)
+	... 5 more
+!SUBENTRY 1 org.eclipse.core.filesystem 4 271 2011-08-15 17:13:44.992
+!MESSAGE File not found: C:\Users\dwayne\Dropbox\marketplace\app\views\items\index.js.erb.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\dwayne\Dropbox\marketplace\app\views\items\index.js.erb (The system cannot find the file specified)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:362)
+	at com.aptana.core.io.efs.SyncUtils.copy(SyncUtils.java:80)
+	at com.aptana.ide.ui.io.actions.CopyFilesOperation.copyFile(CopyFilesOperation.java:297)
+	at com.aptana.ide.ui.io.actions.CopyFilesOperation.copyFiles(CopyFilesOperation.java:137)
+	at com.aptana.ide.ui.io.actions.CopyFilesOperation$3.run(CopyFilesOperation.java:380)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.filesystem 4 566 2011-08-16 15:18:17.876
+!MESSAGE No file system is defined for scheme: font-size
+
+!ENTRY org.eclipse.ui 4 0 2011-08-16 15:22:39.905
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (java.lang.NullPointerException)
+	at org.eclipse.swt.SWT.error(SWT.java:4083)
+	at org.eclipse.swt.SWT.error(SWT.java:3998)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:137)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4041)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2640)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at com.aptana.rcp.IDEApplication.start(IDEApplication.java:125)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+Caused by: java.lang.NullPointerException
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:104)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:470)
+	at com.aptana.editor.html.contentassist.HTMLContentAssistProcessor.addURIPathProposals(HTMLContentAssistProcessor.java:404)
+	at com.aptana.editor.html.contentassist.HTMLContentAssistProcessor.addAttributeValueProposals(HTMLContentAssistProcessor.java:333)
+	at com.aptana.editor.html.contentassist.HTMLContentAssistProcessor.addOpenTagProposals(HTMLContentAssistProcessor.java:796)
+	at com.aptana.editor.html.contentassist.HTMLContentAssistProcessor.doComputeCompletionProposals(HTMLContentAssistProcessor.java:1107)
+	at com.aptana.editor.common.CommonContentAssistProcessor.computeCompletionProposals(CommonContentAssistProcessor.java:164)
+	at com.aptana.editor.common.contentassist.ContentAssistant.computeCompletionProposals(ContentAssistant.java:2169)
+	at com.aptana.editor.common.contentassist.CompletionProposalPopup.computeProposals(CompletionProposalPopup.java:365)
+	at com.aptana.editor.common.contentassist.CompletionProposalPopup.access$7(CompletionProposalPopup.java:359)
+	at com.aptana.editor.common.contentassist.CompletionProposalPopup$1.run(CompletionProposalPopup.java:302)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at com.aptana.editor.common.contentassist.CompletionProposalPopup.showProposals(CompletionProposalPopup.java:296)
+	at com.aptana.editor.common.contentassist.ContentAssistant$AutoAssistListener$1.run(ContentAssistant.java:456)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	... 22 more
+
+!ENTRY org.eclipse.jface 4 2 2011-08-16 15:26:28.695
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jface".
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: String index out of range: 1787
+	at java.lang.String.substring(Unknown Source)
+	at com.aptana.editor.erb.html.outline.RHTMLOutlineLabelProvider.getDisplayText(RHTMLOutlineLabelProvider.java:74)
+	at com.aptana.editor.erb.html.outline.RHTMLOutlineLabelProvider.getText(RHTMLOutlineLabelProvider.java:61)
+	at com.aptana.theme.ThemedDelegatingLabelProvider.getText(ThemedDelegatingLabelProvider.java:51)
+	at org.eclipse.jface.viewers.WrappedViewerLabelProvider.getText(WrappedViewerLabelProvider.java:108)
+	at org.eclipse.jface.viewers.WrappedViewerLabelProvider.update(WrappedViewerLabelProvider.java:164)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:152)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:934)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$UpdateItemSafeRunnable.run(AbstractTreeViewer.java:102)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:49)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1014)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:481)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:49)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+	at org.eclipse.jface.viewers.StructuredViewer.updateItem(StructuredViewer.java:2141)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.updateChildren(AbstractTreeViewer.java:2689)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:1867)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:721)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1842)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1799)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1785)
+	at org.eclipse.jface.viewers.StructuredViewer$7.run(StructuredViewer.java:1487)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1422)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:403)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1383)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1485)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:537)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1444)
+	at com.aptana.editor.common.outline.CommonOutlinePage.refresh(CommonOutlinePage.java:411)
+	at com.aptana.editor.common.outline.CommonOutlineContentProvider$1$1.run(CommonOutlineContentProvider.java:113)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4041)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3660)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2640)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2604)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2438)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:671)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:664)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at com.aptana.rcp.IDEApplication.start(IDEApplication.java:125)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:369)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+
+!ENTRY org.eclipse.core.filesystem 4 566 2011-08-16 15:27:10.363
+!MESSAGE No file system is defined for scheme: height
+
+!ENTRY org.eclipse.core.filesystem 4 566 2011-08-16 15:27:10.507
+!MESSAGE No file system is defined for scheme: height
+
+!ENTRY org.eclipse.core.filesystem 4 566 2011-08-16 16:09:58.699
+!MESSAGE No file system is defined for scheme: float
+
+!ENTRY org.eclipse.core.filesystem 4 566 2011-08-16 16:09:58.707
+!MESSAGE No file system is defined for scheme: float
+
+!ENTRY org.eclipse.core.filesystem 4 566 2011-08-16 16:09:58.715
+!MESSAGE No file system is defined for scheme: float
+
+!ENTRY org.eclipse.core.filesystem 4 566 2011-08-16 16:09:58.723
+!MESSAGE No file system is defined for scheme: float
+
+!ENTRY org.eclipse.core.filesystem 4 566 2011-08-16 16:09:58.731
+!MESSAGE No file system is defined for scheme: float
+
+!ENTRY org.eclipse.core.filesystem 4 566 2011-08-16 16:10:13.363
+!MESSAGE No file system is defined for scheme: margin-left
+
+!ENTRY org.eclipse.core.filesystem 4 566 2011-08-16 16:10:13.371
+!MESSAGE No file system is defined for scheme: margin-left
+
+!ENTRY org.eclipse.core.filesystem 4 566 2011-08-16 16:10:13.379
+!MESSAGE No file system is defined for scheme: margin-left
+
+!ENTRY org.eclipse.core.filesystem 4 566 2011-08-16 16:10:13.387
+!MESSAGE No file system is defined for scheme: margin-left
+
+!ENTRY org.eclipse.core.filesystem 4 566 2011-08-16 16:10:13.395
+!MESSAGE No file system is defined for scheme: margin-left
+
+!ENTRY org.eclipse.core.filesystem 4 566 2011-08-16 16:10:13.403
+!MESSAGE No file system is defined for scheme: margin-left
+
+!ENTRY org.eclipse.core.filesystem 4 566 2011-08-16 16:11:51.092
+!MESSAGE No file system is defined for scheme: margin-left

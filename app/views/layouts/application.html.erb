@@ -23,26 +23,172 @@
     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
-
+	
 </script>
 
 <script>
 
-function initMenu() {
-  $('#menu ul').hide();
-  $('#menu li a').click(
-    function() {
-        $(this).next().slideToggle('normal');	
-      }
-    );
-  }
-$(document).ready(function() {initMenu();});
+	$.urlParam = function(name){
+	try{	
+    	var results = new RegExp('[\\?&]' + name + '=([^&#]*)').exec(window.location.href);
+    		return results[1] || 0;
+	}
+	catch(ex){
+		return null;		
+	}
+	
+	}
+
+
+
+
+
+$(document).ready(function() {
+		
+
+	
+
+	jQuery.ajaxSetup({
+  'beforeSend': function(xhr) { xhr.setRequestHeader("Accept", "text/javascript") }
+});
+  	
+  	$.fn.subSelectWithAjax = function() {
+  var that = this;
+ 
+  this.change(function() {
+    $.post(that.attr('rel'), {id: that.val()}, null, "script");
+  });
+};
+
+$("#item_category_id").subSelectWithAjax();
+$("#item_subcategory_id").hide();
+
+	var category = $.urlParam("id");
+	var subcategory = $.urlParam("subcategory");
+	
+	
+	if(category==2){
+		$("#dorm").children().show();
+	    	
+		$("#dorm").children().first().css({"font-weight":"bold"});
+		
+		if(subcategory==1){
+			$(".bed").children().css({"background":"#4169e1"});
+			$(".bed").children().css("color","#fff");
+		}
+		else if(subcategory==2){
+			$(".computer").children().css({"background":"#4169e1"});
+			$(".computer").children().css("color","#fff");
+		}
+		else if(subcategory==3){
+			$(".desk").children().css({"background":"#4169e1"});
+			$(".desk").children().css("color","#fff");
+		}
+		else if(subcategory==4){
+			$(".room").children().css({"background":"#4169e1"});
+			$(".room").children().css("color","#fff");
+		}
+
+
+			
+
+
+
+
+	
+	}
+	
+	else if(category==1){
+	
+$("#textbook").children().first().css({"font-weight":"bold"});
+	}
+	
+	else if(category==3){
+		$("#kitchen").children().show();	
+		$("#kitchen").children().first().css({"font-weight":"bold"});
+		
+		if(subcategory==5){
+			$(".food").children().css({"background":"#4169e1"});
+			$(".food").children().css("color","#fff");
+		}
+		if(subcategory==6){
+			$(".supplies").children().css({"background":"#4169e1"});
+			$(".supplies").children().css("color","#fff");
+		}
+
+		
+		
+		
+		
+			
+	}
+	else if(category==4){
+		$("#classroom").children().show();
+		$("#classroom").children().first().css({"font-weight":"bold"});
+		if(subcategory==7){
+			$(".school").children().css({"background":"#4169e1"});
+			$(".school").children().css("color","#fff");
+		}
+	}
+	else if(category==5){
+		$("#bathroom").children().show();
+		$("#bathroom").children().first().css({"font-weight":"bold"});
+		if(subcategory==8){
+			$(".appliance").children().css({"background":"#4169e1"});
+			$(".appliance").children().css("color","#fff");
+		}
+		if(subcategory==9){
+			$(".medical").children().css({"background":"#4169e1"});
+			$(".medical").children().css("color","#fff");
+		}
+		if(subcategory==10){
+			$(".toiletries").children().css({"background":"#4169e1"});
+			$(".toiletries").children().css("color","#fff");
+		}
+		
+	
+	}
+	else if(category==6){
+		$("#clothing").children().show();
+		$("#clothing").children().first().css({"font-weight":"bold"});
+		if(subcategory==12){
+			$(".laundry").children().css({"background":"#4169e1"});
+			$(".laundry").children().css("color","#fff");
+		}
+	}
+	else if(category==7){
+		$("#miscellaneous").children().show();
+		$("#miscellaneous").children().first().css({"font-weight":"bold"});
+			if(subcategory==13){
+			$(".documents").children().css({"background":"#4169e1"});
+			$(".documents").children().css("color","#fff");
+		}
+		
+		if(subcategory==14){
+			$(".others").children().css({"background":"#4169e1"});
+			$(".others").children().css("color","#fff");
+		}
+	}
+	
+	
+	});
+
+
+
+
+  	
+
 </script>
 
 
 </head>
 <body>
 <div id="header">
+	<div style="position:absolute;left:340px;top:10px;">
+  	
+    <script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:like href="http://www.thegmarket.me/" layout="button_count" show_faces="false" width="100" font="lucida grande"></fb:like>	
+	</div>
+		
 	<div id="holder">
 	<!--[if lt IE 7]>
 	<div id="warning">
@@ -56,16 +202,52 @@ $(document).ready(function() {initMenu();});
 		This website currently doesn't work well with IE
 	</div>
 <![endif]-->
+ 
 
-	<div id="warning" style="color:#777777;float:left;margin-left:40px;padding-top:10px;">
-		This site currently does not support IE browser.
-	</div>
+	 		
+			<%= form_tag items_path, :method => 'get' do %> 
+
+		     <%= hidden_field_tag :bs, 'f' %>     
+	 		<div class="search" id="searchwrapper" style="float:left">
+				<%= text_field_tag :search, params[:search], :class=>"searchbox", :id=>"searchBox", :placeholder=>"Search"%>  
 	
+				<%= image_submit_tag "/images/searchsubmit.png",:class=>"searchbox_submit" %>
+
+			</div>
+			
+		    <% end %>  
+			
+			
+			
+
+			
+			
+			
+			
+			
+			
+			
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
   	<div id="user_nav">
-  	<div style="float:left;">
-  	
-    <script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script><fb:like href="http://www.thegmarket.me/" layout="button_count" show_faces="false" width="100" font="lucida grande"></fb:like>	
-	</div>
+ 
   	
   <%= link_to "Home",'/items', :class=>"nav_button" %>
      <% if current_user %>  
@@ -95,7 +277,10 @@ $(document).ready(function() {initMenu();});
  	<div id="logo">
 		  <%= link_to image_tag("logo.png", :border=>0),'/items' %>
     </div>
-    	
+   
+
+ 		
+
  		
  		  <div id="start_selling">
  	      <%= link_to "$Start Selling", '/new_sell' %>
@@ -116,7 +301,7 @@ $(document).ready(function() {initMenu();});
 		     <%= CGI::unescapeHTML(content_tag(:div, value, :class => "#{key}")) %>        
       		 <% end %> 
       		 
-<%= render :partial=>"shared/left-navigation-dorm" %>
+
 <%= yield %>
 
 

@@ -10,10 +10,12 @@ Marketplace::Application.routes.draw do |map|
   get "categories/show"
   get "autocomplete_searches/Index"
 
+  match '/new_sell',:to=>"items#new_sell"
+  match '/new_buy',:to=>"items#new_buy"
+  match '/items/subcategories_by_category', :to=>"items#subcategories_by_category"
 
 	map.resources :professors, :member=>{:create_tag=>:put}
-  map.resources :items, :collection=>{:update_all=>:put}
-  map.resources :items, :member=>{:notify=>:get}
+  map.resources :items, :collection=>{:notify=>:get,:update_all=>:put}
   resources :users
   resources :categories
   resources :autocomplete_searches, :only => [:index], :as => 'autocomplete'
@@ -22,8 +24,6 @@ Marketplace::Application.routes.draw do |map|
   
   match "/signout" => "sessions#destroy", :as => :signout  
   match "/auth/:provider/callback" => "sessions#create"  
-  match '/new_sell',:to=>"items#new_sell"
-  match '/new_buy',:to=>"items#new_buy"
 
    root :to => 'pages#constructing'
 

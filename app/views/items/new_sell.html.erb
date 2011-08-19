@@ -1,7 +1,8 @@
 <%= form_for @item, :html => { :multipart => true }  do |f| %>
-<div class="new-selling-form new-selling-form-top">
+<div class="new-selling-form new-selling-form-top" style="background: #EDFCE1;">
 <%= render "shared/error_messages", :target => @item %>  
-     
+    
+<div class="new-sell-head">     
 	<div class="row top">
 
 	<div class="side-left" style="color:#065C27">I want to sell</div>
@@ -9,21 +10,19 @@
 	<div class="side-right" style="color:#065C27">for $</div>
     <%= f.text_field :price %>
 </div> 
+ </div>
  
+
  <div class="row">
   <div class="side-left" style="color:#777777">
   <%= f.label :category %>
   </div>
   <div class="side-right" style="margin-left:60px;">
-      <%= f.select :category_id, raw("<option value='1'>Textbook</option>
-   <option value='2'>General Items</option>
-   <option value='3'>Electronics</option>
-   <option value='4'>Services</option>
-   <option value='5'>Others</option>
-
-   
-   
-   ") %>
+      <%= collection_select :item, :category_id, @categories, :id, :name, {:prompt => "Select One"},{:rel => "/items/subcategories_by_category"} %>
+ 
+<%= collection_select :item, :subcategory_id, @subcategories, :id, :name, {:prompt => ""}%>
+  
+	
   </div>
  <br>
  
@@ -72,4 +71,7 @@
   <%= f.hidden_field :bs %>
   <%= f.hidden_field :status %>
   <p style="float:right"><%= f.submit "Sell it", :class=>"button white"%></p>
+
 <% end %>
+</div>
+

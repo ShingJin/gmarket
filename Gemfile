@@ -1,5 +1,5 @@
 source 'http://rubygems.org'
-
+gem 'bundler', "~>1.0.13"
 gem 'rails', '3.0.3'
 
 # Bundle edge Rails instead:
@@ -19,10 +19,8 @@ gem "aws-ses", "~> 0.3.2", :require => 'aws/ses'
 gem 'formtastic'
 gem "best_in_place"
 gem "acts-as-taggable-on"
-
-
-
-
+gem 'rails3-generators'
+gem 'admin_data'
 
 # Use unicorn as the web server
 # gem 'unicorn'

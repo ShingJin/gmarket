@@ -1,8 +1,14 @@
-<%= form_for @item do |f| %>
-<div class="new-selling-form new-selling-form-top">
-<%= render "shared/error_messages", :target => @item %>  
 
-	<div class="row top">
+
+
+<%= form_for @item, :html => { :multipart => true }  do |f| %>
+<div class="new-selling-form new-selling-form-top" style="background: #EDFCE1;">
+<%= render "shared/error_messages", :target => @item %>  
+    
+<div class="new-sell-head" style="background-color:#D8F5FF">     
+	
+	
+		<div class="row top">
 
     <div class="side-left">I want to buy</div>
     	<%= f.text_field :name %>
@@ -16,24 +22,51 @@
     	<%= f.text_field :secondprice %>
 	</div>
 
+	
+
+	
+</div> 
+ 
+ 
+
  <div class="row">
   <div class="side-left" style="color:#777777">
   <%= f.label :category %>
   </div>
   <div class="side-right" style="margin-left:60px;">
-   <%= f.select :category_id, raw("<option value='1'>Textbook</option>
-   <option value='2'>General Items</option>
-   <option value='3'>Electronics</option>
-   <option value='4'>Services</option>
-   <option value='5'>Others</option>
-
-   
-   
-   ") %>
+      <%= collection_select :item, :category_id, @categories, :id, :name, {:prompt => "Select One"},{:rel => "/items/subcategories_by_category"} %>
+ 
+<%= collection_select :item, :subcategory_id, @subcategories, :id, :name, {:prompt => ""}%>
+  
+	
   </div>
-    
-  <br>
+ <br>
+ 
  </div>
+ 
+  <div class="row">
+  <div class="side-left" style="color:#777777">
+  <%= f.label "Picture" %>
+  </div>
+  <div class="side-right" style="margin-left:80px;">
+ 	<%= f.file_field :picture %>
+  </div>
+ <br>
+ 
+ </div>
+ 
+ 
+ <div class="row">
+
+	<div class="side-left" style="color:#777777">
+  <%= f.label :condition %>
+  </div>
+    <div class="side-right" style="margin-left:55px;">
+   <%= f.select :condition, raw("<option value='0'>New</option><option value='1'>Like New</option><option value='2'>Used</option>") %>
+  </div>
+  <br>
+  
+   </div>
 
  <div class="row">
   <div class="side-left" style="color:#777777">
@@ -41,6 +74,7 @@
   </div>
 
   <div class="side-right" style="margin-left:40px;">
+
     <%= f.text_area :description, :style=>"margin-left:20px;width:400px;height:300px; overflow:auto;font-size:20px;"	%>
   </div>
 
@@ -52,5 +86,8 @@
   </p>
   <%= f.hidden_field :bs %>
   <%= f.hidden_field :status %>
-  <p style="float:right"><%= f.submit "Post it", :class=>"button white"%></p>
+  <p style="float:right"><%= f.submit "Sell it", :class=>"button white"%></p>
+
 <% end %>
+</div>
+

@@ -1,58 +1,4 @@
 
-
-<div class="quicksell">
-	<h3 style="color:#333333;font-weight:bold">Textbooks Quicksell</h3>
-	<p>Sell textbooks in bulk by choosing the course you are taking(Dep,Course,Sec) We will look up the prices for you!</p>
-   <%= form_tag books_path, :method => 'get' do %>  
-
-	 <div>
-    
-    
-      	<%=  select_tag :department,  options_for_select(["AMS", "ANT", "ARB", "ART", "BCM", "BIO", "CHI", "CHM", "CLS", "CSC", "ECN", "EDU", "ENG", "ENV", "FRN", "GDS", "GRE", "GRM", "GWS", "HIS", "HUM", "JPN", "LAS", "LAT", "LIN", "MAT", "MUS", "NRS", "PHE", "PHI", "PHY", "POL", "PST", "PSY", "REL", "RUS", "SCI", "SOC", "SPN", "SST", "TEC", "THE"], params[:department]), :class=>"quickfront"%>
-        <%= text_field_tag :course,  params[:course], :class=>"quickfront", :style=>"width:30px;"%>  
-        <%= text_field_tag :section,  params[:section], :class=>"quickfront", :style=>"width:30px;"%>  
-	<% if current_user %>
-        <%= submit_tag "Search",  :name => nil,:class=>"quickfront",:style=>"background:#F0F0F0" %>  
-	<% else %>
-	<br>
-	<%= link_to "Sign in to sell", "/auth/facebook",:class=>"quickfront" %>
-	<% end %>
-      </div>
-      
-      
-      
-<% end %>
-</div>
-
-
-
-  <%= form_tag items_path, :method => 'get' do %>  
-		 <%= hidden_field_tag :direction, params[:direction] %>  
-	     <%= hidden_field_tag :sort, params[:sort] %>      
-      
-      <div class="search_bar">
-      <table width="100%" cellspacing="0" cellpadding="0" class="padfix">
-	  <tbody><tr>
-      <td width="100" style="text-align: right;" class="padfix">
-      <div style="margin-top:14px;">
-      <h2 style="color:#00516E">I want to</h2>
-      <div>
-      </td>
-	  <td width="150">
-	
-      <div>
-      	<%=  select_tag :bs, raw("<option value='f'>Buy</option><option value='t'>Sell</option>"), :class=>"select_box"%>
-        <%= text_field_tag :search, params[:search], :class=>"word_box" %>  
-        <%= submit_tag "Search", :name => nil, :class=>"button white" %>  
-      </div>
-      
-      </td>
-      </tr>
-      </tbody></table>
-	  </div>
-      
-   <% end %>  
-
 <!--   
 <div id="show_bar">   
 <%= link_to "Show all", '/' %>
@@ -60,24 +6,38 @@
 </div>
 -->
 
-<div id="items">
-		<% if @items.count != 0 %>
-			<%= render 'items' %>
-			<% if params[:search]!=nil %>
-				<% if params[:bs]=='f' %>
-					<p class="notification_small">Didn't find what you want? Try <%= link_to "posting a new buying request",'/new_buy?search='+params[:search] %></p>
-				<% else %>
-					<p class="notification_small">Didn't find what you want? Try <%= link_to "Sell it now",'/new_sell?search='+params[:search] %></p>
-				<% end %>	
-			<% end %>
-		<% else %>	
+
+
+
+<%= render :partial=>"shared/left-navigation" %>
+
+
+<div id="content-pane">
+
+
+
+<table class="main_table">  
+
+
+   <%= render :partial=>"shared/listing-header"%>
+
+   	<% if @items.count != 0 %>
+    <%= render :partial=>"shared/item", :object=>@items %>
+	<% else %>	
 			<% if params[:bs]=='f' %>
 			<p class="notification">Opps, no one is selling "<%= params[:search] %>", try <%= link_to "posting a new buying request",'/new_buy?search='+params[:search] %></p>
 			<% else %>
 			<p class="notification">Congrats, You are the first one who is selling "<%= params[:search] %>" <%= link_to "Sell it now",'/new_sell?search='+params[:search] %></p>
 			<% end %>			
-		<% end %>
-</div>  
+    <% end %>
+</table> 
+
+</div>
+
+
+
+
+
 
 <div style="margin-bottom:10px;"></div>
 

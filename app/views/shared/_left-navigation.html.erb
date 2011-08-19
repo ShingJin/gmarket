@@ -1,0 +1,52 @@
+
+
+
+<div id="left-sidebar">
+
+<div id="left-navigation">
+<ul id="menu"> 
+   <li id="textbook"><%= category("Textbook",1) %>
+   </li>
+   <li id="classroom"><%= category("Classroom",4) %>
+   	<ul id="secondary-ul"> 
+				<li id="secondary-ul-link" class="school"><%= subcategory("School Supplies",4,7) %></li> 
+	</ul> 
+   </li>
+   <li id="clothing"><%= category("Clothing",6) %>
+   	<ul id="secondary-ul"> 
+				<li id="secondary-ul-link" class="laundry"><%= subcategory("Laundry Supplies",6,12) %></li> 
+	</ul> 
+   </li>
+   <li id="dorm"><%= category("Dorm",2) %>
+   	<ul id="secondary-ul"> 
+				<li id="secondary-ul-link" class="bed"><%= subcategory("Bed",2,1) %></li> 
+				<li id="secondary-ul-link" class="computer"><%= subcategory("Computer Related",2,2) %></li> 
+				<li id="secondary-ul-link" class="desk"><%= subcategory("Desk",2,3) %></li> 
+				<li id="secondary-ul-link" class="room"><%= subcategory("Room",2,4) %></li> 				
+	</ul> 
+   </li>
+     <li id="kitchen"><%= category("Kitchen",3) %>
+   	<ul id="secondary-ul"> 
+				<li id="secondary-ul-link" class="food"><%= subcategory("Food",3,5) %></li> 
+				<li id="secondary-ul-link" class="supplies"><%= subcategory("Supplies",3,6) %></li> 				
+	</ul> 
+   </li>
+   <li id="bathroom"><%= category("Bathroom",5) %>
+   	<ul id="secondary-ul"> 
+				<li id="secondary-ul-link" class="appliance"><%= subcategory("Appliance/Others",5,8) %></li> 
+				<li id="secondary-ul-link" class="medical"><%= subcategory("Medical",5,9) %>/li> 
+				<li id="secondary-ul-link" class="toiletries"><%= subcategory("Toiletries",5,10) %></li> 			
+	</ul> 
+   </li>
+   <li id="miscellaneous"><%= category("Miscellaneous",7) %>
+   	<ul id="secondary-ul"> 
+				<li id="secondary-ul-link" class="documents"><%= subcategory("Important Documents",7,13) %></li> 
+				<li id="secondary-ul-link" class="others"><%= subcategory("Other",7,14) %></li> 
+	</ul> 
+   </li>
+   
+   
+   </ul>
+
+</div>
+</div>

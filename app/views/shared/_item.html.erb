@@ -1,37 +1,42 @@
 
+
+
 <% for item in @items %>  
-   <tr style="border-bottom: 1px dotted #999999;">  
-     <td width="20%" >
-     <% if item.category_id==1 %>
-    <div class="category_tag">
-     <% elsif item.category_id==2 %>
-     <div class="category_tag" style="background-color:#F09D0B">
-	 <% elsif item.category_id==3 %>
-     <div class="category_tag" style="background-color:skyblue">
-	 <% elsif item.category_id==4 %>
-     <div class="category_tag" style="background-color:#8FC700">
-	 <% else %>
-     <div class="category_tag" style="background-color:#508600">
+   <tr style="border-top: 1px solid #ECECEC;">  
+ 
+     <td width="10%">
+     <% if !(item.picture_path.nil?)%>	
+     	<img src=<%= item.picture_path %> width="75" height="75">
+     <% else %>
+     	<%= image_tag item.picture.url(:thumb), :width=>75, :height=>75 %>
      <% end %>
-     
-
-     
-
-     <p>
-     <%= categorizable item.category_id %>
-     </p>
-     </div>
-     </td>  
-     
+     </td>
      
      <td width="40%">
        
    
      <div id="item_title">
+     <% if item.recommend == true%>
+        <% if !item.name.nil? %>	
+     	<%= link_to item.name, item.link %>
+        <% else %>
+        <%= link_to "Title", item.link %>
+        <% end %>
+       
+        
+     <% else %>
      	<%= link_to item.name, item %>
- 	 <% if !(item.picture_file_name==nil) %>
-		<span class="p"> pic</span>
-     <% end %>
+ 	 <% end %>
+
+
+     
+<% if item.recommend==true %>
+<span class="tag">Amazon</span>	
+<% else %>
+<span class="tag">Campus</span>
+<% end %>
+
+
      </div>
      
      <div id="item_description">
@@ -46,11 +51,7 @@
      
      
      </td>
-     <% if item.secondprice.nil? %>
-     <td width="15%" class="price"><%= number_to_currency(item.price, :unit => "$") %></td>  
-     <% else %>
-     <td width="15%" class="price"><%= number_to_currency(item.price, :unit => "$") %> ~ <%= number_to_currency(item.secondprice, :unit => "$") %></td>  
-	<% end %>
+   
      
      <td width="10%" class="bs"><% if item.bs %>
      	 <div style="color:#0066CC">Buy</div>
@@ -58,10 +59,14 @@
      	 <div style="color:#508600">Sell</div>
      	 <% end %>
      </td>
-     <td width="15%" class="bs">
+     <td width="18%" class="bs">
    		<%= format_date(:short_no_year, item.created_at) %>
     </td>
-
+ <% if item.secondprice.nil? %>
+     <td width="25%" class="price"><%= number_to_currency(item.price, :unit => "$") %></td>  
+     <% else %>
+     <td width="25%" class="price"><%= number_to_currency(item.price, :unit => "$") %> ~ <%= number_to_currency(item.secondprice, :unit => "$") %></td>  
+	<% end %>
    
    </tr>  
    
