@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110819143735) do
+ActiveRecord::Schema.define(:version => 20110819144649) do
 
   create_table "books", :force => true do |t|
     t.string    "department"
@@ -30,7 +30,7 @@ ActiveRecord::Schema.define(:version => 20110819143735) do
   end
 
   create_table "comments", :force => true do |t|
-    t.string   "comment"
+    t.text     "comment",      :limit => 255
     t.integer  "professor_id"
     t.datetime "created_at"
     t.datetime "updated_at"
