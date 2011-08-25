@@ -111,8 +111,12 @@ end
  
     else
    		if @item.bs==false
+   		        @categories=Category.all
+      @subcategories=Subcategory.all
    			render :action => 'new_sell'
    		else
+   		        @categories=Category.all
+      @subcategories=Subcategory.all
    			render :action => 'new_buy'
    		end
     end
