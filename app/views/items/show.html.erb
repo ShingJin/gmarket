@@ -5,6 +5,29 @@ $(document).ready(function() {
 	
 	
 </script>
+
+
+
+
+<% if @item.bs==true %>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$("#carrier").css({"margin-left":"0px"});
+});
+
+$(document).ready(function() {
+	$("#item_details").css({"margin-right":"60px"});
+});
+	
+</script>
+
+<% end %>
+
+
+
+
+
 <div id="block-text" class="block">
 
 	<div class="secondary-navigation">

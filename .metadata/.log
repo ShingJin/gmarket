@@ -760,3 +760,15 @@ Command-line arguments:  -os win32 -ws win32 -arch x86
 
 !ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2011-08-19 09:55:23.220
 !MESSAGE No repository found at http://www.aptana.com/products/air/.
+!SESSION 2011-08-23 00:22:36.854 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_24
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.core.resources 2 10035 2011-08-23 00:22:41.724
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2011-08-23 00:23:27.633
+!MESSAGE No repository found at http://www.aptana.com/products/air/.
