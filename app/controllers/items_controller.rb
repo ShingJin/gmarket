@@ -111,9 +111,9 @@ end
  
     else
    		if @item.bs==false
-   			redirect_to '/new_sell'
+   			render :action => 'new_sell'
    		else
-   			redirect_to '/new_buy'
+   			render :action => 'new_buy'
    		end
     end
   end
