@@ -14,7 +14,7 @@ class Item < ActiveRecord::Base
   validates_numericality_of :price, :message=>"is not a number"
   validates_inclusion_of :price, :in => 0..99999
   validates :description, :length     => { :maximum => 400 }
-
+  validates :category_id, :presence => true
   
   
   belongs_to :category	
