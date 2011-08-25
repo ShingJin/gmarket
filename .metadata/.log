@@ -772,3 +772,68 @@ Command-line arguments:  -os win32 -ws win32 -arch x86
 
 !ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2011-08-23 00:23:27.633
 !MESSAGE No repository found at http://www.aptana.com/products/air/.
+
+!ENTRY com.aptana.db 4 0 2011-08-25 06:00:56.076
+!MESSAGE IO Exception when contacting server
+!STACK 0
+javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching ping.aptana.com found.
+	at com.sun.net.ssl.internal.ssl.Alerts.getSSLException(Unknown Source)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.fatal(Unknown Source)
+	at com.sun.net.ssl.internal.ssl.Handshaker.fatalSE(Unknown Source)
+	at com.sun.net.ssl.internal.ssl.Handshaker.fatalSE(Unknown Source)
+	at com.sun.net.ssl.internal.ssl.ClientHandshaker.serverCertificate(Unknown Source)
+	at com.sun.net.ssl.internal.ssl.ClientHandshaker.processMessage(Unknown Source)
+	at com.sun.net.ssl.internal.ssl.Handshaker.processLoop(Unknown Source)
+	at com.sun.net.ssl.internal.ssl.Handshaker.process_record(Unknown Source)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.performInitialHandshake(Unknown Source)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(Unknown Source)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(Unknown Source)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getOutputStream(Unknown Source)
+	at com.aptana.usage.PingStartup.sendUpdate(PingStartup.java:352)
+	at com.aptana.usage.PingStartup.updateAnonymousId(PingStartup.java:130)
+	at com.aptana.usage.PingStartup.access$0(PingStartup.java:87)
+	at com.aptana.usage.PingStartup$1.run(PingStartup.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.security.cert.CertificateException: No subject alternative DNS name matching ping.aptana.com found.
+	at sun.security.util.HostnameChecker.matchDNS(Unknown Source)
+	at sun.security.util.HostnameChecker.match(Unknown Source)
+	at com.sun.net.ssl.internal.ssl.X509TrustManagerImpl.checkIdentity(Unknown Source)
+	at com.sun.net.ssl.internal.ssl.X509TrustManagerImpl.checkServerTrusted(Unknown Source)
+	... 17 more
+
+!ENTRY org.python.pydev.core 4 4 2011-08-25 06:00:57.398
+!MESSAGE java.security.cert.CertificateException: No subject alternative DNS name matching ping.aptana.com found.
+!STACK 0
+javax.net.ssl.SSLHandshakeException: java.security.cert.CertificateException: No subject alternative DNS name matching ping.aptana.com found.
+	at com.sun.net.ssl.internal.ssl.Alerts.getSSLException(Unknown Source)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.fatal(Unknown Source)
+	at com.sun.net.ssl.internal.ssl.Handshaker.fatalSE(Unknown Source)
+	at com.sun.net.ssl.internal.ssl.Handshaker.fatalSE(Unknown Source)
+	at com.sun.net.ssl.internal.ssl.ClientHandshaker.serverCertificate(Unknown Source)
+	at com.sun.net.ssl.internal.ssl.ClientHandshaker.processMessage(Unknown Source)
+	at com.sun.net.ssl.internal.ssl.Handshaker.processLoop(Unknown Source)
+	at com.sun.net.ssl.internal.ssl.Handshaker.process_record(Unknown Source)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.performInitialHandshake(Unknown Source)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at com.sun.net.ssl.internal.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(Unknown Source)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(Unknown Source)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getOutputStream(Unknown Source)
+	at org.python.pydev.logging.ping.LogPingSender.sendPing(LogPingSender.java:62)
+	at org.python.pydev.logging.ping.SynchedLogPing.send(SynchedLogPing.java:164)
+	at org.python.pydev.logging.ping.AsyncLogPing.consumeAllCommands(AsyncLogPing.java:131)
+	at org.python.pydev.logging.ping.AsyncLogPing.access$0(AsyncLogPing.java:100)
+	at org.python.pydev.logging.ping.AsyncLogPing$1.run(AsyncLogPing.java:47)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.security.cert.CertificateException: No subject alternative DNS name matching ping.aptana.com found.
+	at sun.security.util.HostnameChecker.matchDNS(Unknown Source)
+	at sun.security.util.HostnameChecker.match(Unknown Source)
+	at com.sun.net.ssl.internal.ssl.X509TrustManagerImpl.checkIdentity(Unknown Source)
+	at com.sun.net.ssl.internal.ssl.X509TrustManagerImpl.checkServerTrusted(Unknown Source)
+	... 18 more
