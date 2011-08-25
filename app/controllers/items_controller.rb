@@ -105,13 +105,10 @@ end
 
     if @item.save
       flash[:success] = "Your item is posted"
-      begin
-        redirect_to '/items', :success => "Your item is posted"
 
-      rescue
        redirect_to '/items', :success => "Your item is posted"
 
-      end
+ 
     else
    		if @item.bs==false
    			render :action => 'new_sell'
