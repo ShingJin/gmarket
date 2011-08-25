@@ -10,9 +10,9 @@ class Item < ActiveRecord::Base
   
   
   
-  #validates :name,  :presence   => true, :length     => { :maximum => 200 }
-  #validates_numericality_of :price, :message=>"is not a number"
-  #validates_inclusion_of :price, :in => 0..99999
+  validates :name,  :presence   => true, :length     => { :maximum => 200 }
+  validates_numericality_of :price, :message=>"is not a number"
+  validates_inclusion_of :price, :in => 0..99999
   validates :description, :length     => { :maximum => 400 }
 
   
