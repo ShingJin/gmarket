@@ -870,3 +870,16 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:620)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:575)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1408)
+
+!ENTRY org.eclipse.core.jobs 4 2 2011-08-25 19:57:24.851
+!MESSAGE An internal error occurred during: "Firing pull and push event".
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.core.internal.jobs.InternalJob.setSystem(InternalJob.java:562)
+	at org.eclipse.core.runtime.jobs.Job.setSystem(Job.java:559)
+	at com.aptana.explorer.internal.ui.GitProjectView.refreshUI(GitProjectView.java:575)
+	at com.aptana.explorer.internal.ui.GitProjectView.handleBranchEvent(GitProjectView.java:608)
+	at com.aptana.explorer.internal.ui.GitProjectView.pushed(GitProjectView.java:521)
+	at com.aptana.git.core.model.GitRepository.firePushEvent(GitRepository.java:1437)
+	at com.aptana.git.core.model.GitRepository$4$2.run(GitRepository.java:421)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)

@@ -15,7 +15,8 @@ Marketplace::Application.routes.draw do |map|
   match '/items/subcategories_by_category', :to=>"items#subcategories_by_category"
 
 	map.resources :professors, :member=>{:create_tag=>:put}
-  map.resources :items, :collection=>{:notify=>:get,:update_all=>:put,:new_sell=>:get,:new_buy=>:get}
+  map.resources :items, :collection=>{:update_all=>:put,:new_sell=>:get,:new_buy=>:get}
+  map.resources :items, :member=>{:notify=>:get}
   resources :users
   resources :categories
   resources :autocomplete_searches, :only => [:index], :as => 'autocomplete'
