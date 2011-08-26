@@ -4,9 +4,9 @@ class CategoriesController < ApplicationController
 
   def show
     if(params[:subcategory])
-      @items = Item.where("subcategory_id =?",params[:subcategory]).where("category_id =?",params[:id]).where("show =?",true).category(params[:category]).search(params[:search],params[:bs]).order(sort_column + ' ' + sort_direction).paginate(:per_page =>100, :page => params[:page])  
+      @items = Item.where("subcategory_id =?",params[:subcategory]).where("category_id =?",params[:id]).where("show =?",true).category(params[:category]).search(params[:search],params[:bs]).order(sort_column + ' ' + sort_direction)
  	  else
- 	    @items = Item.where("category_id =?",params[:id]).where("show =?",true).category(params[:category]).search(params[:search],params[:bs]).order(sort_column + ' ' + sort_direction).paginate(:per_page =>100, :page => params[:page])  
+ 	    @items = Item.where("category_id =?",params[:id]).where("show =?",true).category(params[:category]).search(params[:search],params[:bs]).order(sort_column + ' ' + sort_direction)  
  	  end
  	    @categories=Category.all
   end
