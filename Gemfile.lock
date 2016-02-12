@@ -193,6 +193,7 @@ DEPENDENCIES
   pg
   rails (= 3.0.3)
   rails3-generators
+  rake (= 0.8.7)
   sqlite3
   sqlite3-ruby
   thin
