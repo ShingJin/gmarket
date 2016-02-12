@@ -1,7 +1,7 @@
 source 'http://rubygems.org'
 ruby '1.9.3'
 
-gem 'bundler', "~>1.0.13"
+gem 'bundler'
 gem 'rails', '3.0.3'
 
 # Bundle edge Rails instead:
