@@ -21,15 +21,7 @@
 
    <%= render :partial=>"shared/listing-header"%>
 
-   	<% if @items.count != 0 %>
-    <%= render :partial=>"shared/item", :object=>@items %>
-	<% else %>	
-			<% if params[:bs]=='f' %>
-			<p class="notification">Opps, no one is selling "<%= params[:search] %>", try <%= link_to "posting a new buying request",'/new_buy?search='+params[:search] %></p>
-			<% else %>
-			<p class="notification">Congrats, You are the first one who is selling "<%= params[:search] %>" <%= link_to "Sell it now",'/new_sell?search='+params[:search] %></p>
-			<% end %>			
-    <% end %>
+   	
 </table> 
 
 </div>
