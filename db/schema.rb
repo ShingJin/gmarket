@@ -30,7 +30,7 @@ ActiveRecord::Schema.define(:version => 20110819144649) do
   end
 
   create_table "comments", :force => true do |t|
-    t.text     "comment",      :limit => 255
+    t.text     "comment"
     t.integer  "professor_id"
     t.datetime "created_at"
     t.datetime "updated_at"
@@ -66,7 +66,7 @@ ActiveRecord::Schema.define(:version => 20110819144649) do
 
   create_table "professors", :force => true do |t|
     t.string   "name"
-    t.text     "description", :limit => 255
+    t.text     "description"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "point"
